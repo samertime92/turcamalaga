@@ -640,15 +640,15 @@ h1 {
 
 
 
-@media only screen and (min-width:375px) and (orietation:landscape){
+@media  screen and (min-device-width:375px) and (orientation:landscape) {
 
-#container1{color:purple}
+#container1{background-color:red!important}
 
 }
 
 
 
-@media only screen and (min-width:375px) and (orietation:portrait){
+@media  screen and (min-width:375px) and (orientation:portrait){
   h6 {
     top: 8.5%;
 }
