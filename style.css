@@ -593,7 +593,6 @@ animation-play-state: running;
 
 
 
-
 h1 {
     text-align: center;
     position: relative;
@@ -629,6 +628,7 @@ h1 {
 
 
 @media screen and (min-width:375px){
+  #container1{background-color: purple!important;}
   #shop1 {border-radius: 100%;
     position: absolute;
     width: 94%;
