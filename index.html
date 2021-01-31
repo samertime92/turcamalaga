@@ -14,22 +14,26 @@
     <div id="container1">
     <h1>RESTAURANTE</h1>
       <img class="turcalogo" src="alaturca.png" alt="">
+      <img id="shop1" src="shop1.png" alt="">
+      <img id="shop2" src="shop2.png" alt="">
+
+
       <img id="kebab" src="kebab.png" alt="">
       <img id="menu" src="carta2.png" alt="">
       <img id="menu2" src="carta2.png" alt="">
       <img id="menu3" src="carta3.png" alt="">
 
-      <!-- <img id="whats"src="whats.png" alt=""> -->
-      <!-- <img id="maps"src="maps.png" alt=""> -->
+      <img id="whats"src="whats.png" alt="">
+      <img id="maps"src="maps.png" alt="">
       <img id="back"src="back.png" alt="">
       <img id="backnext"src="back.png" alt="">
       <img id="backnext2"src="back.png" alt="">
 
 
-      <!-- <img id="call"src="call.png" alt=""> -->
-      <!-- <img id="falafel" src="falafel.png" alt=""> -->
-      <!-- <img id="kebabplato" src="kebabplato.png" alt=""> -->
-      <!-- <img id="pizza" src="pizza.png" alt=""> -->
+      <img id="call"src="call.png" alt="">
+      <img id="falafel" src="falafel.png" alt="">
+      <img id="kebabplato" src="kebabplato.png" alt="">
+      <img id="pizza" src="pizza.png" alt="">
 
 
 
@@ -346,6 +350,12 @@
 
 </div>
 <script type="text/javascript">
+var mx=window.matchMedia("(min-width:320px)")
+var mx1=window.matchMedia("(min-width:360px)")
+var mx2=window.matchMedia("(min-width:400px)")
+var mx3=window.matchMedia("(min-width:375px)")
+var mx4=window.matchMedia("(min-width:414px)")
+
 function openmainmenu(){
   document.getElementById('menus').style.display="inline-block";
   document.getElementById('kebab2').style.display="inline-block";
@@ -373,6 +383,7 @@ function closemenu(){
 
 }
 document.getElementById('back').onclick = function functionName() {
+  if (mx1.macthes){
   document.getElementById('backnext').style.display="none";
 
   document.getElementById('back').style.display="none";
@@ -439,6 +450,280 @@ setTimeout(openmainmenu,10)
 
 
 
+}
+ if(mx3.matches){
+
+  document.getElementById('backnext').style.display="none";
+
+  document.getElementById('back').style.display="none";
+  document.getElementById('back').style.width="18%";
+  document.getElementById('back').style.top="152%";
+  document.getElementById('back').style.left="64%";
+  // document.getElementById('menus').style.display="inline-block";
+  // document.getElementById('kebab2').style.display="inline-block";
+  // document.getElementById('ensaladas').style.display="inline-block";
+  // document.getElementById('camperos').style.display="inline-block";
+  // document.getElementById('camperos').style.opacity="0";
+
+  // document.getElementById('bebidas').style.display="inline-block";
+  // document.getElementById('parilla').style.display="inline-block";
+  // document.getElementById('hamburguesas').style.display="inline-block";
+  // document.getElementById('pizzas').style.display="inline-block";
+  // document.getElementById('gondolas').style.display="inline-block";
+  document.getElementById('menucon').style.display="none";
+  document.getElementById('kebabmenu').style.display="none";
+  document.getElementById('burgermenu').style.display="none";
+  document.getElementById('pizzasmenu').style.display="none";
+  document.getElementById('pizzasmenu2').style.display="none";
+
+  document.getElementById('gondomenu').style.display="none";
+  document.getElementById('parillamenu').style.display="none";
+  document.getElementById('parilla').style.paddingLeft="20px";
+  document.getElementById('parilla').style.paddingRight="20px";
+
+  document.getElementById('ensaladas').style.paddingLeft="20px";
+  document.getElementById('ensaladas').style.paddingRight="20px";
+
+  document.getElementById('ensamenu').style.display="none";
+  document.getElementById('camperomenu').style.display="none";
+  document.getElementById('bebidasmenu').style.display="none";
+  document.getElementById('bebidas').style.paddingLeft="20px";
+  document.getElementById('bebidas').style.paddingRight="20px";
+  document.getElementById('camperos').style.paddingLeft="20px";
+
+  document.getElementById('camperos').style.paddingRight="20px";
+
+  document.getElementById('hamburguesas').style.paddingLeft="20px";
+  document.getElementById('hamburguesas').style.paddingRight="20px";
+  document.getElementById('pizzas').style.paddingLeft="20px";
+  document.getElementById('pizzas').style.paddingRight="20px";
+  document.getElementById('gondolas').style.paddingLeft="20px";
+  document.getElementById('gondolas').style.paddingRight="20px";
+  document.getElementById('menus').style.paddingLeft="20px";
+  document.getElementById('menus').style.paddingRight="20px";
+  document.getElementById('kebab2').style.paddingLeft="20px";
+  document.getElementById('kebab2').style.paddingRight="20px";
+
+  document.getElementById('mainmenu').style.left="12%";
+  document.getElementById('mainmenu').style.top="80%";
+  document.getElementById('mainmenu').style.display="none";
+  document.getElementById('menu2').style.transitionDuration="0.5s";
+  document.getElementById('mainmenu').style.animationDuration="0.5s";
+  document.getElementById('mainmenu').style.animationDelay="0s";
+
+
+  setTimeout(closemenu,0.001)
+  setTimeout(openmenu,500)
+  setTimeout(openmainmenu,10)
+
+
+}
+if(mx2.matches){
+
+ document.getElementById('backnext').style.display="none";
+
+ document.getElementById('back').style.display="none";
+ document.getElementById('back').style.width="18%";
+ document.getElementById('back').style.top="140%";
+ document.getElementById('back').style.left="64%";
+ // document.getElementById('menus').style.display="inline-block";
+ // document.getElementById('kebab2').style.display="inline-block";
+ // document.getElementById('ensaladas').style.display="inline-block";
+ // document.getElementById('camperos').style.display="inline-block";
+ // document.getElementById('camperos').style.opacity="0";
+
+ // document.getElementById('bebidas').style.display="inline-block";
+ // document.getElementById('parilla').style.display="inline-block";
+ // document.getElementById('hamburguesas').style.display="inline-block";
+ // document.getElementById('pizzas').style.display="inline-block";
+ // document.getElementById('gondolas').style.display="inline-block";
+ document.getElementById('menucon').style.display="none";
+ document.getElementById('kebabmenu').style.display="none";
+ document.getElementById('burgermenu').style.display="none";
+ document.getElementById('pizzasmenu').style.display="none";
+ document.getElementById('pizzasmenu2').style.display="none";
+
+ document.getElementById('gondomenu').style.display="none";
+ document.getElementById('parillamenu').style.display="none";
+ document.getElementById('parilla').style.paddingLeft="20px";
+ document.getElementById('parilla').style.paddingRight="20px";
+
+ document.getElementById('ensaladas').style.paddingLeft="20px";
+ document.getElementById('ensaladas').style.paddingRight="20px";
+
+ document.getElementById('ensamenu').style.display="none";
+ document.getElementById('camperomenu').style.display="none";
+ document.getElementById('bebidasmenu').style.display="none";
+ document.getElementById('bebidas').style.paddingLeft="20px";
+ document.getElementById('bebidas').style.paddingRight="20px";
+ document.getElementById('camperos').style.paddingLeft="20px";
+
+ document.getElementById('camperos').style.paddingRight="20px";
+
+ document.getElementById('hamburguesas').style.paddingLeft="20px";
+ document.getElementById('hamburguesas').style.paddingRight="20px";
+ document.getElementById('pizzas').style.paddingLeft="20px";
+ document.getElementById('pizzas').style.paddingRight="20px";
+ document.getElementById('gondolas').style.paddingLeft="20px";
+ document.getElementById('gondolas').style.paddingRight="20px";
+ document.getElementById('menus').style.paddingLeft="20px";
+ document.getElementById('menus').style.paddingRight="20px";
+ document.getElementById('kebab2').style.paddingLeft="20px";
+ document.getElementById('kebab2').style.paddingRight="20px";
+
+ document.getElementById('mainmenu').style.left="12%";
+ document.getElementById('mainmenu').style.top="80%";
+ document.getElementById('mainmenu').style.display="none";
+ document.getElementById('menu2').style.transitionDuration="0.5s";
+ document.getElementById('mainmenu').style.animationDuration="0.5s";
+ document.getElementById('mainmenu').style.animationDelay="0s";
+
+
+ setTimeout(closemenu,0.001)
+ setTimeout(openmenu,500)
+ setTimeout(openmainmenu,10)
+
+
+}
+if(mx4.matches){
+
+ document.getElementById('backnext').style.display="none";
+
+ document.getElementById('back').style.display="none";
+ document.getElementById('back').style.width="18%";
+ document.getElementById('back').style.top="154%";
+ document.getElementById('back').style.left="64%";
+ // document.getElementById('menus').style.display="inline-block";
+ // document.getElementById('kebab2').style.display="inline-block";
+ // document.getElementById('ensaladas').style.display="inline-block";
+ // document.getElementById('camperos').style.display="inline-block";
+ // document.getElementById('camperos').style.opacity="0";
+
+ // document.getElementById('bebidas').style.display="inline-block";
+ // document.getElementById('parilla').style.display="inline-block";
+ // document.getElementById('hamburguesas').style.display="inline-block";
+ // document.getElementById('pizzas').style.display="inline-block";
+ // document.getElementById('gondolas').style.display="inline-block";
+ document.getElementById('menucon').style.display="none";
+ document.getElementById('kebabmenu').style.display="none";
+ document.getElementById('burgermenu').style.display="none";
+ document.getElementById('pizzasmenu').style.display="none";
+ document.getElementById('pizzasmenu2').style.display="none";
+
+ document.getElementById('gondomenu').style.display="none";
+ document.getElementById('parillamenu').style.display="none";
+ document.getElementById('parilla').style.paddingLeft="20px";
+ document.getElementById('parilla').style.paddingRight="20px";
+
+ document.getElementById('ensaladas').style.paddingLeft="20px";
+ document.getElementById('ensaladas').style.paddingRight="20px";
+
+ document.getElementById('ensamenu').style.display="none";
+ document.getElementById('camperomenu').style.display="none";
+ document.getElementById('bebidasmenu').style.display="none";
+ document.getElementById('bebidas').style.paddingLeft="20px";
+ document.getElementById('bebidas').style.paddingRight="20px";
+ document.getElementById('camperos').style.paddingLeft="20px";
+
+ document.getElementById('camperos').style.paddingRight="20px";
+
+ document.getElementById('hamburguesas').style.paddingLeft="20px";
+ document.getElementById('hamburguesas').style.paddingRight="20px";
+ document.getElementById('pizzas').style.paddingLeft="20px";
+ document.getElementById('pizzas').style.paddingRight="20px";
+ document.getElementById('gondolas').style.paddingLeft="20px";
+ document.getElementById('gondolas').style.paddingRight="20px";
+ document.getElementById('menus').style.paddingLeft="20px";
+ document.getElementById('menus').style.paddingRight="20px";
+ document.getElementById('kebab2').style.paddingLeft="20px";
+ document.getElementById('kebab2').style.paddingRight="20px";
+
+ document.getElementById('mainmenu').style.left="12%";
+ document.getElementById('mainmenu').style.top="80%";
+ document.getElementById('mainmenu').style.display="none";
+ document.getElementById('menu2').style.transitionDuration="0.5s";
+ document.getElementById('mainmenu').style.animationDuration="0.5s";
+ document.getElementById('mainmenu').style.animationDelay="0s";
+
+
+ setTimeout(closemenu,0.001)
+ setTimeout(openmenu,500)
+ setTimeout(openmainmenu,10)
+
+
+}
+else{
+
+
+
+  document.getElementById('backnext').style.display="none";
+
+  document.getElementById('back').style.display="none";
+  document.getElementById('back').style.width="18%";
+  document.getElementById('back').style.top="154%";
+  document.getElementById('back').style.left="64%";
+  // document.getElementById('menus').style.display="inline-block";
+  // document.getElementById('kebab2').style.display="inline-block";
+  // document.getElementById('ensaladas').style.display="inline-block";
+  // document.getElementById('camperos').style.display="inline-block";
+  // document.getElementById('camperos').style.opacity="0";
+
+  // document.getElementById('bebidas').style.display="inline-block";
+  // document.getElementById('parilla').style.display="inline-block";
+  // document.getElementById('hamburguesas').style.display="inline-block";
+  // document.getElementById('pizzas').style.display="inline-block";
+  // document.getElementById('gondolas').style.display="inline-block";
+  document.getElementById('menucon').style.display="none";
+  document.getElementById('kebabmenu').style.display="none";
+  document.getElementById('burgermenu').style.display="none";
+  document.getElementById('pizzasmenu').style.display="none";
+  document.getElementById('pizzasmenu2').style.display="none";
+
+  document.getElementById('gondomenu').style.display="none";
+  document.getElementById('parillamenu').style.display="none";
+  document.getElementById('parilla').style.paddingLeft="20px";
+  document.getElementById('parilla').style.paddingRight="20px";
+
+  document.getElementById('ensaladas').style.paddingLeft="20px";
+  document.getElementById('ensaladas').style.paddingRight="20px";
+
+  document.getElementById('ensamenu').style.display="none";
+  document.getElementById('camperomenu').style.display="none";
+  document.getElementById('bebidasmenu').style.display="none";
+  document.getElementById('bebidas').style.paddingLeft="20px";
+  document.getElementById('bebidas').style.paddingRight="20px";
+  document.getElementById('camperos').style.paddingLeft="20px";
+
+  document.getElementById('camperos').style.paddingRight="20px";
+
+  document.getElementById('hamburguesas').style.paddingLeft="20px";
+  document.getElementById('hamburguesas').style.paddingRight="20px";
+  document.getElementById('pizzas').style.paddingLeft="20px";
+  document.getElementById('pizzas').style.paddingRight="20px";
+  document.getElementById('gondolas').style.paddingLeft="20px";
+  document.getElementById('gondolas').style.paddingRight="20px";
+  document.getElementById('menus').style.paddingLeft="20px";
+  document.getElementById('menus').style.paddingRight="20px";
+  document.getElementById('kebab2').style.paddingLeft="20px";
+  document.getElementById('kebab2').style.paddingRight="20px";
+
+  document.getElementById('mainmenu').style.left="15%";
+  document.getElementById('mainmenu').style.top="80%";
+  document.getElementById('mainmenu').style.display="none";
+  document.getElementById('menu2').style.transitionDuration="0.5s";
+  document.getElementById('mainmenu').style.animationDuration="0.5s";
+  document.getElementById('mainmenu').style.animationDelay="0s";
+
+
+  setTimeout(closemenu,0.001)
+  setTimeout(openmenu,500)
+  setTimeout(openmainmenu,10)
+
+
+
+
+
+}
 }
 
 document.getElementById('menus').onclick = function functionName() {
@@ -509,35 +794,128 @@ document.getElementById('hamburguesas').onclick = function functionName() {
   document.getElementById('gondolas').style.display="none";
 }
 document.getElementById('pizzas').onclick = function functionName() {
-  document.getElementById('back').style.display="inline-block";
-  document.getElementById('back').style.width="19%";
-  document.getElementById('back').style.top="153%";
-  document.getElementById('back').style.left="32%";
-  document.getElementById('backnext').style.display="inline-block";
+  if (mx1.matches) {
 
-  document.getElementById('pizzas').style.paddingLeft="50%";
+    document.getElementById('back').style.display="inline-block";
+    document.getElementById('back').style.width="19%";
+    document.getElementById('back').style.top="152%";
+    document.getElementById('back').style.left="32%";
+    document.getElementById('backnext').style.display="inline-block";
 
-  document.getElementById('pizzas').style.paddingRight="10%";
-  document.getElementById('mainmenu').style.left="0%";
-  document.getElementById('mainmenu').style.top="72%";
+    document.getElementById('pizzas').style.paddingLeft="50%";
 
-  document.getElementById('pizzasmenu').style.display="inline-block";
-  document.getElementById('pizzasmenu').style.zIndex="2";
+    document.getElementById('pizzas').style.paddingRight="10%";
+    document.getElementById('mainmenu').style.left="0%";
+    document.getElementById('mainmenu').style.top="72%";
+
+    document.getElementById('pizzasmenu').style.display="inline-block";
+    document.getElementById('pizzasmenu').style.zIndex="2";
 
 
-  document.getElementById('menus').style.display="none";
-  document.getElementById('ensaladas').style.display="none";
-  document.getElementById('camperos').style.display="none";
-  document.getElementById('bebidas').style.display="none";
-  document.getElementById('parilla').style.display="none";
-  document.getElementById('kebab2').style.display="none";
-  document.getElementById('hamburguesas').style.display="none";
-  document.getElementById('gondolas').style.display="none";
+    document.getElementById('menus').style.display="none";
+    document.getElementById('ensaladas').style.display="none";
+    document.getElementById('camperos').style.display="none";
+    document.getElementById('bebidas').style.display="none";
+    document.getElementById('parilla').style.display="none";
+    document.getElementById('kebab2').style.display="none";
+    document.getElementById('hamburguesas').style.display="none";
+    document.getElementById('gondolas').style.display="none";
+
+  }
+  if (mx2.matches){
+
+    document.getElementById('back').style.display="inline-block";
+    document.getElementById('back').style.width="19%";
+    document.getElementById('back').style.top="141%";
+    document.getElementById('back').style.left="32%";
+    document.getElementById('backnext').style.display="inline-block";
+
+    document.getElementById('pizzas').style.paddingLeft="50%";
+
+    document.getElementById('pizzas').style.paddingRight="10%";
+    document.getElementById('mainmenu').style.left="0%";
+    document.getElementById('mainmenu').style.top="72%";
+
+    document.getElementById('pizzasmenu').style.display="inline-block";
+    document.getElementById('pizzasmenu').style.zIndex="2";
+
+
+    document.getElementById('menus').style.display="none";
+    document.getElementById('ensaladas').style.display="none";
+    document.getElementById('camperos').style.display="none";
+    document.getElementById('bebidas').style.display="none";
+    document.getElementById('parilla').style.display="none";
+    document.getElementById('kebab2').style.display="none";
+    document.getElementById('hamburguesas').style.display="none";
+    document.getElementById('gondolas').style.display="none";
+
+  }
+   if (mx3.matches) {
+
+    document.getElementById('back').style.display="inline-block";
+    document.getElementById('back').style.width="19%";
+    document.getElementById('back').style.top="152%";
+    document.getElementById('back').style.left="32%";
+    document.getElementById('backnext').style.display="inline-block";
+
+    document.getElementById('pizzas').style.paddingLeft="50%";
+
+    document.getElementById('pizzas').style.paddingRight="10%";
+    document.getElementById('mainmenu').style.left="0%";
+    document.getElementById('mainmenu').style.top="72%";
+
+    document.getElementById('pizzasmenu').style.display="inline-block";
+    document.getElementById('pizzasmenu').style.zIndex="2";
+
+
+    document.getElementById('menus').style.display="none";
+    document.getElementById('ensaladas').style.display="none";
+    document.getElementById('camperos').style.display="none";
+    document.getElementById('bebidas').style.display="none";
+    document.getElementById('parilla').style.display="none";
+    document.getElementById('kebab2').style.display="none";
+    document.getElementById('hamburguesas').style.display="none";
+    document.getElementById('gondolas').style.display="none";
+
+  }
+   if (mx4.matches){
+
+    document.getElementById('back').style.display="inline-block";
+    document.getElementById('back').style.width="19%";
+    document.getElementById('back').style.top="154%";
+    document.getElementById('back').style.left="32%";
+    document.getElementById('backnext').style.display="inline-block";
+
+    document.getElementById('pizzas').style.paddingLeft="50%";
+
+    document.getElementById('pizzas').style.paddingRight="10%";
+    document.getElementById('mainmenu').style.left="0%";
+    document.getElementById('mainmenu').style.top="72%";
+
+    document.getElementById('pizzasmenu').style.display="inline-block";
+    document.getElementById('pizzasmenu').style.zIndex="2";
+
+
+    document.getElementById('menus').style.display="none";
+    document.getElementById('ensaladas').style.display="none";
+    document.getElementById('camperos').style.display="none";
+    document.getElementById('bebidas').style.display="none";
+    document.getElementById('parilla').style.display="none";
+    document.getElementById('kebab2').style.display="none";
+    document.getElementById('hamburguesas').style.display="none";
+    document.getElementById('gondolas').style.display="none";
+
+  }
+  else {
+
+  }
+
 }
 document.getElementById('backnext2').onclick = function functionName() {
+  if(mx1.matches){
   document.getElementById('back').style.display="inline-block";
   document.getElementById('back').style.width="19%";
-  document.getElementById('back').style.top="153%";
+  document.getElementById('back').style.top="152%";
   document.getElementById('back').style.left="32%";
   document.getElementById('backnext').style.display="inline-block";
   document.getElementById('backnext2').style.display="none";
@@ -563,6 +941,135 @@ document.getElementById('backnext2').onclick = function functionName() {
   document.getElementById('hamburguesas').style.display="none";
   document.getElementById('gondolas').style.display="none";
 }
+if (mx2.matches) {
+
+
+  document.getElementById('back').style.display="inline-block";
+  document.getElementById('back').style.width="19%";
+  document.getElementById('back').style.top="141%";
+  document.getElementById('back').style.left="32%";
+  document.getElementById('backnext').style.display="inline-block";
+  document.getElementById('backnext2').style.display="none";
+
+  document.getElementById('pizzas').style.paddingLeft="50%";
+
+  document.getElementById('pizzas').style.paddingRight="10%";
+  document.getElementById('mainmenu').style.left="0%";
+  document.getElementById('mainmenu').style.top="72%";
+
+  document.getElementById('pizzasmenu').style.display="inline-block";
+  document.getElementById('pizzasmenu2').style.display="none";
+
+  document.getElementById('pizzasmenu').style.zIndex="2";
+
+
+  document.getElementById('menus').style.display="none";
+  document.getElementById('ensaladas').style.display="none";
+  document.getElementById('camperos').style.display="none";
+  document.getElementById('bebidas').style.display="none";
+  document.getElementById('parilla').style.display="none";
+  document.getElementById('kebab2').style.display="none";
+  document.getElementById('hamburguesas').style.display="none";
+  document.getElementById('gondolas').style.display="none";
+
+}
+  if (mx3.matches) {
+  document.getElementById('back').style.display="inline-block";
+  document.getElementById('back').style.width="19%";
+  document.getElementById('back').style.top="152%";
+  document.getElementById('back').style.left="32%";
+  document.getElementById('backnext').style.display="inline-block";
+  document.getElementById('backnext2').style.display="none";
+
+  document.getElementById('pizzas').style.paddingLeft="50%";
+
+  document.getElementById('pizzas').style.paddingRight="10%";
+  document.getElementById('mainmenu').style.left="0%";
+  document.getElementById('mainmenu').style.top="72%";
+
+  document.getElementById('pizzasmenu').style.display="inline-block";
+  document.getElementById('pizzasmenu2').style.display="none";
+
+  document.getElementById('pizzasmenu').style.zIndex="2";
+
+
+  document.getElementById('menus').style.display="none";
+  document.getElementById('ensaladas').style.display="none";
+  document.getElementById('camperos').style.display="none";
+  document.getElementById('bebidas').style.display="none";
+  document.getElementById('parilla').style.display="none";
+  document.getElementById('kebab2').style.display="none";
+  document.getElementById('hamburguesas').style.display="none";
+  document.getElementById('gondolas').style.display="none";
+
+}
+if (mx4.matches) {
+
+
+  document.getElementById('back').style.display="inline-block";
+  document.getElementById('back').style.width="19%";
+  document.getElementById('back').style.top="154%";
+  document.getElementById('back').style.left="32%";
+  document.getElementById('backnext').style.display="inline-block";
+  document.getElementById('backnext2').style.display="none";
+
+  document.getElementById('pizzas').style.paddingLeft="50%";
+
+  document.getElementById('pizzas').style.paddingRight="10%";
+  document.getElementById('mainmenu').style.left="0%";
+  document.getElementById('mainmenu').style.top="72%";
+
+  document.getElementById('pizzasmenu').style.display="inline-block";
+  document.getElementById('pizzasmenu2').style.display="none";
+
+  document.getElementById('pizzasmenu').style.zIndex="2";
+
+
+  document.getElementById('menus').style.display="none";
+  document.getElementById('ensaladas').style.display="none";
+  document.getElementById('camperos').style.display="none";
+  document.getElementById('bebidas').style.display="none";
+  document.getElementById('parilla').style.display="none";
+  document.getElementById('kebab2').style.display="none";
+  document.getElementById('hamburguesas').style.display="none";
+  document.getElementById('gondolas').style.display="none";
+
+}
+
+
+else {
+  document.getElementById('back').style.display="inline-block";
+  document.getElementById('back').style.width="19%";
+  document.getElementById('back').style.top="152%";
+  document.getElementById('back').style.left="32%";
+  document.getElementById('backnext').style.display="inline-block";
+  document.getElementById('backnext2').style.display="none";
+
+  document.getElementById('pizzas').style.paddingLeft="50%";
+
+  document.getElementById('pizzas').style.paddingRight="10%";
+  document.getElementById('mainmenu').style.left="0%";
+  document.getElementById('mainmenu').style.top="72%";
+
+  document.getElementById('pizzasmenu').style.display="inline-block";
+  document.getElementById('pizzasmenu2').style.display="none";
+
+  document.getElementById('pizzasmenu').style.zIndex="2";
+
+
+  document.getElementById('menus').style.display="none";
+  document.getElementById('ensaladas').style.display="none";
+  document.getElementById('camperos').style.display="none";
+  document.getElementById('bebidas').style.display="none";
+  document.getElementById('parilla').style.display="none";
+  document.getElementById('kebab2').style.display="none";
+  document.getElementById('hamburguesas').style.display="none";
+  document.getElementById('gondolas').style.display="none";
+}
+
+}
+
+
 document.getElementById('gondolas').onclick = function functionName() {
   document.getElementById('back').style.display="inline-block";
 
@@ -630,6 +1137,9 @@ document.getElementById('ensaladas').onclick = function functionName() {
   document.getElementById('pizzas').style.display="none";
 }
 document.getElementById('camperos').onclick = function functionName() {
+  if (mx1.matches) {
+
+
   document.getElementById('back').style.display="inline-block";
 
   document.getElementById('camperos').style.paddingLeft="50%";
@@ -651,10 +1161,63 @@ document.getElementById('camperos').onclick = function functionName() {
   document.getElementById('hamburguesas').style.display="none";
   document.getElementById('pizzas').style.display="none";
 }
+if (mx2.matches) {
+
+
+document.getElementById('back').style.display="inline-block";
+
+document.getElementById('camperos').style.paddingLeft="50%";
+
+document.getElementById('camperos').style.paddingRight="10%";
+document.getElementById('mainmenu').style.left="5%";
+document.getElementById('mainmenu').style.top="68%";
+
+document.getElementById('camperomenu').style.display="inline-block";
+document.getElementById('camperomenu').style.zIndex="2";
+
+
+document.getElementById('menus').style.display="none";
+document.getElementById('parilla').style.display="none";
+document.getElementById('ensaladas').style.display="none";
+document.getElementById('bebidas').style.display="none";
+document.getElementById('gondolas').style.display="none";
+document.getElementById('kebab2').style.display="none";
+document.getElementById('hamburguesas').style.display="none";
+document.getElementById('pizzas').style.display="none";
+}
+ else if (mx3.matches) {
+
+
+document.getElementById('back').style.display="inline-block";
+
+document.getElementById('camperos').style.paddingLeft="50%";
+
+document.getElementById('camperos').style.paddingRight="10%";
+document.getElementById('mainmenu').style.left="5%";
+document.getElementById('mainmenu').style.top="62%";
+
+document.getElementById('camperomenu').style.display="inline-block";
+document.getElementById('camperomenu').style.zIndex="2";
+
+
+document.getElementById('menus').style.display="none";
+document.getElementById('parilla').style.display="none";
+document.getElementById('ensaladas').style.display="none";
+document.getElementById('bebidas').style.display="none";
+document.getElementById('gondolas').style.display="none";
+document.getElementById('kebab2').style.display="none";
+document.getElementById('hamburguesas').style.display="none";
+document.getElementById('pizzas').style.display="none";
+}
+else {
+
+}
+}
 document.getElementById('bebidas').onclick = function functionName() {
+  if (mx1.matches) {
   document.getElementById('back').style.display="inline-block";
   document.getElementById('back').style.width="18%";
-  document.getElementById('back').style.top="154%";
+  document.getElementById('back').style.top="152%";
   document.getElementById('back').style.left="64%";
 
 
@@ -677,6 +1240,124 @@ document.getElementById('bebidas').onclick = function functionName() {
   document.getElementById('kebab2').style.display="none";
   document.getElementById('hamburguesas').style.display="none";
   document.getElementById('pizzas').style.display="none";
+}
+if (mx2.matches) {
+
+
+document.getElementById('back').style.display="inline-block";
+document.getElementById('back').style.width="18%";
+document.getElementById('back').style.top="141%";
+document.getElementById('back').style.left="64%";
+
+
+
+document.getElementById('bebidas').style.paddingLeft="50%";
+
+document.getElementById('bebidas').style.paddingRight="10%";
+document.getElementById('mainmenu').style.left="5%";
+document.getElementById('mainmenu').style.top="63%";
+
+document.getElementById('bebidasmenu').style.display="inline-block";
+document.getElementById('bebidasmenu').style.zIndex="2";
+
+
+document.getElementById('menus').style.display="none";
+document.getElementById('parilla').style.display="none";
+document.getElementById('ensaladas').style.display="none";
+document.getElementById('camperos').style.display="none";
+document.getElementById('gondolas').style.display="none";
+document.getElementById('kebab2').style.display="none";
+document.getElementById('hamburguesas').style.display="none";
+document.getElementById('pizzas').style.display="none";
+}
+if (mx3.matches) {
+
+
+document.getElementById('back').style.display="inline-block";
+document.getElementById('back').style.width="18%";
+document.getElementById('back').style.top="152%";
+document.getElementById('back').style.left="64%";
+
+
+
+document.getElementById('bebidas').style.paddingLeft="50%";
+
+document.getElementById('bebidas').style.paddingRight="10%";
+document.getElementById('mainmenu').style.left="5%";
+document.getElementById('mainmenu').style.top="58%";
+
+document.getElementById('bebidasmenu').style.display="inline-block";
+document.getElementById('bebidasmenu').style.zIndex="2";
+
+
+document.getElementById('menus').style.display="none";
+document.getElementById('parilla').style.display="none";
+document.getElementById('ensaladas').style.display="none";
+document.getElementById('camperos').style.display="none";
+document.getElementById('gondolas').style.display="none";
+document.getElementById('kebab2').style.display="none";
+document.getElementById('hamburguesas').style.display="none";
+document.getElementById('pizzas').style.display="none";
+}
+if (mx4.matches) {
+
+
+document.getElementById('back').style.display="inline-block";
+document.getElementById('back').style.width="18%";
+document.getElementById('back').style.top="156%";
+document.getElementById('back').style.left="64%";
+
+
+
+document.getElementById('bebidas').style.paddingLeft="50%";
+
+document.getElementById('bebidas').style.paddingRight="10%";
+document.getElementById('mainmenu').style.left="5%";
+document.getElementById('mainmenu').style.top="63%";
+
+document.getElementById('bebidasmenu').style.display="inline-block";
+document.getElementById('bebidasmenu').style.zIndex="2";
+
+
+document.getElementById('menus').style.display="none";
+document.getElementById('parilla').style.display="none";
+document.getElementById('ensaladas').style.display="none";
+document.getElementById('camperos').style.display="none";
+document.getElementById('gondolas').style.display="none";
+document.getElementById('kebab2').style.display="none";
+document.getElementById('hamburguesas').style.display="none";
+document.getElementById('pizzas').style.display="none";
+}
+else {
+
+  document.getElementById('back').style.display="inline-block";
+  document.getElementById('back').style.width="18%";
+  document.getElementById('back').style.top="152%";
+  document.getElementById('back').style.left="64%";
+
+
+
+  document.getElementById('bebidas').style.paddingLeft="50%";
+
+  document.getElementById('bebidas').style.paddingRight="10%";
+  document.getElementById('mainmenu').style.left="5%";
+  document.getElementById('mainmenu').style.top="58%";
+
+  document.getElementById('bebidasmenu').style.display="inline-block";
+  document.getElementById('bebidasmenu').style.zIndex="2";
+
+
+  document.getElementById('menus').style.display="none";
+  document.getElementById('parilla').style.display="none";
+  document.getElementById('ensaladas').style.display="none";
+  document.getElementById('camperos').style.display="none";
+  document.getElementById('gondolas').style.display="none";
+  document.getElementById('kebab2').style.display="none";
+  document.getElementById('hamburguesas').style.display="none";
+  document.getElementById('pizzas').style.display="none";
+
+
+}
 }
 document.getElementById('backnext').onclick = function functionName() {
   document.getElementById('pizzasmenu2').style.display="inline-block";
@@ -708,15 +1389,36 @@ document.getElementById('backnext').onclick = function functionName() {
 
 
 
+function changeopacity1(){
+  document.getElementById('shop1').style.opacity="0";
+  document.getElementById('shop1').style.zIndex="2";
+  document.getElementById('shop1').style.transitionDelay="0s,0s";
+  document.getElementById('shop2').style.opacity="1";
+  document.getElementById('shop2').style.zIndex="3";
+  document.getElementById('shop2').style.transitionDelay="0s,5s";
+
+}
+function changeopacity2(){
+  document.getElementById('shop1').style.opacity="1";
+  document.getElementById('shop1').style.zIndex="3";
+  document.getElementById('shop1').style.transitionDelay="0s,0s";
+  document.getElementById('shop2').style.opacity="0";
+  document.getElementById('shop2').style.zIndex="2";
+  document.getElementById('shop2').style.transitionDelay="0s,0s";
+
+
+}
+
+
 
 function scroll(){
   var scrolly=document.querySelector('#container1')
    lx=scrollY
    console.log(lx);
-if(lx>"1100"){
-  document.getElementById('whats').style.width="71%";
-  document.getElementById('call').style.width="54%";
-  document.getElementById('maps').style.width="54%";
+if(lx>"810"){
+  document.getElementById('whats').style.width="32%";
+  document.getElementById('call').style.width="27%";
+  document.getElementById('maps').style.width="27%";
   document.getElementById('whats').style.opacity="1";
   document.getElementById('call').style.opacity="1";
   document.getElementById('maps').style.opacity="1";
@@ -725,8 +1427,18 @@ if(lx>"1100"){
   document.getElementById('whats').style.transform="rotate(1080deg)";
   document.getElementById('call').style.transform="rotate(1080deg)";
   document.getElementById('maps').style.transform="rotate(1080deg)";
+  document.getElementById('shop1').style.opacity="1";
+  document.getElementById('shop1').style.borderRadius="0%";
+  document.getElementById('shop2').style.opacity="1";
+  document.getElementById('shop2').style.borderRadius="0%";
+  document.getElementById('shop2').style.transitionDelay="4s,5s";
+
+
+
+
+
 }
-else if(lx<"1100"&&lx>"600"){
+else if(lx<"554"&&lx>"330"){
   document.getElementById('whats').style.width="0%";
   document.getElementById('call').style.width="0%";
   document.getElementById('maps').style.width="0%";
@@ -736,18 +1448,56 @@ else if(lx<"1100"&&lx>"600"){
   document.getElementById('whats').style.transform="rotate(0deg)";
   document.getElementById('call').style.transform="rotate(0deg)";
   document.getElementById('maps').style.transform="rotate(0deg)";
-  document.getElementById('pizza').style.width="99%";
-  document.getElementById('kebabplato').style.width="125%";
-  document.getElementById('falafel').style.width="130%";
+  document.getElementById('pizza').style.width="43%";
+  document.getElementById('kebabplato').style.width="75%";
+  document.getElementById('falafel').style.width="69%";
   document.getElementById('pizza').style.opacity="1";
   document.getElementById('kebabplato').style.opacity="1";
   document.getElementById('falafel').style.opacity="1";
-  document.getElementById('falafel').style.left="55%";
-  document.getElementById('kebabplato').style.left="59%";
-  document.getElementById('pizza').style.left="68%";
+  document.getElementById('falafel').style.left="15%";
+  document.getElementById('kebabplato').style.left="14%";
+  document.getElementById('pizza').style.left="28%";
+}
+  else if(lx<"590"&&lx>"330"){
+    document.getElementById('shop1').style.opacity="1";
+    document.getElementById('shop1').style.borderRadius="0%";
+    document.getElementById('shop1').style.transitionDelay="-1s,0s";
+    document.getElementById('shop2').style.opacity="1";
+    document.getElementById('shop2').style.borderRadius="0%";
+    document.getElementById('shop2').style.transitionDelay="4s,5s";
+
+
+
+
+
+}
+else if(lx<"810"&&lx>"554"){
+  document.getElementById('whats').style.width="0%";
+  document.getElementById('call').style.width="0%";
+  document.getElementById('maps').style.width="0%";
+  document.getElementById('whats').style.opacity="0%";
+  document.getElementById('call').style.opacity="0%";
+  document.getElementById('maps').style.opacity="0%";
+  document.getElementById('whats').style.transform="rotate(0deg)";
+  document.getElementById('call').style.transform="rotate(0deg)";
+  document.getElementById('maps').style.transform="rotate(0deg)";
+  document.getElementById('pizza').style.width="43%";
+  document.getElementById('kebabplato').style.width="75%";
+  document.getElementById('falafel').style.width="69%";
+  document.getElementById('pizza').style.opacity="1";
+  document.getElementById('kebabplato').style.opacity="1";
+  document.getElementById('falafel').style.opacity="1";
+
+  document.getElementById('falafel').style.left="15%";
+  document.getElementById('kebabplato').style.left="14%";
+  document.getElementById('pizza').style.left="28%";
+  document.getElementById('shop2').style.transitionDelay="4s,5s";
+
+
 }
 
-else if(lx<"600"){
+
+else if(lx<"330"){
   document.getElementById('whats').style.width="0%";
   document.getElementById('call').style.width="0%";
   document.getElementById('maps').style.width="0%";
@@ -766,12 +1516,20 @@ else if(lx<"600"){
   document.getElementById('falafel').style.left="0%";
   document.getElementById('kebabplato').style.left="0%";
   document.getElementById('pizza').style.left="0%";
+  document.getElementById('shop1').style.opacity="0";
+  document.getElementById('shop1').style.borderRadius="100%";
+  document.getElementById('shop2').style.opacity="0";
+  document.getElementById('shop2').style.borderRadius="100%";
+  document.getElementById('shop2').style.transitionDelay="0s,0s";
+
 
 }
 }
 setInterval(scroll,100)
 
 document.getElementById('menu').onclick = function functionName() {
+
+  if(mx1.matches){
   document.getElementById('menu2').style.width = "20%";
   document.getElementById('menu').style.display = "none";
   document.getElementById('menu2').style.opacity = "1";
@@ -793,6 +1551,93 @@ document.getElementById('menu').onclick = function functionName() {
   document.getElementById('kebabplato').style.display = "none";
   document.getElementById('pizza').style.display = "none";
 
+  document.getElementById('shop1').style.display = "none";
+  document.getElementById('shop2').style.display = "none";
+
+
+}
+
+ if(mx3.matches){
+
+
+  document.getElementById('menu2').style.width = "20%";
+  document.getElementById('menu').style.display = "none";
+  document.getElementById('menu2').style.opacity = "1";
+  document.getElementById('menu2').style.height = "650px";
+  document.getElementById('menu2').style.left = "1%";
+  document.getElementById('menu2').style.zIndex = "2";
+  document.getElementById('menu3').style.zIndex = "1";
+
+
+  document.getElementById('menu2').style.top = "72%";
+  document.getElementById('mainmenu').style.zIndex = "1";
+
+  document.getElementById('menu3').style.height = "632PX";
+  document.getElementById('menu3').style.left = "2%";
+  document.getElementById('menu3').style.width = "342px";
+  document.getElementById('menu3').style.opacity = "1";
+  document.getElementById('mainmenu').style.display = "inline-block";
+  document.getElementById('falafel').style.display = "none";
+  document.getElementById('kebabplato').style.display = "none";
+  document.getElementById('pizza').style.display = "none";
+
+  document.getElementById('shop1').style.display = "none";
+  document.getElementById('shop2').style.display = "none";
+
+}
+ if(mx2.matches){
+
+  document.getElementById('menu2').style.width = "20%";
+  document.getElementById('menu').style.display = "none";
+  document.getElementById('menu2').style.opacity = "1";
+  document.getElementById('menu2').style.height = "754px";
+  document.getElementById('menu2').style.left = "1%";
+  document.getElementById('menu2').style.zIndex = "2";
+  document.getElementById('menu3').style.zIndex = "1";
+
+
+  document.getElementById('menu2').style.top = "72%";
+  document.getElementById('mainmenu').style.zIndex = "1";
+
+  document.getElementById('menu3').style.height = "724PX";
+  document.getElementById('menu3').style.left = "2%";
+  document.getElementById('menu3').style.width = "393px";
+  document.getElementById('menu3').style.opacity = "1";
+  document.getElementById('mainmenu').style.display = "inline-block";
+  document.getElementById('falafel').style.display = "none";
+  document.getElementById('kebabplato').style.display = "none";
+  document.getElementById('pizza').style.display = "none";
+
+  document.getElementById('shop1').style.display = "none";
+  document.getElementById('shop2').style.display = "none";
+
+
+}
+else {
+  document.getElementById('menu2').style.width = "20%";
+  document.getElementById('menu').style.display = "none";
+  document.getElementById('menu2').style.opacity = "1";
+  document.getElementById('menu2').style.height = "650px";
+  document.getElementById('menu2').style.left = "1%";
+  document.getElementById('menu2').style.zIndex = "2";
+  document.getElementById('menu3').style.zIndex = "1";
+
+
+  document.getElementById('menu2').style.top = "72%";
+  document.getElementById('mainmenu').style.zIndex = "1";
+
+  document.getElementById('menu3').style.height = "632PX";
+  document.getElementById('menu3').style.left = "2%";
+  document.getElementById('menu3').style.width = "342px";
+  document.getElementById('menu3').style.opacity = "1";
+  document.getElementById('mainmenu').style.display = "inline-block";
+  document.getElementById('falafel').style.display = "none";
+  document.getElementById('kebabplato').style.display = "none";
+  document.getElementById('pizza').style.display = "none";
+
+  document.getElementById('shop1').style.display = "none";
+  document.getElementById('shop2').style.display = "none";
+}
 }
 
 

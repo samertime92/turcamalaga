@@ -1,5 +1,22 @@
 body{margin:0px;padding:0px;background-color:white}
 @media only screen and (min-width:359px){
+  #shop1 {border-radius: 100%;
+    position: absolute;
+    width: 94%;
+    left: 3%;
+    top: 177%;
+    transition-property:border-radius,opacity;transition-duration: 3s,2s;transition-delay: -1s,0s;
+    opacity: 0;
+}
+#shop2{border-radius: 100%;
+  position: absolute;
+  width: 94%;
+  left: 3%;
+  top: 177%;
+  transition-property:border-radius,opacity;transition-duration: 3s,2s;transition-delay: 4s,5s;
+  opacity: 0;
+}
+
   #hotdog {
     position: absolute;
     width: 27%;
@@ -52,6 +69,11 @@ body{margin:0px;padding:0px;background-color:white}
     left: 64%;
     top: 154%;
     display: none;
+    animation: back;animation-duration: 2s;animation-fill-mode: forwards;animation-timing-function: ease-in-out;animation-iteration-count: infinite;
+}
+@keyframes back {0%{opacity: 0.4;width:18%}
+50%{opacity: 1;width:20%}
+100%{opacity: 0.4;width:18%}
 }
 
 #backnext{transform: rotate(180deg);
@@ -61,6 +83,9 @@ body{margin:0px;padding:0px;background-color:white}
     left: 59%;
     top: 153.5%;
     display: none;
+    opacity: 0.4;
+    animation: back;animation-duration: 2s;animation-fill-mode: forwards;animation-timing-function: ease-in-out;animation-iteration-count: infinite;animation-delay: 0.5s;
+
 }
 #backnext2 {
     z-index: 4;
@@ -69,6 +94,8 @@ body{margin:0px;padding:0px;background-color:white}
     left: 71%;
     top: 153%;
     display: none;
+    animation: back;animation-duration: 2s;animation-fill-mode: forwards;animation-timing-function: ease-in-out;animation-iteration-count: infinite;
+
 }
 #ensa2 {
     position: absolute;
@@ -241,48 +268,47 @@ body{margin:0px;padding:0px;background-color:white}
   #falafel {
     z-index: 2;
     position: absolute;
-    width: 130%;
-    top: 276%;
-    left: 55%;
+    width: 69%;
+    top: 109%;
+    left: 15%;
     transition: 1.5s;
     transform: rotate(3deg);
 }
   #kebabplato {
       z-index: 3;
       position: absolute;
-      width: 125%;
-      top: 314%;
-      left: 59%;
+      width: 69%;
+      top: 130%;
+      left: 15%;
       transition: 1s;
   }
   #pizza {
       z-index: 1;
       position: absolute;
-      width: 99%;
-      top: 253%;
-      left: 68%;
+      width: 43%;
+      top: 100%;
+      left: 28%;
       transition: 2s;
       transform: rotate(-0deg);
   }
 
-
   #whats {transition: 1s;transform: rotate(0deg);
     position: absolute;
-    width: 71%;
-    left: 90%;
-    top: 405%;
+    width: 36%;
+    left: 35%;
+    top: 220%;
 }
 #maps {transition: 1s;
     position: absolute;
-    width: 54%;
-    left: 12%;
-    top: 405%;
+    width: 27%;
+    left: 4%;
+    top: 220%;
 }
 #call {transition: 1s;
     position: absolute;
-    width: 54%;
-    left: 184%;
-    top: 405%;
+    width: 27%;
+    left: 70%;
+    top: 220%;
 }
   #bar{position:absolute;left:10%;top:200%;width:220%;}
   #wallart{position: absolute;height:2000px;width:800px;left:5%;z-index: 0;opacity: 1;background-color: none;top:50%;}
@@ -484,7 +510,7 @@ h4 {
     top: 14.7%;
     font-family: 'acme', 'Potta One', cursive;
 }
-#container1{background-color: #79d70f;height:2820px; border-style: solid;z-index: 1;
+#container1{background-color: #79d70f;height:1500px; border-style: solid;z-index: 1;
     border-radius: 2%;
     border-color: red;
     border-left-style: solid;
@@ -604,4 +630,524 @@ h1 {
 
 
 
- /* para telefonos 375px */
+
+
+
+/* iphone7 */
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:375px){
+  h6 {
+    top: 8.5%;
+}
+  #backnext2 {
+    left: 67%;
+    top: 152%;
+}
+  #span3 {
+    left: 3%;
+}
+  #backnext {
+    top: 152.5%;
+  }
+
+  #span4 {
+    left: 2%;
+}
+  h5 {
+    left: 7%;
+}
+  #ensa {
+    left: 23%;
+    top: 56%;
+}
+  #ensa2 {
+    left: 15%;
+    top: 39%;
+}
+  #kofte {
+    left: 6%;
+    top: 39%;
+}
+  #gondo {
+    height: 19%;
+    left: 7%;
+    top: 54%;
+}
+  #span2 {
+    left: -5%;
+}
+  #sultanfotos {
+    position: absolute;
+    width: 49%;
+    display: inline-block;
+    left: -2%;
+    top: 50%;
+    height: 26%;
+}
+#sultanfotos2 {
+    position: absolute;
+    width: 63%;
+    display: inline-block;
+    left: 29%;
+    top: 48%;
+    height: 30%;
+}
+  #maps {
+    transition: 1s;
+    position: absolute;
+    width: 27%;
+    left: 4%;
+    top: 210%;
+}
+#whats {
+    transition: 1s;
+    transform: rotate(0deg);
+    position: absolute;
+    width: 36%;
+    left: 35%;
+    top: 210%;
+}
+#call {
+    transition: 1s;
+    position: absolute;
+    width: 27%;
+    left: 70%;
+    top: 210%;
+}
+#shop2 {
+    border-radius: 100%;
+    position: absolute;
+    width: 94%;
+    left: 3%;
+    top: 170%;
+    transition-property: border-radius,opacity;
+    transition-duration: 3s,2s;
+    transition-delay: 4s,5s;
+    opacity: 0;
+}
+#shop1 {
+    border-radius: 100%;
+    position: absolute;
+    width: 94%;
+    left: 3%;
+    top: 170%;
+    transition-property: border-radius,opacity;
+    transition-duration: 3s,2s;
+    transition-delay: -1s,0s;
+    opacity: 0;
+}
+#fire3 {
+    position: absolute;
+    top: 31%;
+    left: 32%;
+
+}
+#mainmenu {
+
+    left: 12%;}
+
+@keyframes mainmove {
+    0% {
+      left: 0%;
+  }
+  100% {
+    left: 12%;
+}
+
+}
+#back {
+    top: 152%;}
+    @keyframes back {
+
+
+      0% {
+    opacity: 0.4;
+    width: 14%;
+}
+
+50% {
+    opacity: 1;
+    width: 16%;
+}
+100% {
+    opacity: 0.4;
+    width: 14%;
+}
+
+    }
+
+#kebabfoto {
+    position: absolute;
+    width: 40%;
+    display: inline-block;
+    left: 54.2%;
+    top: 1%;
+}
+#span1 {
+    color: white;
+    font-size: 14px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 0%;
+    left: -6%;
+    text-align: right;
+    position: relative;
+    top: 5.5%;
+    font-family: 'acme', 'Potta One', cursive;
+}
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+ /* para telfonos 412px */
+
+
+
+
+
+
+
+ @media only screen and  (min-width:400px){
+   .h7 {
+    font-size: 16px;
+  top: 7.5%;
+  }
+
+
+   #ensa {
+    left: 28%;
+    top: 48%;
+}
+   #kofte {
+    left: 6%;
+    top: 33%;
+    height: 40%;
+    position: absolute;
+    width: 77%;
+}
+#ensa2 {
+    left: 20%;
+    top: 35%;
+}
+
+
+   #gondo {
+    height: 19%;
+    position: absolute;
+    width: 83%;
+    height: 19%;
+    left: 7%;
+    top: 40%;
+  }
+   #burger {
+    position: absolute;
+    width: 57%;
+    display: inline-block;
+    left: 0%;
+    top: 42%;
+}
+   h6 {
+    display: inline-block;
+    position: relative;
+    font-size: 12.5px;
+    top: 4.5%;
+  }
+  #span3 {
+    left: 8.6%;
+    top: 2.9%;
+}
+
+
+#backnext2 {
+  left: 70%;
+  top: 141%;
+}
+   #back{top:141%;}
+   #pizza3 {
+    left: 83%;
+}
+   #backnext {
+    top: 141.4%;
+}
+   #span4 {
+    left: 8%;
+ font-size: 14px;
+}
+   h5 {
+    font-size: 15px;
+  }
+   #span2 {
+         left: 0%;
+     top: 15.7%;
+    color: white;
+    font-size: 13.7px;
+    margin-top: 0px;
+    margin-bottom: 0px;}
+    h4 {
+      font-size: 14.5px;
+      left: 2px;
+      top: 17.7%;
+      z-index: 0;}
+   #sultanfotos {
+    position: absolute;
+    width: 59%;
+    display: inline-block;
+    left: -2%;
+    top: 42%;
+    height: 26%;
+}
+   #sultanfotos2 {
+    width: 67%;
+    left: 32%;
+    top: 40%;
+    height: 28%;
+}
+   #kebabfoto {
+    width: 40%;
+    left: 60.2%;
+    top: 1%;
+}
+
+ #span1 {
+       font-size: 15px;
+       left: -2%;
+       top: 5.7%;
+   }
+   h3 {
+    font-size: 16px;
+}
+   @keyframes mainmenu {
+     0% {
+    opacity: 0;
+    letter-spacing: -5px;
+    font-size: 1px;
+}
+
+100% {
+    opacity: 1;
+    letter-spacing: 0px;
+    text-shadow: 0px 0px 10px gold;
+    font-size: 28px;
+}
+
+   }
+
+   #mainmenu {
+    left: 14%;
+}
+#menu2 {
+
+       width: 138px;
+       height: 200px;
+       left: 34%;
+       top: 66%;
+       opacity: 0;
+   }
+   #menu3 {
+    width: 100px;
+    height: 200px;
+    left: 35%;
+    top: 72%;
+    opacity: 0;
+}
+   #container1{background-color: #79d70f;height:2000px; border-style: solid;z-index: 1;
+       border-radius: 2%;
+       border-color: red;
+       border-left-style: solid;
+       border-right-style: solid;
+       border-width: 12px;
+   }
+@keyframes menu {
+
+
+  0% {
+    top: 30%;
+    width: 0%;
+    height: 0%;
+    opacity: 0;
+    left: 40%;
+    z-index: 0;
+}
+
+40% {
+    top: 43%;
+    opacity: 1;
+    left: 60%;
+}
+100% {
+    top: 66%;
+    opacity: 1;
+    z-index: 2;
+    left: 33%;
+}
+
+}
+
+   #fire2 {
+       position: absolute;
+       top: 26%;
+       left: 20%;}
+   #fire4 {
+       position: absolute;
+       top: 14%;
+       left: 16%;}
+   #fire3 {
+       position: absolute;
+       top: 27%;
+       left: 38%;
+   }
+   #fire {
+       position: absolute;
+       top: 12%;
+       left: 42%;
+     }
+
+   #kebab {
+       z-index: 1;
+       position: absolute;
+       width: 211px;
+       height: 282px;
+       top: 176px;
+       left: 101px;
+   }
+
+.turcalogo {
+
+       top: 30px;
+       left: 57px;
+   }
+
+ }
+
+
+
+
+/* para pantalla 414px iphone plus  */
+
+
+
+
+
+
+
+
+
+
+ @media only screen and  (min-width:414px){
+   #bebidasmenu {
+       display: none;
+       transition: 1s;
+       width: 75%;
+       height: 99%;
+       top: 79.6%;
+     }
+
+   #ensa2 {
+    left: 20%;
+    top: 43%;
+}
+
+   #ensa {
+    left: 28%;
+    top: 59%;
+}
+   #kofte {
+    left: 6%;
+    top: 45%;
+    height: 40%;
+    position: absolute;
+    width: 77%;
+}
+   #gondo {
+
+    top: 53%;
+}
+   #pizzasmenu {
+    width: 75%;
+    height: 99%;
+    top: 79.6%;
+    left: 14%;
+  }
+
+
+   #pizza3 {
+
+    top: -5%;
+}
+#pizza2 {
+    position: absolute;
+    width: 21%;
+    display: inline-block;
+    left: 7%;
+    top: -6%;
+}
+   #pizzasmenu2 {
+
+    top: 79.6%;
+    left: 14%;
+  }
+
+   #backnext2 {
+       left: 70%;
+       top: 155%;
+   }
+   #backnext {
+       top: 154.4%;
+           left: 64%;
+   }
+   h4 {
+    font-size: 14.5px;
+    left: 0px;
+    top: 17.7%;
+}
+
+   #fire2 {
+       position: absolute;
+       top: 31%;
+       left: 18%;
+   }
+   #fire3 {
+    position: absolute;
+    top: 32%;
+    left: 38%;
+}
+#back {
+    top: 154%;
+}
+#span2 {
+    left: 0%;
+    top: 15.3%;
+  }
+
+
+
+
+   #container1 {
+       height: 1683px;}
+
+ }
