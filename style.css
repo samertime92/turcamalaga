@@ -1,652 +1,31 @@
 body{margin:0px;padding:0px;background-color:white}
-#shop1 {border-radius: 100%;
-  position: absolute;
-  width: 94%;
-  left: 3%;
-  top: 177%;
-  transition-property:border-radius,opacity;transition-duration: 3s,2s;transition-delay: -1s,0s;
-  opacity: 0;
-}
-#shop2{border-radius: 100%;
-position: absolute;
-width: 94%;
-left: 3%;
-top: 177%;
-transition-property:border-radius,opacity;transition-duration: 3s,2s;transition-delay: 4s,5s;
-opacity: 0;
-}
+@media only screen and (min-width:320px){
 
-#hotdog {
-  position: absolute;
-  width: 27%;
-  display: inline-block;
-  left: 0%;
-  top: 1%;
-}
-#pizza2 {
-  position: absolute;
-  width: 21%;
-  display: inline-block;
-  left: 7%;
-  top: -4%;
-}
-#pizza3 {
-  transform: rotate(90deg);
-  position: absolute;
-  width: 26%;
-  display: inline-block;
-  left: 80%;
-  top: -4%;
-}
+  .sec0{width:100%;height:10%;position: relative;border-style:solid;;border-color: white;margin-bottom: 5%;left:0%;top:0%}
 
-
-#fries {
-  position: absolute;
-  width: 28%;
-  display: inline-block;
-  left: 6%;
-  top: 0%;
-}
-#kebabfoto {
-  position: absolute;
-  width: 40%;
-  display: inline-block;
-  left: 59.7%;
-  top: 1%;
-}
-#ensa {
-  position: absolute;
-  width: 45%;
-  display: inline-block;
-  left: 27%;
-  top: 56%;
-}
-#back {
-  z-index: 4;
-  position: absolute;
-  width: 18%;
-  left: 64%;
-  top: 154%;
-  display: none;
-  animation: back;animation-duration: 2s;animation-fill-mode: forwards;animation-timing-function: ease-in-out;animation-iteration-count: infinite;
-}
-@keyframes back {0%{opacity: 0.4;width:18%}
-50%{opacity: 1;width:20%}
-100%{opacity: 0.4;width:18%}
-}
-
-#backnext{transform: rotate(180deg);
-  z-index: 4;
-  position: absolute;
-  width: 19%;
-  left: 59%;
-  top: 153.5%;
-  display: none;
-  opacity: 0.4;
-  animation: back;animation-duration: 2s;animation-fill-mode: forwards;animation-timing-function: ease-in-out;animation-iteration-count: infinite;animation-delay: 0.5s;
-
-}
-#backnext2 {
-  z-index: 4;
-  position: absolute;
-  width: 16%;
-  left: 71%;
-  top: 153%;
-  display: none;
-  animation: back;animation-duration: 2s;animation-fill-mode: forwards;animation-timing-function: ease-in-out;animation-iteration-count: infinite;
-
-}
-#ensa2 {
-  position: absolute;
-  width: 59%;
-  display: inline-block;
-  left: 19%;
-  top: 39%;
-}
-#pepsi {
-  position: absolute;
-  width: 18%;
-  display: inline-block;
-  left: 59%;
-  top: 0%;
-}
-#sultanfotos {
-  position: absolute;
-  width: 49%;
-  display: inline-block;
-  left: 0%;
-  top: 50%;
-  height: 27%;
-}
-#sultanfotos2 {
-  position: absolute;
-  width: 63%;
-  display: inline-block;
-  left: 36%;
-  top: 48%;
-  height: 33%;
-}
-#burger {
-  position: absolute;
-  width: 57%;
-  display: inline-block;
-  left: 0%;
-  top: 53%;
-}
-#gondo {
-  height: 19%;
-  position: absolute;
-  width: 76%;
-  display: inline-block;
-  left: -9%;
-  left: 14%;
-  top: 56%;
-}
-#kofte {
-  height: 48%;
-  position: absolute;
-  width: 77%;
-  display: inline-block;
-  left: 11%;
-  top: 42%;
-}
-
-#drinksfoto {
-  position: absolute;
-  width: 27%;
-  display: inline-block;
-  left: 61%;
-  top: 15%;
-}
-
-#menucon {
-  display: none;
-  transition: 1s;
-  width: 77%;
-  height: 230%;
-  top: 73.4%;
-  left: 19%;
-  position: absolute;
-  z-index: 0;
-  opacity: 0%;
-  animation: menucon;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: 1;
-}
-@keyframes menucon {0%{opacity: 0;}
-100%{opacity: 1;}
-
-}
-#kebabmenu {
-  display: none;
-  transition: 1s;
-  width: 75%;
-  height: 99%;
-  top: 72%;
-  left: 10%;
-  left: 20%;
-  position: absolute;
-  z-index: 0;
-  opacity: 0%;
-  animation: menucon;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: 1;
-}
-@keyframes menucon {0%{opacity: 0;}
-100%{opacity: 1;}
-
-}
-
-#burgermenu {
-    display: none;
-    transition: 1s;
-    width: 75%;
-    height: 99%;
-    top: 78%;
-    left: 19%;
-    position: absolute;
-    z-index: 0;
-    opacity: 0%;
-    animation: menucon;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: 1;
-}
-@keyframes menucon {0%{opacity: 0;}
-100%{opacity: 1;}
-
-}
-#pizzasmenu{display: none;transition: 1s;width:75%;height:99%;;top:77.6%;left: 14%;position: absolute;z-index: 0;opacity: 0%;animation: menucon;animation-duration: 1s;animation-fill-mode: forwards;animation-timing-function: ease-in-out;animation-iteration-count: 1;}
-@keyframes menucon {0%{opacity: 0;}
-100%{opacity: 1;}
-
-}
-#pizzasmenu2{display: none;transition: 1s;width:75%;height:99%;;top:77.6%;left: 14%;position: absolute;z-index: 0;opacity: 0%;animation: menucon;animation-duration: 1s;animation-fill-mode: forwards;animation-timing-function: ease-in-out;animation-iteration-count: 1;}
-@keyframes menucon {0%{opacity: 0;}
-100%{opacity: 1;}
-
-}
-#gondomenu{display: none;transition: 1s;width:75%;height:99%;;top:77.6%;left: 20%;position: absolute;z-index: 0;opacity: 0%;animation: menucon;animation-duration: 1s;animation-fill-mode: forwards;animation-timing-function: ease-in-out;animation-iteration-count: 1;}
-@keyframes menucon {0%{opacity: 0;}
-100%{opacity: 1;}
-
-}
-#parillamenu{display: none;transition: 1s;width:75%;height:99%;;top:77.6%;left: 20%;position: absolute;z-index: 0;opacity: 0%;animation: menucon;animation-duration: 1s;animation-fill-mode: forwards;animation-timing-function: ease-in-out;animation-iteration-count: 1;}
-@keyframes menucon {0%{opacity: 0;}
-100%{opacity: 1;}
-
-}
-#ensamenu{display: none;transition: 1s;width:75%;height:99%;;top:77.6%;left: 20%;position: absolute;z-index: 0;opacity: 0%;animation: menucon;animation-duration: 1s;animation-fill-mode: forwards;animation-timing-function: ease-in-out;animation-iteration-count: 1;}
-@keyframes menucon {0%{opacity: 0;}
-100%{opacity: 1;}
-
-}
-#camperomenu{display: none;transition: 1s;width:75%;height:99%;;top:77.6%;left: 20%;position: absolute;z-index: 0;opacity: 0%;animation: menucon;animation-duration: 1s;animation-fill-mode: forwards;animation-timing-function: ease-in-out;animation-iteration-count: 1;}
-@keyframes menucon {0%{opacity: 0;}
-100%{opacity: 1;}
-
-}
-#bebidasmenu{display: none;transition: 1s;width:75%;height:99%;;top:77.6%;left: 20%;position: absolute;z-index: 0;opacity: 0%;animation: menucon;animation-duration: 1s;animation-fill-mode: forwards;animation-timing-function: ease-in-out;animation-iteration-count: 1;}
-@keyframes menucon {0%{opacity: 0;}
-100%{opacity: 1;}
-}
-
-#mainmenu{animation-delay: 1.5s;z-index: 1!important;animation:mainmove;animation-duration: 2s;animation-iteration-count: 1;animation-timing-function: ease-out;height:80%;width:80%;position:absolute;transition: 0,5s; left:15%;top:80%;display: none;text-align: center}
-@keyframes mainmove{
-  0%{left:-20% }
-  100%{left:14%;}
-
-}
-#mainmenu2{position:absolute;transition: 0,5s; left:257px;top:171%;display: none;text-align: center}
-
-#falafel {
-  z-index: 2;
-  position: absolute;
-  width: 69%;
-  top: 109%;
-  left: 15%;
-  transition: 1.5s;
-  transform: rotate(3deg);
-}
-#kebabplato {
-    z-index: 3;
-    position: absolute;
-    width: 69%;
-    top: 130%;
-    left: 15%;
-    transition: 1s;
-}
-#pizza {
-    z-index: 1;
-    position: absolute;
-    width: 43%;
-    top: 100%;
-    left: 28%;
-    transition: 2s;
-    transform: rotate(-0deg);
-}
-
-#whats {transition: 1s;transform: rotate(0deg);
-  position: absolute;
-  width: 36%;
-  left: 35%;
-  top: 220%;
-}
-#maps {transition: 1s;
-  position: absolute;
-  width: 27%;
-  left: 4%;
-  top: 220%;
-}
-#call {transition: 1s;
-  position: absolute;
-  width: 27%;
-  left: 70%;
-  top: 220%;
-}
-#bar{position:absolute;left:10%;top:200%;width:220%;}
-#wallart{position: absolute;height:2000px;width:800px;left:5%;z-index: 0;opacity: 1;background-color: none;top:50%;}
-#menu {display: inline-block;z-index: 2;
-  position: absolute;
-  width: 138px;
-  height: 200px;
-  left: 90%;
-  top: 140%;
-  animation: menu;animation-duration: 3s;animation-fill-mode: forwards;animation-iteration-count: 1;animation-timing-function: ease-in-out;
-  opacity: 0;animation-delay: 1s;
-}
-@keyframes menu {
-0%{top:30%;width: 0%;height: 0%;opacity: 0;left:40%;z-index: 0;}
-40%{top:43%;opacity: 1;left:60%}
-100% {
-  top: 66%;
-  opacity: 1;
-  z-index: 2;
-  left: 30%;
-}
-
-}
-
-#menu2 {z-index:2;
-  display: inline-block;
-  transition-property: width,display,opacity,height,left;
-  transition-duration: 3s,0s,0s,3s,3s;
-  position: absolute;
-  width: 138px;
-  height: 200px;
-  left: 29%;
-  top: 58%;
-  opacity: 0;
-}
-#menu3 {
-  display: inline-block;
-  transition-property: width,display,opacity,height,left;
-  transition-duration: 3s,0s,0s,3s,3s;
-  position: absolute;
-  width: 100px;
-  height: 200px;
-  left: 30%;
-  top: 72%;
-  opacity: 0;
-}
-/* #fotoframe{position: absolute;width:740px;height:700px;left:-22%;top:11%;z-index: 1} */
-
-
-
-.turcalogo{animation-fill-mode: forwards;animation-duration: 1.5s;animation-iteration-count: 1;animation-name: logo;z-index: 1}
-@keyframes logo {
-  0%{opacity: 0;width:0px;height:0px;left:50%;top:0%
-
-  }
-  100% {
-      opacity: 1;
-      width: 301px;
-      height: 157px;
-      top: 5%;
-  }
-}
-h1{animation-fill-mode: forwards;animation-duration: 3s;animation-iteration-count: 1;animation-name: h1;}
-@keyframes h1 {
-  0%{opacity: 0;letter-spacing: -20px;
-  }
-  100%{opacity: 1;letter-spacing:0px; text-shadow: 1px 1px 3px red}
-
-}
-h2{z-index: 1!important;font-family:'acme', 'Potta One', cursive;transition-property: padding-Left,padding-Right;transition-duration:0.5s,0.5s; opacity: 0;animation-delay: 0.5s;text-align: center!important;margin-top:20px;animation-fill-mode: forwards;animation-duration: 1.5s;animation-iteration-count: 1;animation-name: h2;display: inline-block;;font-size: 55px;line-height: 10%;color:gold;border-radius: 50px;border-color: gold;border-width: 2px;border-style:groove;padding-left: 20px;padding-right: 20px;padding-top:0px;padding-bottom: 9px;border-top:none;border-right:solid;border-left:solid;font-weight:bolder;border-color:black;}
-@keyframes h2 {
-  0%{opacity: 0;letter-spacing: -5px;font-size:1px; }
-  100%{opacity: 1;letter-spacing:0px; text-shadow: 0px 0px 10px gold;font-size: 25px;}
-
-}
-
-#kebab2{font-size: 55px}
-h3 {
-  display: inline-block;
-  position: relative;
-  font-size: 15px;
-  color: gold;
-  left: 0%;
-  top: 6.5%;
-  z-index: 0;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  line-height: 216%;
-  font-family: 'acme', 'Potta One', cursive;
-  font-weight: lighter;
-}
-h5 {
-    display: inline-block;
-    position: relative;
-    font-size: 13px;
-    color: gold;
-    left: 9%;
-    top: 10.5%;
-    z-index: 0;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    line-height: 216%;
-    font-family: 'acme', 'Potta One', cursive;font-weight: lighter;
-}
-h6 {
-    display: inline-block;
-    position: relative;
-    font-size: 10.8px;
-    color: gold;
-    left: 7%;
-    top: 8.5%;
-    z-index: 0;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    line-height: 216%;
-    font-family: 'acme', 'Potta One', cursive;font-weight: lighter;
-}
- .h7{
-    display: inline-block;
-    position: relative;
-    font-size: 14px;
-    color: gold;
-    left: 0%;
-    top: 8.5%;
-    z-index: 0;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    line-height: 216%;
-    font-family: 'acme', 'Potta One', cursive;font-weight: lighter;
-}
-
-#span1 {
-  color: white;
-  font-size: 14px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  line-height: 0%;
-  left: -2%;
-  text-align: right;
-  position: relative;
-  top: 5.5%;
-  font-family: 'acme', 'Potta One', cursive;
-}
-#span3 {
-  color: white;
-  font-size: 10.5px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  line-height: 0%;
-  left: 8%;
-  text-align: right;
-  position: relative;
-  top: 6.8%;
-  font-family: 'acme', 'Potta One', cursive;
-}
-#span4 {
-  color: white;
-  font-size: 14px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  line-height: 0%;
-  left: 8%;
-  text-align: right;
-  position: relative;
-  top: 8.5%;
-  font-family: 'acme', 'Potta One', cursive;
-}
-h4 {
-  display: inline-block;
-  position: relative;
-  font-size: 15.5px;
-  color: gold;
-  left: 0;
-  top: 17.5%;
-  z-index: 0;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  line-height: 216%;
-  font-family: 'acme', 'Potta One', cursive;
-  font-weight: lighter;
-}
-#span2 {
-  color: white;
-  font-size: 17px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  line-height: 0%;
-  left: -1%;
-  text-align: right;
-  position: relative;
-  top: 14.7%;
-  font-family: 'acme', 'Potta One', cursive;
-}
-#container1{background-color: #79d70f;height:1500px; border-style: solid;z-index: 1;
-  border-radius: 2%;
-  border-color: red;
-  border-left-style: solid;
-  border-right-style: solid;
-  border-width: 12px;
-}
-.turcalogo {z-index:1;
-  position: absolute;
-  width: 800px;
-  height: 342px;
-  top: 30px;
-  margin: 0px;
-  left: 39px;
-}
-#kebab {
-  z-index: 1;
-  position: absolute;
-  width: 198px;
-  height: 256px;
-  top: 161px;
-  left: 75px;
-}
-#fire{position: absolute;top:12%;left:38%;
-z-index: 0;opacity: 0;
-transform:translate(50%,50%);
-width:calc(600px / 6);
-height: 141px;
-background: url(fire.png);
-animation:animate 0.8s steps(6) infinite ;
-/* animation-timing-function:linear; */
-animation-play-state: running;
-animation-delay: 2s;
-}
-@keyframes animate {
-0% { background-position: 0;opacity: 0;}
-50%{opacity: 1}
-  100%{background-position: 600px;opacity: 1}
-
-}
-#fire2{position: absolute;top:30%;left:12%;
-z-index: 0;
-transform:translate(50%,50%);
-width:calc(600px / 6);
-height: 141px;
-background: url(fire.png);
-animation:animate2 0.9s steps(6) infinite ;
-animation-delay: 1.7s;
-/* animation-timing-function:linear; */
-animation-play-state: running;
-opacity: 0;
-}
-@keyframes animate2 {
-0% { background-position: 0px;opacity:0%;}
-50%{opacity:1;}
-  to{background-position: 600px;}
-
-}
-#fire3{position: absolute;top:31%;left:35%;
-z-index: 0;
-transform:translate(50%,50%);
-width:calc(600px / 6);
-height: 131px;
-background: url(fire3.png);
-animation:animate3 0.9s steps(6) infinite ;
-animation-delay: 1s;
-/* animation-timing-function:linear; */
-animation-play-state: running;
-opacity: 0;
-}
-@keyframes animate3 {
-0%{ background-position: 0px;opacity: 0}
-50%{opacity:1}
-  100%{background-position: 600px;opacity: 1;}
-
-}
-#fire4{position: absolute;top:15%;left:10%;
-z-index: 0;opacity: 0;
-transform:translate(50%,50%);
-width:calc(600px / 6);
-height: 131px;
-background: url(fire4.png);
-animation:animate4 0.9s steps(6) infinite ;animation-delay: 2.6s;
-/* animation-timing-function:linear; */
-animation-play-state: running;
-}
-@keyframes animate4 {
-0% { background-position: 0px;opacity: 0;}
-50%{opacity: 1}
-  100%{background-position: -600px;opacity: 1;}
-
-}
-
-@keyframes animate5 {
-from { background-position: 0px}
-  to{background-position: 800px;}
-
-}
-
-
-h1 {
-  text-align: center;
-  position: relative;
-  top: 11px;
-  color: white;
-  font-weight: bolder;
-  font-size: 23px;
-  margin: 0px;
-  right: 0px;
-  z-index: 1;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media only screen and (min-width:360px){
+.sec1{width:100%;height:15%;position: relative;border-style:solid;border-color: white;margin-bottom: 5%;}
   #shop1 {border-radius: 100%;
     position: absolute;
-    width: 94%;
-    left: 3%;
-    top: 177%;
+    width: 100%;
+    left: 0%;
+    top: 9%;
     transition-property:border-radius,opacity;transition-duration: 3s,2s;transition-delay: -1s,0s;
     opacity: 0;
 }
+#sec2{position: relative;border-style: solid;border-color: white;width:100%;height:20%;margin-bottom: 1%;}
 #shop2{border-radius: 100%;
   position: absolute;
-  width: 94%;
-  left: 3%;
-  top: 177%;
+  width: 100%;
+  left: 0%;
+  top: 9%;
   transition-property:border-radius,opacity;transition-duration: 3s,2s;transition-delay: 4s,5s;
   opacity: 0;
 }
+#sec3{ position: relative;border-style: solid;border-color:white;width:100%;height:25%;top:-21%;margin-bottom: 1%;}
+#sec4{display:inline-block;position:relative;;border-style:solid;border-color:white;width:100%;height:14%;top:26%;}
+#sec5{ display:inline-block;;position:relative;;border-style:solid;border-color:white;width:100%;height:6%;top:31%}
+
+
 
   #hotdog {
     position: absolute;
@@ -900,7 +279,7 @@ h1 {
     z-index: 2;
     position: absolute;
     width: 69%;
-    top: 109%;
+    top: 14%;
     left: 15%;
     transition: 1.5s;
     transform: rotate(3deg);
@@ -909,7 +288,7 @@ h1 {
       z-index: 3;
       position: absolute;
       width: 69%;
-      top: 130%;
+      top: 48%;
       left: 15%;
       transition: 1s;
   }
@@ -917,7 +296,7 @@ h1 {
       z-index: 1;
       position: absolute;
       width: 43%;
-      top: 100%;
+      top: 1%;
       left: 28%;
       transition: 2s;
       transform: rotate(-0deg);
@@ -927,19 +306,19 @@ h1 {
     position: absolute;
     width: 36%;
     left: 35%;
-    top: 220%;
+    top: 4%;
 }
 #maps {transition: 1s;
     position: absolute;
     width: 27%;
     left: 4%;
-    top: 220%;
+    top: 2%;
 }
 #call {transition: 1s;
     position: absolute;
     width: 27%;
     left: 70%;
-    top: 220%;
+    top: 2%;
 }
   #bar{position:absolute;left:10%;top:200%;width:220%;}
   #wallart{position: absolute;height:2000px;width:800px;left:5%;z-index: 0;opacity: 1;background-color: none;top:50%;}
@@ -953,18 +332,19 @@ h1 {
     opacity: 0;animation-delay: 1s;
 }
 @keyframes menu {
-  0%{top:30%;width: 0%;height: 0%;opacity: 0;left:40%;z-index: 0;}
-  40%{top:43%;opacity: 1;left:60%}
+  0%{top:-60%;width: 0%;height: 0%;opacity: 0;left:10%;z-index: 0;}
+  40%{top:-30%;opacity: 1;left:60%}
   100% {
-    top: 66%;
-    opacity: 1;
+      top: 0%;
+      opacity: 1;
+      z-index: 2;
+      left: 25%;
+  }
+
+}
+
+#menu2 {
     z-index: 2;
-    left: 30%;
-}
-
-}
-
-#menu2 {z-index:2;
     display: inline-block;
     transition-property: width,display,opacity,height,left;
     transition-duration: 3s,0s,0s,3s,3s;
@@ -972,7 +352,7 @@ h1 {
     width: 138px;
     height: 200px;
     left: 29%;
-    top: 58%;
+    top: 4%;
     opacity: 0;
 }
 #menu3 {
@@ -983,13 +363,13 @@ h1 {
     width: 100px;
     height: 200px;
     left: 30%;
-    top: 72%;
+    top: 8%;
     opacity: 0;
 }
 /* #fotoframe{position: absolute;width:740px;height:700px;left:-22%;top:11%;z-index: 1} */
 
 
-
+#line1{position: relative;top:-16%}
   .turcalogo{animation-fill-mode: forwards;animation-duration: 1.5s;animation-iteration-count: 1;animation-name: logo;z-index: 1}
   @keyframes logo {
     0%{opacity: 0;width:0px;height:0px;left:50%;top:0%
@@ -997,14 +377,28 @@ h1 {
     }
     100% {
         opacity: 1;
-        width: 301px;
-        height: 157px;
-        top: 5%;
+        width: 270px;
+        height: 140px;
+        top: 17%;
     }
   }
-  h1{animation-fill-mode: forwards;animation-duration: 3s;animation-iteration-count: 1;animation-name: h1;}
+  h1 {
+      text-align: center;
+      position:absolute;
+      margin:0 0 0 0;
+      top: 10%;
+      left:0%;
+      color: white;
+      font-weight: bolder;
+      font-size: 23px;
+      margin: 0px;
+      right: 0px;
+      z-index: 1;
+animation-fill-mode: forwards;animation-duration: 2s;animation-iteration-count: 1;animation-name: h1;
+
+  }
   @keyframes h1 {
-    0%{opacity: 0;letter-spacing: -20px;
+    0%{opacity: 0;letter-spacing: -15px;
     }
     100%{opacity: 1;letter-spacing:0px; text-shadow: 1px 1px 3px red}
 
@@ -1141,31 +535,36 @@ h4 {
     border-width: 12px;
 }
 .turcalogo {z-index:1;
-    position: absolute;
-    width: 800px;
+    position: relative;
+    width: 200px;
     height: 342px;
     top: 30px;
     margin: 0px;
-    left: 39px;
+    left: 20px;
 }
-#kebab {
+#kebab {display: inline-block;
     z-index: 1;
     position: absolute;
-    width: 198px;
-    height: 256px;
-    top: 161px;
-    left: 75px;
+    width: 180px;
+    height: 225px;
+    top: 0%;
+    left: 57px;
 }
-#fire{position: absolute;top:12%;left:38%;
-  z-index: 0;opacity: 0;
-transform:translate(50%,50%);
-width:calc(600px / 6);
-height: 141px;
-background: url(fire.png);
-animation:animate 0.8s steps(6) infinite ;
-/* animation-timing-function:linear; */
-animation-play-state: running;
-animation-delay: 2s;
+
+#fire {
+    position: absolute;
+    top: -40%;
+    left: 35%;
+    z-index: 0;
+    opacity: 0;
+    transform: translate(50%,50%);
+    width: calc(600px / 6);
+    height: 141px;
+    background: url(fire.png);
+    animation: animate 0.8s steps(6) infinite;
+    /* animation-timing-function: linear; */
+    animation-play-state: running;
+    animation-delay: 2s;
 }
 @keyframes animate {
   0% { background-position: 0;opacity: 0;}
@@ -1173,7 +572,7 @@ animation-delay: 2s;
     100%{background-position: 600px;opacity: 1}
 
 }
-#fire2{position: absolute;top:30%;left:12%;
+#fire2{position: absolute;top:0%;left:8%;
   z-index: 0;
 transform:translate(50%,50%);
 width:calc(600px / 6);
@@ -1191,17 +590,20 @@ opacity: 0;
     to{background-position: 600px;}
 
 }
-#fire3{position: absolute;top:31%;left:35%;
-  z-index: 0;
-transform:translate(50%,50%);
-width:calc(600px / 6);
-height: 131px;
-background: url(fire3.png);
-animation:animate3 0.9s steps(6) infinite ;
-animation-delay: 1s;
-/* animation-timing-function:linear; */
-animation-play-state: running;
-opacity: 0;
+#fire3 {
+    position: absolute;
+    top: 2%;
+    left: 31%;
+    z-index: 0;
+    transform: translate(50%,50%);
+    width: calc(600px / 6);
+    height: 131px;
+    background: url(fire3.png);
+    animation: animate3 0.9s steps(6) infinite;
+    animation-delay: 1s;
+    /* animation-timing-function: linear; */
+    animation-play-state: running;
+    opacity: 0;
 }
 @keyframes animate3 {
   0%{ background-position: 0px;opacity: 0}
@@ -1209,7 +611,7 @@ opacity: 0;
     100%{background-position: 600px;opacity: 1;}
 
 }
-#fire4{position: absolute;top:15%;left:10%;
+#fire4{position: absolute;top:-30%;left:8%;
   z-index: 0;opacity: 0;
 transform:translate(50%,50%);
 width:calc(600px / 6);
@@ -1233,32 +635,129 @@ animation-play-state: running;
 }
 
 
-h1 {
-    text-align: center;
+
+}
+@media only screen and (min-width:360px){
+  #call {
+    transition: 1s;
+    position: absolute;
+    width: 27%;
+    left: 74%;
+    top: 2%;
+}
+  #maps {
+    transition: 1s;
+    position: absolute;
+    width: 27%;
+    left: 0%;
+    top: 2%;
+}
+  #sec5 {
+    display: inline-block;
     position: relative;
-    top: 11px;
-    color: white;
-    font-weight: bolder;
-    font-size: 23px;
-    margin: 0px;
-    right: 0px;
+    border-style: solid;
+    border-color: white;
+    width: 100%;
+    height: 6%;
+    top: 30%;
+}
+  #fire2 {
+    position: absolute;
+    top: 0%;
+    left: 13%;
+    z-index: 0;
+    transform: translate(50%,50%);
+    width: calc(600px / 6);
+    height: 141px;
+    background: url(fire.png);
+    animation: animate2 0.9s steps(6) infinite;
+    animation-delay: 1.7s;
+    /* animation-timing-function: linear; */
+    animation-play-state: running;
+    opacity: 0;
+}
+  #fire4 {
+    position: absolute;
+    top: -30%;
+    left: 10%;
+    z-index: 0;
+    opacity: 0;
+    transform: translate(50%,50%);
+    width: calc(600px / 6);
+    height: 131px;
+    background: url(fire4.png);
+    animation: animate4 0.9s steps(6) infinite;
+    animation-delay: 2.6s;
+    /* animation-timing-function: linear; */
+    animation-play-state: running;
+}
+  #fire {
+    position: absolute;
+    top: -40%;
+    left: 39%;
+    z-index: 0;
+    opacity: 0;
+    transform: translate(50%,50%);
+    width: calc(600px / 6);
+    height: 141px;
+    background: url(fire.png);
+    animation: animate 0.8s steps(6) infinite;
+    /* animation-timing-function: linear; */
+    animation-play-state: running;
+    animation-delay: 2s;
+}
+@keyframes menu {
+  0% {
+    top: -60%;
+    width: 0%;
+    height: 0%;
+    opacity: 0;
+    left: 10%;
+    z-index: 0;
+}
+40% {
+    top: -30%;
+    opacity: 1;
+    left: 60%;
+}
+100% {
+    top: 0%;
+    opacity: 1;
+    z-index: 2;
+    left: 30%;
+}
+}
+
+  #kebab {
+    display: inline-block;
     z-index: 1;
+    position: absolute;
+    width: 180px;
+    height: 225px;
+    top: 0%;
+    left: 78px;
 }
+
+  .turcalogo {
+      z-index: 1;
+      position: relative;
+      width: 200px;
+      height: 342px;
+      top: 30px;
+      margin: 0px;
+      left: 29px;
+  }
+
+
+
+
+
+
+
+
+
+
 }
-
-
-
-
-
-
-
-
-
-
-/* iphone7 */
-
-
-
 
 
 
@@ -1268,169 +767,54 @@ h1 {
 
 
 @media only screen and (min-width:375px){
-
-  h6 {
-    top: 8.5%;
-}
-  #backnext2 {
-    left: 67%;
-    top: 152%;
-}
-  #span3 {
-    left: 3%;
-}
-  #backnext {
-    top: 152.5%;
-  }
-
-  #span4 {
-    left: 2%;
-}
-  h5 {
-    left: 7%;
-}
-  #ensa {
-    left: 23%;
-    top: 56%;
-}
-  #ensa2 {
-    left: 15%;
-    top: 39%;
-}
-  #kofte {
-    left: 6%;
-    top: 39%;
-}
-  #gondo {
-    height: 19%;
-    left: 7%;
-    top: 54%;
-}
-  #span2 {
-    left: -5%;
-}
-  #sultanfotos {
+  #fire2 {
     position: absolute;
-    width: 49%;
-    display: inline-block;
-    left: -2%;
-    top: 50%;
-    height: 26%;
-}
-#sultanfotos2 {
-    position: absolute;
-    width: 63%;
-    display: inline-block;
-    left: 29%;
-    top: 48%;
-    height: 30%;
-}
-  #maps {
-    transition: 1s;
-    position: absolute;
-    width: 27%;
-    left: 4%;
-    top: 210%;
-}
-#whats {
-    transition: 1s;
-    transform: rotate(0deg);
-    position: absolute;
-    width: 36%;
-    left: 35%;
-    top: 210%;
-}
-#call {
-    transition: 1s;
-    position: absolute;
-    width: 27%;
-    left: 70%;
-    top: 210%;
-}
-#shop2 {
-    border-radius: 100%;
-    position: absolute;
-    width: 94%;
-    left: 3%;
-    top: 170%;
-    transition-property: border-radius,opacity;
-    transition-duration: 3s,2s;
-    transition-delay: 4s,5s;
+    top: 0%;
+    left: 16%;
+    z-index: 0;
+    transform: translate(50%,50%);
+    width: calc(600px / 6);
+    height: 141px;
+    background: url(fire.png);
+    animation: animate2 0.9s steps(6) infinite;
+    animation-delay: 1.7s;
+    /* animation-timing-function: linear; */
+    animation-play-state: running;
     opacity: 0;
 }
-#shop1 {
-    border-radius: 100%;
+  #fire {
     position: absolute;
-    width: 94%;
-    left: 3%;
-    top: 170%;
-    transition-property: border-radius,opacity;
-    transition-duration: 3s,2s;
-    transition-delay: -1s,0s;
+    top: -40%;
+    left: 41%;
+    z-index: 0;
     opacity: 0;
+    transform: translate(50%,50%);
+    width: calc(600px / 6);
+    height: 141px;
+    background: url(fire.png);
+    animation: animate 0.8s steps(6) infinite;
+    /* animation-timing-function: linear; */
+    animation-play-state: running;
+    animation-delay: 2s;
 }
-#fire3 {
-    position: absolute;
-    top: 31%;
-    left: 32%;
-
-}
-#mainmenu {
-
-    left: 12%;}
-
-@keyframes mainmove {
-    0% {
-      left: 0%;
-  }
-  100% {
-    left: 12%;
-}
-
-}
-#back {
-    top: 152%;}
-    @keyframes back {
-
-
-      0% {
-    opacity: 0.4;
-    width: 14%;
-}
-
-50% {
-    opacity: 1;
-    width: 16%;
-}
-100% {
-    opacity: 0.4;
-    width: 14%;
-}
-
-    }
-
-#kebabfoto {
-    position: absolute;
-    width: 40%;
+  #kebab {
     display: inline-block;
-    left: 54.2%;
-    top: 1%;
+    z-index: 1;
+    position: absolute;
+    width: 180px;
+    height: 225px;
+    top: -2%;
+    left: 86px;
 }
-#span1 {
-    color: white;
-    font-size: 14px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    line-height: 0%;
-    left: -6%;
-    text-align: right;
-    position: relative;
-    top: 5.5%;
-    font-family: 'acme', 'Potta One', cursive;
-}
-
-
-
+  .turcalogo {
+      z-index: 1;
+      position: relative;
+      width: 200px;
+      height: 342px;
+      top: 30px;
+      margin: 0px;
+      left: 42px;
+  }
 
 
 
@@ -1457,321 +841,254 @@ h1 {
 
 
  @media only screen and  (min-width:400px){
-   .h7 {
-    font-size: 16px;
-  top: 7.5%;
-  }
+   #container1 {
+    background-color: #79d70f;
+    height: 1800px;
+    border-style: solid;
+    z-index: 1;
+    border-radius: 2%;
+    border-color: red;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-width: 12px;
+}
+   @keyframes menu {
 
 
-   #ensa {
-    left: 28%;
-    top: 48%;
-}
-   #kofte {
-    left: 6%;
-    top: 33%;
-    height: 40%;
-    position: absolute;
-    width: 77%;
-}
-#ensa2 {
-    left: 20%;
-    top: 35%;
-}
-
-
-   #gondo {
-    height: 19%;
-    position: absolute;
-    width: 83%;
-    height: 19%;
-    left: 7%;
-    top: 40%;
-  }
-   #burger {
-    position: absolute;
-    width: 57%;
-    display: inline-block;
-    left: 0%;
-    top: 42%;
-}
-   h6 {
-    display: inline-block;
-    position: relative;
-    font-size: 12.5px;
-    top: 4.5%;
-  }
-  #span3 {
-    left: 8.6%;
-    top: 2.9%;
-}
-
-
-#backnext2 {
-  left: 70%;
-  top: 141%;
-}
-   #back{top:141%;}
-   #pizza3 {
-    left: 83%;
-}
-   #backnext {
-    top: 141.4%;
-}
-   #span4 {
-    left: 8%;
- font-size: 14px;
-}
-   h5 {
-    font-size: 15px;
-  }
-   #span2 {
-         left: 0%;
-     top: 15.7%;
-    color: white;
-    font-size: 13.7px;
-    margin-top: 0px;
-    margin-bottom: 0px;}
-    h4 {
-      font-size: 14.5px;
-      left: 2px;
-      top: 17.7%;
-      z-index: 0;}
-   #sultanfotos {
-    position: absolute;
-    width: 59%;
-    display: inline-block;
-    left: -2%;
-    top: 42%;
-    height: 26%;
-}
-   #sultanfotos2 {
-    width: 67%;
-    left: 32%;
-    top: 40%;
-    height: 28%;
-}
-   #kebabfoto {
-    width: 40%;
-    left: 60.2%;
-    top: 1%;
-}
-
- #span1 {
-       font-size: 15px;
-       left: -2%;
-       top: 5.7%;
-   }
-   h3 {
-    font-size: 16px;
-}
-   @keyframes mainmenu {
-     0% {
-    opacity: 0;
-    letter-spacing: -5px;
-    font-size: 1px;
-}
-
-100% {
-    opacity: 1;
-    letter-spacing: 0px;
-    text-shadow: 0px 0px 10px gold;
-    font-size: 28px;
-}
-
-   }
-
-   #mainmenu {
-    left: 14%;
-}
-#menu2 {
-
-       width: 138px;
-       height: 200px;
-       left: 34%;
-       top: 66%;
-       opacity: 0;
-   }
-   #menu3 {
-    width: 100px;
-    height: 200px;
-    left: 35%;
-    top: 72%;
-    opacity: 0;
-}
-   #container1{background-color: #79d70f;height:2000px; border-style: solid;z-index: 1;
-       border-radius: 2%;
-       border-color: red;
-       border-left-style: solid;
-       border-right-style: solid;
-       border-width: 12px;
-   }
-@keyframes menu {
-
-
-  0% {
-    top: 30%;
+   0% {
+    top: -100%;
     width: 0%;
     height: 0%;
     opacity: 0;
-    left: 40%;
+    left: 10%;
     z-index: 0;
 }
-
 40% {
-    top: 43%;
+    top: -60%;
     opacity: 1;
     left: 60%;
 }
 100% {
-    top: 66%;
+    top: 0%;
     opacity: 1;
     z-index: 2;
-    left: 33%;
-}
-
-}
-
-   #fire2 {
-       position: absolute;
-       top: 26%;
-       left: 20%;}
-   #fire4 {
-       position: absolute;
-       top: 14%;
-       left: 16%;}
+    left: 32%;
+}}
    #fire3 {
-       position: absolute;
-       top: 27%;
-       left: 38%;
-   }
-   #fire {
-       position: absolute;
-       top: 12%;
-       left: 42%;
-     }
-
-   #kebab {
-       z-index: 1;
-       position: absolute;
-       width: 211px;
-       height: 282px;
-       top: 176px;
-       left: 101px;
-   }
-
-.turcalogo {
-
-       top: 30px;
-       left: 57px;
-   }
-
- }
-
-
-
-
-/* para pantalla 414px iphone plus  */
-
-
-
-
-
-
-
-
-
-
- @media only screen and  (min-width:414px){
-   #bebidasmenu {
-       display: none;
-       transition: 1s;
-       width: 75%;
-       height: 99%;
-       top: 79.6%;
-     }
-
-   #ensa2 {
-    left: 20%;
-    top: 43%;
-}
-
-   #ensa {
-    left: 28%;
-    top: 59%;
-}
-   #kofte {
-    left: 6%;
-    top: 45%;
-    height: 40%;
     position: absolute;
-    width: 77%;
+    top: 2%;
+    left: 40%;
+    z-index: 0;
+    transform: translate(50%,50%);
+    width: calc(600px / 6);
+    height: 131px;
+    background: url(fire3.png);
+    animation: animate3 0.9s steps(6) infinite;
+    animation-delay: 1s;
+    /* animation-timing-function: linear; */
+    animation-play-state: running;
+    opacity: 0;
 }
-   #gondo {
-
-    top: 53%;
-}
-   #pizzasmenu {
-    width: 75%;
-    height: 99%;
-    top: 79.6%;
-    left: 14%;
-  }
-
-
-   #pizza3 {
-
-    top: -5%;
-}
-#pizza2 {
+#fire2 {
     position: absolute;
-    width: 21%;
+    top: 19%;
+    left: 15%;
+    z-index: 0;
+    transform: translate(50%,50%);
+    width: calc(600px / 6);
+    height: 141px;
+    background: url(fire.png);
+    animation: animate2 0.9s steps(6) infinite;
+    animation-delay: 1.7s;
+    /* animation-timing-function: linear; */
+    animation-play-state: running;
+    opacity: 0;
+}
+#fire3 {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    z-index: 0;
+    transform: translate(50%,50%);
+    width: calc(600px / 6);
+    height: 131px;
+    background: url(fire3.png);
+    animation: animate3 0.9s steps(6) infinite;
+    animation-delay: 1s;
+    /* animation-timing-function: linear; */
+    animation-play-state: running;
+    opacity: 0;
+}
+#fire4 {
+  position: absolute;
+  top: -18%;
+  left: 15%;
+  z-index: 0;
+  opacity: 0;
+  transform: translate(50%,50%);
+  width: calc(600px / 6);
+  height: 131px;
+  background: url(fire4.png);
+  animation: animate4 0.9s steps(6) infinite;
+  animation-delay: 2.6s;
+  /* animation-timing-function: linear; */
+  animation-play-state: running;
+}
+
+
+#fire {
+    position: absolute;
+    top: -22%;
+    left: 41%;
+    z-index: 0;
+    opacity: 0;
+    transform: translate(50%,50%);
+    width: calc(600px / 6);
+    height: 141px;
+    background: url(fire.png);
+    animation: animate 0.8s steps(6) infinite;
+    /* animation-timing-function: linear; */
+    animation-play-state: running;
+    animation-delay: 2s;
+}
+.sec1 {
+    width: 100%;
+    height: 17%;
+    position: relative;
+    border-style: solid;
+    border-color: white;
+    margin-bottom: 5%;
+}
+
+#sec3 {
+    position: relative;
+    border-style: solid;
+    border-color: white;
+    width: 100%;
+    height: 27%;
+    top: -21%;
+    margin-bottom: 1%;
+}
+#kebab {
+ display: inline-block;
+ z-index: 1;
+ position: absolute;
+ width: 226px;
+ height: 285px;
+ top: 2%;
+ left: 83px;
+}
+   h1 {
+    text-align: center;
+    position: absolute;
+    margin: 0 0 0 0;
+    top: 10%;
+    left: 0%;
+    color: white;
+    font-weight: bolder;
+    font-size: 28px;
+    margin: 0px;
+    right: 0px;
+    z-index: 1;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-name: h1;
+}
+
+   @keyframes logo {
+
+   0% {
+    opacity: 0;
+    width: 0px;
+    height: 0px;
+    left: 50%;
+    top: 0%;
+}
+
+100% {
+    opacity: 1;
+    width: 304px;
+    height: 152px;
+    top: 24%;
+}
+}
+   .turcalogo {
+    z-index: 1;
+    position: relative;
+    width: 242px;
+    height: 342px;
+    top:43px;
+    margin: 0px;
+    left: 49px;
+}
+.sec0 {
+    width: 100%;
+    height: 10%;
+    position: relative;
+    border-style: solid;
+    border-color: white;
+    margin-bottom: 5%;
+    left: 0%;
+    top: 0%;
+}
+
+
+
+#sec2 {
+    position: relative;
+    border-style: solid;
+    border-color: white;
+    width: 100%;
+    height: 13%;
+    margin-bottom: 1%;
+}
+#sec4 {
     display: inline-block;
-    left: 7%;
-    top: -6%;
-}
-   #pizzasmenu2 {
-
-    top: 79.6%;
-    left: 14%;
-  }
-
-   #backnext2 {
-       left: 70%;
-       top: 155%;
-   }
-   #backnext {
-       top: 154.4%;
-           left: 64%;
-   }
-   h4 {
-    font-size: 14.5px;
-    left: 0px;
-    top: 17.7%;
-}
-
-   #fire2 {
-       position: absolute;
-       top: 31%;
-       left: 18%;
-   }
-   #fire3 {
-    position: absolute;
+    position: relative;
+    border-style: solid;
+    border-color: white;
+    width: 100%;
+    height: 14%;
     top: 32%;
+}
+#sec5 {
+    display: inline-block;
+    position: relative;
+    border-style: solid;
+    border-color: white;
+    width: 100%;
+    height: 6%;
+    top: 36%;
+}
+
+
+}
+ @media only screen and  (min-width:414px){
+   #sec5 {
+       display: inline-block;
+       position: relative;
+       border-style: solid;
+       border-color: white;
+       width: 100%;
+       height: 6%;
+       top: 35%;
+   }
+   #fire2 {
+    position: absolute;
+    top: 22%;
+    left: 18%;
+}
+#fire3 {
+    position: absolute;
+    top: 21%;
     left: 38%;
 }
-#back {
-    top: 154%;
+
+
+
+
+
+
+
 }
-#span2 {
-    left: 0%;
-    top: 15.3%;
-  }
-
-
-
-
-   #container1 {
-       height: 1683px;}
-
- }
