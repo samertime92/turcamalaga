@@ -628,7 +628,7 @@ animation-fill-mode: forwards;animation-duration: 2s;animation-iteration-count: 
 }
   h5 {
       display: inline-block;
-      position: relative;
+      position: absolute;
       font-size: 12.2px;
       color: gold;
       left: 7%;
@@ -636,13 +636,13 @@ animation-fill-mode: forwards;animation-duration: 2s;animation-iteration-count: 
       z-index: 0;
       margin-top: 0px;
       margin-bottom: 0px;
-      line-height: 216%;
+      line-height: 234%;
       font-family: 'acme', 'Potta One', cursive;
       font-weight: lighter;
   }
   h6 {
       display: inline-block;
-      position: relative;
+      position: absolute;
       font-size: 9.8px;
       color: gold;
       left: 7%;
@@ -650,13 +650,13 @@ animation-fill-mode: forwards;animation-duration: 2s;animation-iteration-count: 
       z-index: 0;
       margin-top: 0px;
       margin-bottom: 0px;
-      line-height: 216%;
+      line-height: 0%;
       font-family: 'acme', 'Potta One', cursive;
       font-weight: lighter;
   }
   .h7 {
       display: inline-block;
-      position: relative;
+      position: absolute;
       font-size: 14px;
       color: gold;
       left: -1%;
@@ -664,7 +664,7 @@ animation-fill-mode: forwards;animation-duration: 2s;animation-iteration-count: 
       z-index: 0;
       margin-top: 0px;
       margin-bottom: 0px;
-      line-height: 216%;
+      line-height: 0%;
       font-family: 'acme', 'Potta One', cursive;
       font-weight: lighter;
   }
@@ -699,21 +699,19 @@ animation-fill-mode: forwards;animation-duration: 2s;animation-iteration-count: 
     margin-bottom: 0px;
     line-height: 0%;
     left: 17%;
-    text-align: right;
-    position: relative;
+    position: absolute;
     top: 3.8%;
     font-family: 'acme', 'Potta One', cursive;
 }
 #span4 {
     color: white;
-    font-size: 12px;
+    font-size: 12.2px;
     margin-top: 0px;
     margin-bottom: 0px;
-    line-height: 0%;
+    line-height: 234%;
     left: 16%;
-    text-align: right;
-    position: relative;
-    top: 6%;
+    position: absolute;
+    top: 17.5%;
     font-family: 'acme', 'Potta One', cursive;
 }
 h4 {
@@ -726,7 +724,7 @@ h4 {
     z-index: 0;
     margin-top: 0px;
     margin-bottom: 0px;
-    line-height: 216%;
+    line-height: 234%;
     font-family: 'acme', 'Potta One', cursive;
     font-weight: lighter;
 }
@@ -853,6 +851,124 @@ animation-play-state: running;
 
 }
 @media only screen and (min-width:360px){
+  .h7 {
+      display: inline-block;
+      position: absolute;
+      font-size: 14px;
+      color: gold;
+      left: 0%;
+      top: 8.7%;
+      z-index: 0;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      line-height: 200%;
+      font-family: 'acme', 'Potta One', cursive;
+      font-weight: lighter;
+  }
+  #ensa {
+    position: absolute;
+    width: 45%;
+    display: inline-block;
+    left: 27%;
+    top: 42%;
+}
+  #ensa2 {
+    position: absolute;
+    width: 59%;
+    display: inline-block;
+    left: 19%;
+    top: 29%;
+}
+  #kofte {
+    height: 42%;
+    position: absolute;
+    width: 89%;
+    display: inline-block;
+    left: 7%;
+    top: 31%;
+}
+
+  #span3 {
+    color: white;
+    font-size: 10.8px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 179%;
+    left: 104%;
+    position: absolute;
+    top: 9.8%;
+    font-family: 'acme', 'Potta One', cursive;
+}
+  h6 {
+      display: inline-block;
+      position: absolute;
+      font-size: 10.8px;
+      color: gold;
+      left: 7%;
+      top: 6.5%;
+      z-index: 0;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      line-height: 179%;
+      font-family: 'acme', 'Potta One', cursive;
+      font-weight: lighter;
+  }
+  #backnext {
+    transform: rotate(180deg);
+    z-index: 4;
+    position: absolute;
+    left: 64%;
+    left: 66%;
+    top: 81.3%;
+    display: none;
+    opacity: 0.4;
+    animation: back;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 0.5s;
+}
+  #pizza2 {
+      position: absolute;
+      width: 21%;
+      display: inline-block;
+      left: 7%;
+      top: -6%;
+  }
+  h5 {
+      display: inline-block;
+      position: absolute;
+      font-size: 12.2px;
+      color: gold;
+      left: 7%;
+      top: 8%;
+      z-index: 0;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      line-height: 234%;
+      font-family: 'acme', 'Potta One', cursive;
+      font-weight: lighter;
+  }
+  #span4 {
+    color: white;
+    font-size: 12.2px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 234%;
+    left: 105%;
+    position: absolute;
+    top: 8%;
+    font-family: 'acme', 'Potta One', cursive;
+}
+
+  #burger {
+    position: absolute;
+    width: 57%;
+    display: inline-block;
+    left: 0%;
+    top: 34%;
+}
   #menu3 {
     display: inline-block;
     transition-property: width,display,opacity,height,left;
@@ -864,18 +980,18 @@ animation-play-state: running;
     top: 1%;
     opacity: 0;
 }
-  #backnext2 {
-    z-index: 4;
-    position: absolute;
-    width: 16%;
-    left: 71%;
-    top: 83%;
-    display: none;
-    animation: back;
-    animation-duration: 2s;
-    animation-fill-mode: forwards;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
+#backnext2 {
+  z-index: 4;
+  position: absolute;
+  width: 16%;
+  left: 71%;
+  top: 81%;
+  display: none;
+  animation: back;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
 }
 
   #pizza3 {
@@ -886,17 +1002,16 @@ animation-play-state: running;
     left: 92%;
     top: -5%;
 }
-  #span7 {
-    color: white;
-    font-size: 14px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    line-height: 0%;
-    left: 7%;
-    text-align: right;
-    position: relative;
-    top: 6.5%;
-    font-family: 'acme', 'Potta One', cursive;
+#span7 {
+  color: white;
+  font-size: 14px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  line-height: 200%;
+  left: 93%;
+  position: absolute;
+  top: 8.7%;
+  font-family: 'acme', 'Potta One', cursive;
 }
   #sultanfotos {
     position: absolute;
@@ -911,7 +1026,7 @@ animation-play-state: running;
     width: 74%;
     display: inline-block;
     left: 33%;
-    top: 40%;
+    top: 37%;
     height: 29%;
 }
 #span1 {
@@ -927,15 +1042,29 @@ animation-play-state: running;
 }
 h4 {
     display: inline-block;
-    position: relative;
-    font-size: 12.5px;
+    position: absolute;
+    font-size: 12px;
     color: gold;
-    left: 2px;
-    top: 17.9%;
+    left: 0px;
+    top: 10.9%;
     z-index: 0;
     margin-top: 0px;
     margin-bottom: 0px;
-    line-height: 216%;
+    line-height: 227%;
+    font-family: 'acme', 'Potta One', cursive;
+    font-weight: lighter;
+}
+#burgtag {
+    display: inline-block;
+    position: absolute;
+    font-size: 12px;
+    color: gold;
+    left: 0px;
+    top: 10.9%;
+    z-index: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 227%;
     font-family: 'acme', 'Potta One', cursive;
     font-weight: lighter;
 }
@@ -944,11 +1073,21 @@ h4 {
     font-size: 12px;
     margin-top: 0px;
     margin-bottom: 0px;
-    line-height: 0%;
-    left: 7%;
-    text-align: right;
-    position: relative;
-    top: 15.5%;
+    line-height: 227%;
+    left: 93%;
+    position: absolute;
+    top: 10.9%;
+    font-family: 'acme', 'Potta One', cursive;
+}
+#span8 {
+    color: white;
+    font-size: 12px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 341%;
+    left: 97%;
+    position: absolute;
+    top: 13.9%;
     font-family: 'acme', 'Potta One', cursive;
 }
 
