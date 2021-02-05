@@ -1,9 +1,9 @@
 body{margin:0px;padding:0px;background-color:white}
 @media only screen and (min-width:320px){
 
-  .sec0{width:100%;height:10%;position: relative;border-style:solid;;border-color: white;margin-bottom: 5%;left:0%;top:0%;display:inline-block;}
+  .sec0{width:100%;height:10%;position: relative;border-style:hidden;;border-color: white;margin-bottom: 5%;left:0%;top:0%;display:inline-block;}
 
-.sec1{width:100%;height:15%;position: relative;border-style:solid;border-color: white;margin-bottom: 5%;display: inline-block;}
+.sec1{width:100%;height:15%;position: relative;border-style:hidden;border-color: white;margin-bottom: 5%;display: inline-block;}
   #shop1 {border-radius: 100%;
     position: absolute;
     width: 100%;
@@ -12,7 +12,7 @@ body{margin:0px;padding:0px;background-color:white}
     transition-property:border-radius,opacity;transition-duration: 3s,2s;transition-delay: -1s,0s;
     opacity: 0;
 }
-#sec2{position: relative;border-style: solid;border-color: white;width:100%;height:20%;margin-bottom: 1%;display:inline-block;}
+#sec2{position: relative;border-style: hidden;border-color: white;width:100%;height:20%;margin-bottom: 1%;display:inline-block;}
 #shop2{border-radius: 100%;
   position: absolute;
   width: 100%;
@@ -21,7 +21,7 @@ body{margin:0px;padding:0px;background-color:white}
   transition-property:border-radius,opacity;transition-duration: 3s,2s;transition-delay: 4s,5s;
   opacity: 0;
 }
-#sec3{ display: inline-block;position: relative;border-style: solid;border-color:white;width:100%;height:25%;margin-bottom: 1%;}
+#sec3{ display: inline-block;position: relative;border-style: hidden;border-color:white;width:100%;height:25%;margin-bottom: 1%;}
 #sec4 {
     display: inline-block;
     position: relative;
@@ -40,13 +40,30 @@ body{margin:0px;padding:0px;background-color:white}
     height: 6%;
     top: 4%;
 }
+#sec7 {
+    display: none;
+    position: relative;
+    border-style: solid;
+    border-color: white;
+    width: 100%;
+    height: 6%;
+    top: 7%;
+}
+#sec6 {
+    display: none;
+    position: relative;
+    border-style: solid;
+    border-color: black;
+    width: 100%;
+    height: 52%;
+    top: 0%;
+}
 
-
-  #hotdog {
+#hotdog {
     position: absolute;
     width: 27%;
     display: inline-block;
-    left: 0%;
+    left: -2%;
     top: 1%;
 }
 #pizza2 {
@@ -54,15 +71,15 @@ body{margin:0px;padding:0px;background-color:white}
     width: 21%;
     display: inline-block;
     left: 7%;
-    top: -4%;
+    top: -3%;
 }
 #pizza3 {
     transform: rotate(90deg);
     position: absolute;
     width: 26%;
     display: inline-block;
-    left: 80%;
-    top: -4%;
+    left: 92%;
+    top: -3%;
 }
 
 
@@ -77,7 +94,7 @@ body{margin:0px;padding:0px;background-color:white}
     position: absolute;
     width: 40%;
     display: inline-block;
-    left: 59.7%;
+    left: 65.7%;
     top: 1%;
 }
 #ensa {
@@ -85,72 +102,96 @@ body{margin:0px;padding:0px;background-color:white}
     width: 45%;
     display: inline-block;
     left: 27%;
-    top: 56%;
+    top: 47%;
 }
 #back {
     z-index: 4;
     position: absolute;
     width: 18%;
     left: 64%;
-    top: 154%;
+    top: 86%;
     display: none;
-    animation: back;animation-duration: 2s;animation-fill-mode: forwards;animation-timing-function: ease-in-out;animation-iteration-count: infinite;
+    animation: back;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
 }
-@keyframes back {0%{opacity: 0.4;width:18%}
-50%{opacity: 1;width:20%}
-100%{opacity: 0.4;width:18%}
+@keyframes back {
+  0% {
+      opacity: 0.4;
+      width: 14%;
+  }
+
+  50% {
+      opacity: 1;
+      width: 16%;
+  }
+  100% {
+      opacity: 0.4;
+      width: 14%;
+  }
 }
 
-#backnext{transform: rotate(180deg);
+#backnext {
+    transform: rotate(180deg);
     z-index: 4;
     position: absolute;
-    width: 19%;
-    left: 59%;
-    top: 153.5%;
+    left: 64%;
+    left: 66%;
+    top: 83.3%;
     display: none;
     opacity: 0.4;
-    animation: back;animation-duration: 2s;animation-fill-mode: forwards;animation-timing-function: ease-in-out;animation-iteration-count: infinite;animation-delay: 0.5s;
-
+    animation: back;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 0.5s;
 }
 #backnext2 {
     z-index: 4;
     position: absolute;
     width: 16%;
     left: 71%;
-    top: 153%;
+    top: 86%;
     display: none;
-    animation: back;animation-duration: 2s;animation-fill-mode: forwards;animation-timing-function: ease-in-out;animation-iteration-count: infinite;
-
+    animation: back;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
 }
 #ensa2 {
     position: absolute;
     width: 59%;
     display: inline-block;
     left: 19%;
-    top: 39%;
+    top: 35%;
 }
+
 #pepsi {
     position: absolute;
-    width: 18%;
+    width: 14%;
     display: inline-block;
-    left: 59%;
-    top: 0%;
+    left: 61%;
+    top: 1%;
 }
 #sultanfotos {
     position: absolute;
-    width: 49%;
+    width: 66%;
     display: inline-block;
     left: 0%;
-    top: 50%;
+    top: 42%;
     height: 27%;
 }
 #sultanfotos2 {
     position: absolute;
-    width: 63%;
+    width: 74%;
     display: inline-block;
     left: 36%;
-    top: 48%;
-    height: 33%;
+    top: 40%;
+    height: 29%;
 }
 #burger {
     position: absolute;
@@ -162,26 +203,25 @@ body{margin:0px;padding:0px;background-color:white}
 #gondo {
     height: 19%;
     position: absolute;
-    width: 76%;
+    width: 89%;
     display: inline-block;
     left: -9%;
-    left: 14%;
-    top: 56%;
+    left: 8%;
+    top: 46%;
 }
 #kofte {
-    height: 48%;
+    height: 42%;
     position: absolute;
-    width: 77%;
+    width: 89%;
     display: inline-block;
-    left: 11%;
-    top: 42%;
+    left: 7%;
+    top: 35%;
 }
-
 #drinksfoto {
     position: absolute;
     width: 27%;
     display: inline-block;
-    left: 61%;
+    left: 66%;
     top: 15%;
 }
 
@@ -190,8 +230,8 @@ body{margin:0px;padding:0px;background-color:white}
     transition: 1s;
     width: 77%;
     height: 230%;
-    top: 73.4%;
-    left: 19%;
+    top: 6.4%;
+    left: 18%;
     position: absolute;
     z-index: 0;
     opacity: 0%;
@@ -210,9 +250,9 @@ body{margin:0px;padding:0px;background-color:white}
     transition: 1s;
     width: 75%;
     height: 99%;
-    top: 72%;
+    top: 16%;
     left: 10%;
-    left: 20%;
+    left: 18%;
     position: absolute;
     z-index: 0;
     opacity: 0%;
@@ -232,8 +272,8 @@ body{margin:0px;padding:0px;background-color:white}
       transition: 1s;
       width: 75%;
       height: 99%;
-      top: 78%;
-      left: 19%;
+      top: 19%;
+      left: 16%;
       position: absolute;
       z-index: 0;
       opacity: 0%;
@@ -247,42 +287,168 @@ body{margin:0px;padding:0px;background-color:white}
   100%{opacity: 1;}
 
   }
-  #pizzasmenu{display: none;transition: 1s;width:75%;height:99%;;top:77.6%;left: 14%;position: absolute;z-index: 0;opacity: 0%;animation: menucon;animation-duration: 1s;animation-fill-mode: forwards;animation-timing-function: ease-in-out;animation-iteration-count: 1;}
+
+  #pizzasmenu {
+    display: none;
+    transition: 1s;
+    width: 75%;
+    height: 99%;
+    top: 11%;
+    left: 11%;
+    position: absolute;
+    z-index: 0;
+    opacity: 0%;
+    animation: menucon;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+}
+
   @keyframes menucon {0%{opacity: 0;}
   100%{opacity: 1;}
 
   }
-  #pizzasmenu2{display: none;transition: 1s;width:75%;height:99%;;top:77.6%;left: 14%;position: absolute;z-index: 0;opacity: 0%;animation: menucon;animation-duration: 1s;animation-fill-mode: forwards;animation-timing-function: ease-in-out;animation-iteration-count: 1;}
+
+  #pizzasmenu2 {
+      display: none;
+      transition: 1s;
+      width: 75%;
+      height: 99%;
+      top: 11.6%;
+      left: 11%;
+      position: absolute;
+      z-index: 0;
+      opacity: 0%;
+      animation: menucon;
+      animation-duration: 1s;
+      animation-fill-mode: forwards;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: 1;
+  }
+
   @keyframes menucon {0%{opacity: 0;}
   100%{opacity: 1;}
 
   }
-  #gondomenu{display: none;transition: 1s;width:75%;height:99%;;top:77.6%;left: 20%;position: absolute;z-index: 0;opacity: 0%;animation: menucon;animation-duration: 1s;animation-fill-mode: forwards;animation-timing-function: ease-in-out;animation-iteration-count: 1;}
+
+  #gondomenu {
+    display: none;
+    transition: 1s;
+    width: 75%;
+    height: 99%;
+    top: 16.6%;
+    left: 18%;
+    position: absolute;
+    z-index: 0;
+    opacity: 0%;
+    animation: menucon;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+}
   @keyframes menucon {0%{opacity: 0;}
   100%{opacity: 1;}
 
   }
-  #parillamenu{display: none;transition: 1s;width:75%;height:99%;;top:77.6%;left: 20%;position: absolute;z-index: 0;opacity: 0%;animation: menucon;animation-duration: 1s;animation-fill-mode: forwards;animation-timing-function: ease-in-out;animation-iteration-count: 1;}
+  #parillamenu {
+    display: none;
+    transition: 1s;
+    width: 75%;
+    height: 99%;
+    top: 17.6%;
+    left: 18%;
+    position: absolute;
+    z-index: 0;
+    opacity: 0%;
+    animation: menucon;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+}
   @keyframes menucon {0%{opacity: 0;}
   100%{opacity: 1;}
 
   }
-  #ensamenu{display: none;transition: 1s;width:75%;height:99%;;top:77.6%;left: 20%;position: absolute;z-index: 0;opacity: 0%;animation: menucon;animation-duration: 1s;animation-fill-mode: forwards;animation-timing-function: ease-in-out;animation-iteration-count: 1;}
+  #ensamenu {
+    display: none;
+    transition: 1s;
+    width: 75%;
+    height: 99%;
+    top: 23.6%;
+    left: 17%;
+    position: absolute;
+    z-index: 0;
+    opacity: 0%;
+    animation: menucon;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+}
   @keyframes menucon {0%{opacity: 0;}
   100%{opacity: 1;}
 
   }
-  #camperomenu{display: none;transition: 1s;width:75%;height:99%;;top:77.6%;left: 20%;position: absolute;z-index: 0;opacity: 0%;animation: menucon;animation-duration: 1s;animation-fill-mode: forwards;animation-timing-function: ease-in-out;animation-iteration-count: 1;}
+  #camperomenu {
+      display: none;
+      transition: 1s;
+      width: 75%;
+      height: 99%;
+      top: 27.6%;
+      left: 17%;
+      position: absolute;
+      z-index: 0;
+      opacity: 0%;
+      animation: menucon;
+      animation-duration: 1s;
+      animation-fill-mode: forwards;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: 1;
+  }
   @keyframes menucon {0%{opacity: 0;}
   100%{opacity: 1;}
 
   }
-  #bebidasmenu{display: none;transition: 1s;width:75%;height:99%;;top:77.6%;left: 20%;position: absolute;z-index: 0;opacity: 0%;animation: menucon;animation-duration: 1s;animation-fill-mode: forwards;animation-timing-function: ease-in-out;animation-iteration-count: 1;}
+  #bebidasmenu {
+    display: none;
+    transition: 1s;
+    width: 75%;
+    height: 99%;
+    top: 10.6%;
+    left: 17%;
+    position: absolute;
+    z-index: 0;
+    opacity: 0%;
+    animation: menucon;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+}
+
   @keyframes menucon {0%{opacity: 0;}
   100%{opacity: 1;}
   }
 
-  #mainmenu{animation-delay: 1.5s;z-index: 1!important;animation:mainmove;animation-duration: 2s;animation-iteration-count: 1;animation-timing-function: ease-out;height:80%;width:80%;position:absolute;transition: 0,5s; left:15%;top:80%;display: none;text-align: center}
+  #mainmenu {
+    animation-delay: 1.5s;
+    z-index: 1!important;
+    animation: mainmove;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    height: 80%;
+    width: 80%;
+    position: absolute;
+    transition: 0,5s;
+    left: 15%;
+    top: 16%;
+    display: none;
+    text-align: center;
+}
   @keyframes mainmove{
     0%{left:-20% }
     100%{left:14%;}
@@ -323,6 +489,7 @@ body{margin:0px;padding:0px;background-color:white}
     left: 35%;
     top: 4%;
 }
+
 #maps {transition: 1s;
     position: absolute;
     width: 27%;
@@ -334,6 +501,25 @@ body{margin:0px;padding:0px;background-color:white}
     width: 27%;
     left: 70%;
     top: 2%;
+}
+#whats1 {transition: 1s;transform: rotate(0deg);
+  position: absolute;
+  width: 36%;
+  left: 35%;
+  top: 4%;
+}
+
+#maps1 {transition: 1s;
+  position: absolute;
+  width: 27%;
+  left: 4%;
+  top: 2%;
+}
+#call1 {transition: 1s;
+  position: absolute;
+  width: 27%;
+  left: 70%;
+  top: 2%;
 }
   #bar{position:absolute;left:10%;top:200%;width:220%;}
   #wallart{position: absolute;height:2000px;width:800px;left:5%;z-index: 0;opacity: 1;background-color: none;top:50%;}
@@ -359,7 +545,7 @@ body{margin:0px;padding:0px;background-color:white}
 }
 
 #menu2 {
-    z-index: 2;
+    z-index: 1;
     display: inline-block;
     transition-property: width,display,opacity,height,left;
     transition-duration: 3s,0s,0s,3s,3s;
@@ -367,7 +553,7 @@ body{margin:0px;padding:0px;background-color:white}
     width: 138px;
     height: 200px;
     left: 29%;
-    top: 4%;
+    top: 76%;
     opacity: 0;
 }
 #menu3 {
@@ -378,7 +564,7 @@ body{margin:0px;padding:0px;background-color:white}
     width: 100px;
     height: 200px;
     left: 30%;
-    top: 8%;
+    top: 73%;
     opacity: 0;
 }
 /* #fotoframe{position: absolute;width:740px;height:700px;left:-22%;top:11%;z-index: 1} */
@@ -427,69 +613,83 @@ animation-fill-mode: forwards;animation-duration: 2s;animation-iteration-count: 
 
   #kebab2{font-size: 55px}
   h3 {
-    display: inline-block;
-    position: relative;
-    font-size: 15px;
-    color: gold;
-    left: 0%;
-    top: 6.5%;
-    z-index: 0;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    line-height: 216%;
-    font-family: 'acme', 'Potta One', cursive;
-    font-weight: lighter;
-}
-  h5 {
       display: inline-block;
       position: relative;
-      font-size: 13px;
+      font-size: 13.4px;
       color: gold;
-      left: 9%;
-      top: 10.5%;
+      left: -2%;
+      top: 6.5%;
       z-index: 0;
       margin-top: 0px;
       margin-bottom: 0px;
       line-height: 216%;
-      font-family: 'acme', 'Potta One', cursive;font-weight: lighter;
+      font-family: 'acme', 'Potta One', cursive;
+      font-weight: lighter;
+  }
+  h5 {
+      display: inline-block;
+      position: relative;
+      font-size: 12.2px;
+      color: gold;
+      left: 7%;
+      top: 8%;
+      z-index: 0;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      line-height: 216%;
+      font-family: 'acme', 'Potta One', cursive;
+      font-weight: lighter;
   }
   h6 {
       display: inline-block;
       position: relative;
-      font-size: 10.8px;
+      font-size: 9.8px;
       color: gold;
       left: 7%;
-      top: 8.5%;
+      top: 5.5%;
       z-index: 0;
       margin-top: 0px;
       margin-bottom: 0px;
       line-height: 216%;
-      font-family: 'acme', 'Potta One', cursive;font-weight: lighter;
+      font-family: 'acme', 'Potta One', cursive;
+      font-weight: lighter;
   }
-   .h7{
+  .h7 {
       display: inline-block;
       position: relative;
       font-size: 14px;
       color: gold;
-      left: 0%;
-      top: 8.5%;
+      left: -1%;
+      top: 8.7%;
       z-index: 0;
       margin-top: 0px;
       margin-bottom: 0px;
       line-height: 216%;
-      font-family: 'acme', 'Potta One', cursive;font-weight: lighter;
+      font-family: 'acme', 'Potta One', cursive;
+      font-weight: lighter;
   }
-
   #span1 {
+      color: white;
+      font-size: 13px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      line-height: 0%;
+      left: 5%;
+      text-align: right;
+      position: relative;
+      top: 5.6%;
+      font-family: 'acme', 'Potta One', cursive;
+  }
+#span7 {
     color: white;
     font-size: 14px;
     margin-top: 0px;
     margin-bottom: 0px;
     line-height: 0%;
-    left: -2%;
+    left: 9%;
     text-align: right;
     position: relative;
-    top: 5.5%;
+    top: 6.5%;
     font-family: 'acme', 'Potta One', cursive;
 }
 #span3 {
@@ -498,30 +698,30 @@ animation-fill-mode: forwards;animation-duration: 2s;animation-iteration-count: 
     margin-top: 0px;
     margin-bottom: 0px;
     line-height: 0%;
-    left: 8%;
+    left: 17%;
     text-align: right;
     position: relative;
-    top: 6.8%;
+    top: 3.8%;
     font-family: 'acme', 'Potta One', cursive;
 }
 #span4 {
     color: white;
-    font-size: 14px;
+    font-size: 12px;
     margin-top: 0px;
     margin-bottom: 0px;
     line-height: 0%;
-    left: 8%;
+    left: 16%;
     text-align: right;
     position: relative;
-    top: 8.5%;
+    top: 6%;
     font-family: 'acme', 'Potta One', cursive;
 }
 h4 {
     display: inline-block;
     position: relative;
-    font-size: 15.5px;
+    font-size: 13.5px;
     color: gold;
-    left: 0;
+    left: 2px;
     top: 17.5%;
     z-index: 0;
     margin-top: 0px;
@@ -532,14 +732,14 @@ h4 {
 }
 #span2 {
     color: white;
-    font-size: 17px;
+    font-size: 15px;
     margin-top: 0px;
     margin-bottom: 0px;
     line-height: 0%;
-    left: -1%;
+    left: 7%;
     text-align: right;
     position: relative;
-    top: 14.7%;
+    top: 15%;
     font-family: 'acme', 'Potta One', cursive;
 }
 #container1{background-color: #79d70f;height:1500px; border-style: solid;z-index: 1;
@@ -653,6 +853,132 @@ animation-play-state: running;
 
 }
 @media only screen and (min-width:360px){
+  #backnext2 {
+    z-index: 4;
+    position: absolute;
+    width: 16%;
+    left: 71%;
+    top: 83%;
+    display: none;
+    animation: back;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+  #pizza3 {
+    transform: rotate(90deg);
+    position: absolute;
+    width: 26%;
+    display: inline-block;
+    left: 92%;
+    top: -5%;
+}
+  #span7 {
+    color: white;
+    font-size: 14px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 0%;
+    left: 7%;
+    text-align: right;
+    position: relative;
+    top: 6.5%;
+    font-family: 'acme', 'Potta One', cursive;
+}
+  #sultanfotos {
+    position: absolute;
+    width: 66%;
+    display: inline-block;
+    left: -4%;
+    top: 42%;
+    height: 27%;
+}
+#sultanfotos2 {
+    position: absolute;
+    width: 74%;
+    display: inline-block;
+    left: 33%;
+    top: 40%;
+    height: 29%;
+}
+  #span1 {
+    color: white;
+    font-size: 13px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 0%;
+    left: 3%;
+    text-align: right;
+    position: relative;
+    top: 5.6%;
+    font-family: 'acme', 'Potta One', cursive;
+}
+h4 {
+    display: inline-block;
+    position: relative;
+    font-size: 12.5px;
+    color: gold;
+    left: 2px;
+    top: 17.9%;
+    z-index: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 216%;
+    font-family: 'acme', 'Potta One', cursive;
+    font-weight: lighter;
+}
+#span2 {
+    color: white;
+    font-size: 12px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 0%;
+    left: 7%;
+    text-align: right;
+    position: relative;
+    top: 15.5%;
+    font-family: 'acme', 'Potta One', cursive;
+}
+
+  #back {
+    z-index: 4;
+    position: absolute;
+    width: 18%;
+    left: 64%;
+    top: 84%;
+    display: none;
+    animation: back;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+  #sec6 {
+    display: none;
+    position: relative;
+    border-style: solid;
+    border-color: black;
+    width: 100%;
+    height: 52%;
+    top: 5%;
+}
+  #mainmenu {
+    animation-delay: 1.5s;
+    z-index: 1!important;
+    animation: mainmove;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    height: 80%;
+    width: 80%;
+    position: absolute;
+    transition: 0,5s;
+    left: 15%;
+    top: 13%;
+    display: none;
+    text-align: center;
+}
 
   #call {
     transition: 1s;
