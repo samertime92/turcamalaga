@@ -614,7 +614,7 @@ animation-fill-mode: forwards;animation-duration: 2s;animation-iteration-count: 
   #kebab2{font-size: 55px}
   h3 {
       display: inline-block;
-      position: relative;
+      position: absolute;
       font-size: 13.4px;
       color: gold;
       left: -2%;
