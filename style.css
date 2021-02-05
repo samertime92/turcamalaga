@@ -866,6 +866,17 @@ animation-play-state: running;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
 }
+#menu3 {
+    display: inline-block;
+    transition-property: width,display,opacity,height,left;
+    transition-duration: 3s,0s,0s,3s,3s;
+    position: absolute;
+    width: 100px;
+    height: 200px;
+    left: 30%;
+    top: 1%;
+    opacity: 0;
+}
   #pizza3 {
     transform: rotate(90deg);
     position: absolute;
