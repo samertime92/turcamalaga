@@ -50,7 +50,7 @@ body{margin:0px;padding:0px;background-color:white}
     top: 7%;
 }
 #sec6 {
-    display: none;
+
     position: relative;
     border-style: solid;
     border-color: black;
@@ -229,7 +229,7 @@ body{margin:0px;padding:0px;background-color:white}
     display: none;
     transition: 1s;
     width: 77%;
-    height: 230%;
+    height: 80%;
     top: 6.4%;
     left: 18%;
     position: absolute;
@@ -613,19 +613,19 @@ animation-fill-mode: forwards;animation-duration: 2s;animation-iteration-count: 
 
   #kebab2{font-size: 55px}
   h3 {
-      display: inline-block;
-      position: absolute;
-      font-size: 13.4px;
-      color: gold;
-      left: -2%;
-      top: 6.5%;
-      z-index: 0;
-      margin-top: 0px;
-      margin-bottom: 0px;
-      line-height: 216%;
-      font-family: 'acme', 'Potta One', cursive;
-      font-weight: lighter;
-  }
+    display: inline-block;
+    position: absolute;
+    font-size: 13.4px;
+    color: gold;
+    left: -2%;
+    top: 18.5%;
+    z-index: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 200%;
+    font-family: 'acme', 'Potta One', cursive;
+    font-weight: lighter;
+}
   h5 {
       display: inline-block;
       position: relative;
@@ -914,16 +914,15 @@ animation-play-state: running;
     top: 40%;
     height: 29%;
 }
-  #span1 {
+#span1 {
+    position: absolute;
     color: white;
-    font-size: 13px;
+    font-size: 13.4px;
     margin-top: 0px;
     margin-bottom: 0px;
-    line-height: 0%;
-    left: 3%;
-    text-align: right;
-    position: relative;
-    top: 5.6%;
+    line-height: 200%;
+    right: -4%;
+    top: 18.5%;
     font-family: 'acme', 'Potta One', cursive;
 }
 h4 {
@@ -967,7 +966,7 @@ h4 {
   animation-iteration-count: infinite;
 }
   #sec6 {
-    display: none;
+display: none;
     position: relative;
     border-style: solid;
     border-color: black;

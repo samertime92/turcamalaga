@@ -88,39 +88,50 @@
 </div>
 
 <div id="menucon">
-  <h3>◉Pita pollo o ternera +bebida +patatas
-  <p id="span1">5.30€</p> <br>
+  <h3>◉Pita pollo o ternera +bebida +patatas  <br>
 
-  ◉Rollo pollo o ternera +Bebida +patatas
-  <p id="span1">5.30€</p> <br>
+  ◉Rollo pollo o ternera +Bebida +patatas  <br>
 
 
-  ◉Infantil pollo o ternera  <br>+bebida +patatas
-  <p id="span1">4.50€</p> <br>
 
-  ◉Lahmacum Pollo o ternera  <br>+bebida +patatas</h3>
-  <p id="span1">6.10€</p> <br>
+  ◉Infantil pollo o ternera  <br>+bebida +patatas  <br>
 
-  <h3>◉Falafel plato +bebida +patatas  </h3>
-  <p id="span1">7.50€</p>
+   ◉Lahmacum Pollo o ternera  <br>+bebida +patatas <br>
 
-  <h3>◉Falafel pita o rollo +bebida +patatas </h3>
-  <p id="span1">5.30€</p>
+   ◉Falafel plato +bebida +patatas  <br>
 
-  <h3>◉Sultan plato +bebida +patatas</h3>
-  <p id="span1">7.50€</p>
+  ◉Falafel pita o rollo +bebida +patatas  <br>
 
-  <h3>◉Hot dog + bebida +patatas</h3>
-  <p id="span1">4.50€</p>
+  ◉Sultan plato +bebida +patatas  <br>
 
-  <h3>◉Campero + bebida + patatas</h3>
-  <p id="span1">4.50€</p>
+ ◉Hot dog + bebida +patatas  <br>
 
-  <h3>◉Hamburguesa pollo o ternera <br> +bebida +patatas</h3>
-  <p id="span1">5.00€</p>
+◉Campero + bebida + patatas  <br>
 
-  <h3>◉Hamburguesa buey 200gr <br> +bebida +patatas </h3>
-  <p id="span1">7.50€</p>
+  ◉Hamburguesa pollo o ternera <br> +bebida +patatas <br>
+
+  ◉Hamburguesa buey 200gr <br> +bebida +patatas </h3>
+
+
+  <p id="span1">5.30€ <br>
+5.30€ <br><br>
+4.50€<br><br>
+6.10€ <br>
+7.50€ <br>
+5.30€ <br>
+7.50€ <br>
+4.50€ <br>
+4.50€<br><br>
+5.00€<br><br>
+7.50€</p>
+
+
+
+
+
+
+
+
   <img id="fries" src="fries.png" alt="">
   <img id="hotdog" src="hotdog.png" alt="">
   <img id="pepsi" src="pepsi.png" alt="" >
@@ -1817,157 +1828,165 @@ else if(lx<"330"){
 }
 }
 setInterval(scroll,100)
+function menutray(){
 
+
+
+
+  if(mx.matches){
+    setInterval(scrollmx,10);
+    document.getElementById('sec5').style.display="none";
+    document.getElementById('sec7').style.display="inline-block";
+
+    document.getElementById('container1').style.height = "1300px";
+
+    document.getElementById('menu2').style.width = "20%";
+    document.getElementById('menu').style.display = "none";
+    document.getElementById('menu2').style.opacity = "1";
+    document.getElementById('menu2').style.height = "650px";
+    document.getElementById('menu2').style.left = "1%";
+    document.getElementById('menu2').style.zIndex = "2";
+    document.getElementById('menu3').style.zIndex = "1";
+
+
+    document.getElementById('menu2').style.top = "72%";
+    document.getElementById('mainmenu').style.zIndex = "1";
+
+    document.getElementById('menu3').style.height = "632PX";
+    document.getElementById('menu3').style.left = "2%";
+    document.getElementById('menu3').style.width = "305px";
+    document.getElementById('menu3').style.opacity = "1";
+    document.getElementById('mainmenu').style.display = "inline-block";
+    document.getElementById('falafel').style.display = "none";
+    document.getElementById('kebabplato').style.display = "none";
+    document.getElementById('pizza').style.display = "none";
+
+    document.getElementById('shop1').style.display = "none";
+    document.getElementById('shop2').style.display = "none";
+
+  }
+
+
+
+      if(mx1.matches){
+    document.getElementById('menu2').style.width = "20%";
+    document.getElementById('menu').style.display = "none";
+    document.getElementById('menu2').style.opacity = "1";
+    document.getElementById('menu2').style.height = "650px";
+    document.getElementById('menu2').style.left = "-2%";
+    document.getElementById('menu2').style.zIndex = "2";
+    document.getElementById('menu3').style.zIndex = "1";
+
+
+    document.getElementById('menu2').style.top = "0%";
+    document.getElementById('mainmenu').style.zIndex = "1";
+
+    document.getElementById('menu3').style.height = "632PX";
+    document.getElementById('menu3').style.left = "2%";
+    document.getElementById('menu3').style.width = "331px";
+    document.getElementById('menu3').style.opacity = "1";
+    document.getElementById('mainmenu').style.display = "inline-block";
+    document.getElementById('falafel').style.display = "none";
+    document.getElementById('kebabplato').style.display = "none";
+    document.getElementById('pizza').style.display = "none";
+
+    document.getElementById('shop1').style.display = "none";
+    document.getElementById('shop2').style.display = "none";
+
+
+  }
+
+  else  if(mx3.matches){
+
+
+    document.getElementById('menu2').style.width = "20%";
+    document.getElementById('menu').style.display = "none";
+    document.getElementById('menu2').style.opacity = "1";
+    document.getElementById('menu2').style.height = "650px";
+    document.getElementById('menu2').style.left = "1%";
+    document.getElementById('menu2').style.zIndex = "2";
+    document.getElementById('menu3').style.zIndex = "1";
+
+
+    document.getElementById('menu2').style.top = "72%";
+    document.getElementById('mainmenu').style.zIndex = "1";
+
+    document.getElementById('menu3').style.height = "632PX";
+    document.getElementById('menu3').style.left = "2%";
+    document.getElementById('menu3').style.width = "342px";
+    document.getElementById('menu3').style.opacity = "1";
+    document.getElementById('mainmenu').style.display = "inline-block";
+    document.getElementById('falafel').style.display = "none";
+    document.getElementById('kebabplato').style.display = "none";
+    document.getElementById('pizza').style.display = "none";
+
+    document.getElementById('shop1').style.display = "none";
+    document.getElementById('shop2').style.display = "none";
+
+  }
+    else if(mx2.matches){
+
+    document.getElementById('menu2').style.width = "20%";
+    document.getElementById('menu').style.display = "none";
+    document.getElementById('menu2').style.opacity = "1";
+    document.getElementById('menu2').style.height = "754px";
+    document.getElementById('menu2').style.left = "1%";
+    document.getElementById('menu2').style.zIndex = "2";
+    document.getElementById('menu3').style.zIndex = "1";
+
+
+    document.getElementById('menu2').style.top = "72%";
+    document.getElementById('mainmenu').style.zIndex = "1";
+
+    document.getElementById('menu3').style.height = "724PX";
+    document.getElementById('menu3').style.left = "2%";
+    document.getElementById('menu3').style.width = "393px";
+    document.getElementById('menu3').style.opacity = "1";
+    document.getElementById('mainmenu').style.display = "inline-block";
+    document.getElementById('falafel').style.display = "none";
+    document.getElementById('kebabplato').style.display = "none";
+    document.getElementById('pizza').style.display = "none";
+
+    document.getElementById('shop1').style.display = "none";
+    document.getElementById('shop2').style.display = "none";
+
+
+  }
+   else {
+    document.getElementById('menu2').style.width = "20%";
+    document.getElementById('menu').style.display = "none";
+    document.getElementById('menu2').style.opacity = "1";
+    document.getElementById('menu2').style.height = "650px";
+    document.getElementById('menu2').style.left = "1%";
+    document.getElementById('menu2').style.zIndex = "2";
+    document.getElementById('menu3').style.zIndex = "1";
+
+
+    document.getElementById('menu2').style.top = "72%";
+    document.getElementById('mainmenu').style.zIndex = "1";
+
+    document.getElementById('menu3').style.height = "632PX";
+    document.getElementById('menu3').style.left = "2%";
+    document.getElementById('menu3').style.width = "342px";
+    document.getElementById('menu3').style.opacity = "1";
+    document.getElementById('mainmenu').style.display = "inline-block";
+    document.getElementById('falafel').style.display = "none";
+    document.getElementById('kebabplato').style.display = "none";
+    document.getElementById('pizza').style.display = "none";
+
+    document.getElementById('shop1').style.display = "none";
+    document.getElementById('shop2').style.display = "none";
+  }
+
+
+
+}
 document.getElementById('menu').onclick = function functionName() {
-
 document.getElementById('sec3').style.display="none";
 document.getElementById('sec4').style.display="none";
 document.getElementById('sec6').style.display="inline-block";
 document.getElementById('sec2').style.display="none";
-if(mx.matches){
-  setInterval(scrollmx,10);
-  document.getElementById('sec5').style.display="none";
-  document.getElementById('sec7').style.display="inline-block";
-
-  document.getElementById('container1').style.height = "1300px";
-
-  document.getElementById('menu2').style.width = "20%";
-  document.getElementById('menu').style.display = "none";
-  document.getElementById('menu2').style.opacity = "1";
-  document.getElementById('menu2').style.height = "650px";
-  document.getElementById('menu2').style.left = "1%";
-  document.getElementById('menu2').style.zIndex = "2";
-  document.getElementById('menu3').style.zIndex = "1";
-
-
-  document.getElementById('menu2').style.top = "72%";
-  document.getElementById('mainmenu').style.zIndex = "1";
-
-  document.getElementById('menu3').style.height = "632PX";
-  document.getElementById('menu3').style.left = "2%";
-  document.getElementById('menu3').style.width = "305px";
-  document.getElementById('menu3').style.opacity = "1";
-  document.getElementById('mainmenu').style.display = "inline-block";
-  document.getElementById('falafel').style.display = "none";
-  document.getElementById('kebabplato').style.display = "none";
-  document.getElementById('pizza').style.display = "none";
-
-  document.getElementById('shop1').style.display = "none";
-  document.getElementById('shop2').style.display = "none";
-
-}
-
-
-
-    if(mx1.matches){
-  document.getElementById('menu2').style.width = "20%";
-  document.getElementById('menu').style.display = "none";
-  document.getElementById('menu2').style.opacity = "1";
-  document.getElementById('menu2').style.height = "650px";
-  document.getElementById('menu2').style.left = "1%";
-  document.getElementById('menu2').style.zIndex = "2";
-  document.getElementById('menu3').style.zIndex = "1";
-
-
-  document.getElementById('menu2').style.top = "0%";
-  document.getElementById('mainmenu').style.zIndex = "1";
-
-  document.getElementById('menu3').style.height = "632PX";
-  document.getElementById('menu3').style.left = "0%";
-  document.getElementById('menu3').style.width = "342px";
-  document.getElementById('menu3').style.opacity = "1";
-  document.getElementById('mainmenu').style.display = "inline-block";
-  document.getElementById('falafel').style.display = "none";
-  document.getElementById('kebabplato').style.display = "none";
-  document.getElementById('pizza').style.display = "none";
-
-  document.getElementById('shop1').style.display = "none";
-  document.getElementById('shop2').style.display = "none";
-
-
-}
-
-else  if(mx3.matches){
-
-
-  document.getElementById('menu2').style.width = "20%";
-  document.getElementById('menu').style.display = "none";
-  document.getElementById('menu2').style.opacity = "1";
-  document.getElementById('menu2').style.height = "650px";
-  document.getElementById('menu2').style.left = "1%";
-  document.getElementById('menu2').style.zIndex = "2";
-  document.getElementById('menu3').style.zIndex = "1";
-
-
-  document.getElementById('menu2').style.top = "72%";
-  document.getElementById('mainmenu').style.zIndex = "1";
-
-  document.getElementById('menu3').style.height = "632PX";
-  document.getElementById('menu3').style.left = "2%";
-  document.getElementById('menu3').style.width = "342px";
-  document.getElementById('menu3').style.opacity = "1";
-  document.getElementById('mainmenu').style.display = "inline-block";
-  document.getElementById('falafel').style.display = "none";
-  document.getElementById('kebabplato').style.display = "none";
-  document.getElementById('pizza').style.display = "none";
-
-  document.getElementById('shop1').style.display = "none";
-  document.getElementById('shop2').style.display = "none";
-
-}
-  else if(mx2.matches){
-
-  document.getElementById('menu2').style.width = "20%";
-  document.getElementById('menu').style.display = "none";
-  document.getElementById('menu2').style.opacity = "1";
-  document.getElementById('menu2').style.height = "754px";
-  document.getElementById('menu2').style.left = "1%";
-  document.getElementById('menu2').style.zIndex = "2";
-  document.getElementById('menu3').style.zIndex = "1";
-
-
-  document.getElementById('menu2').style.top = "72%";
-  document.getElementById('mainmenu').style.zIndex = "1";
-
-  document.getElementById('menu3').style.height = "724PX";
-  document.getElementById('menu3').style.left = "2%";
-  document.getElementById('menu3').style.width = "393px";
-  document.getElementById('menu3').style.opacity = "1";
-  document.getElementById('mainmenu').style.display = "inline-block";
-  document.getElementById('falafel').style.display = "none";
-  document.getElementById('kebabplato').style.display = "none";
-  document.getElementById('pizza').style.display = "none";
-
-  document.getElementById('shop1').style.display = "none";
-  document.getElementById('shop2').style.display = "none";
-
-
-}
- else {
-  document.getElementById('menu2').style.width = "20%";
-  document.getElementById('menu').style.display = "none";
-  document.getElementById('menu2').style.opacity = "1";
-  document.getElementById('menu2').style.height = "650px";
-  document.getElementById('menu2').style.left = "1%";
-  document.getElementById('menu2').style.zIndex = "2";
-  document.getElementById('menu3').style.zIndex = "1";
-
-
-  document.getElementById('menu2').style.top = "72%";
-  document.getElementById('mainmenu').style.zIndex = "1";
-
-  document.getElementById('menu3').style.height = "632PX";
-  document.getElementById('menu3').style.left = "2%";
-  document.getElementById('menu3').style.width = "342px";
-  document.getElementById('menu3').style.opacity = "1";
-  document.getElementById('mainmenu').style.display = "inline-block";
-  document.getElementById('falafel').style.display = "none";
-  document.getElementById('kebabplato').style.display = "none";
-  document.getElementById('pizza').style.display = "none";
-
-  document.getElementById('shop1').style.display = "none";
-  document.getElementById('shop2').style.display = "none";
-}
+setTimeout(menutray,10);
 }
 
 
