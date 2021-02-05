@@ -853,36 +853,6 @@ animation-play-state: running;
 
 }
 @media only screen and (min-width:360px){
-  h3 {
-    display: inline-block;
-    position: relative;
-    font-size: 13.4px;
-    color: gold;
-    left: 1%;
-    top: 52.5%;
-    z-index: 0;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    line-height: 216%;
-    font-family: 'acme', 'Potta One', cursive;
-    font-weight: lighter;
-}
-  #menucon {
-    display: none;
-    transition: 1s;
-    width: 83%;
-    height: 70%;
-    top: 7.4%;
-    left: 18%;
-    position: absolute;
-    z-index: 0;
-    opacity: 0%;
-    animation: menucon;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: 1;
-}
   #backnext2 {
     z-index: 4;
     position: absolute;
@@ -896,17 +866,7 @@ animation-play-state: running;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
 }
-#menu3 {
-    display: inline-block;
-    transition-property: width,display,opacity,height,left;
-    transition-duration: 3s,0s,0s,3s,3s;
-    position: absolute;
-    width: 100px;
-    height: 200px;
-    left: 30%;
-    top: 1%;
-    opacity: 0;
-}
+
   #pizza3 {
     transform: rotate(90deg);
     position: absolute;
