@@ -466,7 +466,7 @@ display: none;
     height: 80%;
     width: 80%;
     position: absolute;
-    transition: 0,5s;
+    transition: 0.5s;
     left: 15%;
     top: 11%;
     display: none;
@@ -477,7 +477,7 @@ display: none;
     100%{left:14%;}
 
   }
-  #mainmenu2{position:absolute;transition: 0,5s; left:257px;top:171%;display: none;text-align: center}
+  #mainmenu2{position:absolute;transition: 0.5s; left:257px;top:171%;display: none;text-align: center}
 
   #falafel {
     z-index: 2;
@@ -751,7 +751,7 @@ h4 {
 }
 #span2 {
     color: white;
-    font-size: 11px;
+    font-size: 14px;
     margin-top: 0px;
     margin-bottom: 0px;
     line-height: 234%;
@@ -1143,7 +1143,7 @@ display: none;
     height: 80%;
     width: 80%;
     position: absolute;
-    transition: 0,5s;
+    transition: 0.5s;
     left: 15%;
     top: 13%;
     display: none;
@@ -2001,7 +2001,7 @@ h4 {
  height: 80%;
  width: 80%;
  position: absolute;
- transition: 0,5s;
+ transition: 0.5s;
  left: 15%;
  top: 11%;
  display: none;
@@ -2029,9 +2029,9 @@ h4 {
  h4 {
   display: inline-block;
   position: absolute;
-  font-size: 14.5px;
+  font-size: 14px;
   color: gold;
-  left: -10px;
+  left: -5px;
   top: 10.9%;
   z-index: 0;
   margin-top: 0px;
