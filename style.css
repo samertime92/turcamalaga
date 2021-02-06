@@ -2011,19 +2011,19 @@ h4 {
      top: 10.7%;
      font-family: 'acme', 'Potta One', cursive;
  }
-   h4 {
-    display: inline-block;
-    position: absolute;
-    font-size: 14.5px;
-    color: gold;
-    left: -4px;
-    top: 10.9%;
-    z-index: 0;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    line-height: 227%;
-    font-family: 'acme', 'Potta One', cursive;
-    font-weight: lighter;
+ h4 {
+  display: inline-block;
+  position: absolute;
+  font-size: 14.5px;
+  color: gold;
+  left: -10px;
+  top: 10.9%;
+  z-index: 0;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  line-height: 227%;
+  font-family: 'acme', 'Potta One', cursive;
+  font-weight: lighter;
 }
    #pizza3 {
     transform: rotate(90deg);
