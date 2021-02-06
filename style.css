@@ -49,7 +49,7 @@ body{margin:0px;padding:0px;background-color:white}
 #sec4 {
     display: inline-block;
     position: relative;
-    border-style: solid;
+    border-style: hidden;
     border-color: white;
     width: 100%;
     height: 14%;
@@ -58,7 +58,7 @@ body{margin:0px;padding:0px;background-color:white}
 #sec5 {
     display: inline-block;
     position: relative;
-    border-style: solid;
+    border-style: hidden;
     border-color: white;
     width: 100%;
     height: 6%;
@@ -67,7 +67,7 @@ body{margin:0px;padding:0px;background-color:white}
 #sec7 {
     display: none;
     position: relative;
-    border-style: solid;
+    border-style: hidden;
     border-color: white;
     width: 100%;
     height: 6%;
@@ -76,7 +76,7 @@ body{margin:0px;padding:0px;background-color:white}
 #sec6 {
 display: none;
     position: relative;
-    border-style: solid;
+    border-style: hidden;
     border-color: black;
     width: 100%;
     height: 52%;
@@ -1127,7 +1127,7 @@ h4 {
   #sec6 {
 display: none;
     position: relative;
-    border-style: solid;
+    border-style: hidden;
     border-color: black;
     width: 100%;
     height: 52%;
@@ -1167,7 +1167,7 @@ display: none;
   #sec5 {
     display: inline-block;
     position: relative;
-    border-style: solid;
+    border-style: hidden;
     border-color: white;
     width: 100%;
     height: 6%;
@@ -1706,7 +1706,7 @@ h4 {
    #sec7 {
     display: none;
     position: relative;
-    border-style: solid;
+    border-style: hidden;
     border-color: white;
     width: 100%;
     height: 6%;
@@ -1715,7 +1715,7 @@ h4 {
    #sec6 {
     display: none;
     position: relative;
-    border-style: solid;
+    border-style: hidden;
     border-color: black;
     width: 100%;
     height: 44%;
@@ -1835,14 +1835,14 @@ h4 {
     width: 100%;
     height: 17%;
     position: relative;
-    border-style: solid;
+    border-style: hidden;
     border-color: white;
     margin-bottom: 5%;
 }
 
 #sec3 {
     position: relative;
-    border-style: solid;
+    border-style: hidden;
     border-color: white;
     width: 100%;
     height: 27%;
@@ -1906,7 +1906,7 @@ h4 {
     width: 100%;
     height: 10%;
     position: relative;
-    border-style: solid;
+    border-style: hidden;
     border-color: white;
     margin-bottom: 5%;
     left: 0%;
@@ -1917,7 +1917,7 @@ h4 {
 
 #sec2 {
     position: relative;
-    border-style: solid;
+    border-style: hidden;
     border-color: white;
     width: 100%;
     height: 13%;
@@ -1926,7 +1926,7 @@ h4 {
 #sec4 {
     display: inline-block;
     position: relative;
-    border-style: solid;
+    border-style: hidden;
     border-color: white;
     width: 100%;
     height: 14%;
@@ -1935,7 +1935,7 @@ h4 {
 #sec5 {
     display: inline-block;
     position: relative;
-    border-style: solid;
+    border-style: hidden;
     border-color: white;
     width: 100%;
     height: 6%;
@@ -2106,7 +2106,7 @@ h4 {
    #sec5 {
      display: inline-block;
      position: relative;
-     border-style: solid;
+     border-style: hidden;
      border-color: white;
      width: 100%;
      height: 6%;
@@ -2126,7 +2126,7 @@ h4 {
 #sec4 {
     display: inline-block;
     position: relative;
-    border-style: solid;
+    border-style: hidden;
     border-color: white;
     width: 100%;
     height: 14%;
