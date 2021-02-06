@@ -1281,6 +1281,7 @@ display: none;
 
 
 
+
   #span2 {
     color: white;
     font-size: 12px;
@@ -1300,13 +1301,13 @@ display: none;
     opacity: 0;
     animation-delay: 0.5s;
     text-align: center!important;
-    margin-top: 10px;
+    margin-top: 5px;
     animation-fill-mode: forwards;
     animation-duration: 1.5s;
     animation-iteration-count: 1;
     animation-name: h2;
     display: inline-block;
-    font-size: 45px;
+    font-size: 39px;
     line-height: -10%;
     color: gold;
     border-radius: 50px;
@@ -1408,13 +1409,13 @@ h6 {
     left: 86px;
 }
 .turcalogo {
-  z-index: 1;
-  position: absolute;
-  width: 200px;
-  height: 342px;
-  top: 30px;
-  margin: 0px;
-  left: 39px;
+    z-index: 1;
+    position: absolute;
+    width: 200px;
+    height: 342px;
+    top: 30px;
+    margin: 0px;
+    left: 25px;
 }
 
 
