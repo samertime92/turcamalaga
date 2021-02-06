@@ -1259,6 +1259,52 @@ display: none;
 
 
 @media only screen and (min-width:375px){
+  #span3 {
+    color: white;
+    font-size: 11.2px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 179%;
+    left: 104%;
+    position: absolute;
+    top: 9.8%;
+    font-family: 'acme', 'Potta One', cursive;
+}
+  h6 {
+    display: inline-block;
+    position: absolute;
+    font-size: 11.2px;
+    color: gold;
+    left: 7%;
+    top: 6.5%;
+    z-index: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 179%;
+    font-family: 'acme', 'Potta One', cursive;
+    font-weight: lighter;
+}
+  h3 {
+      display: inline-block;
+      position: absolute;
+      font-size: 13.4px;
+      color: gold;
+      left: 0%;
+      top: 18.5%;
+      z-index: 0;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      line-height: 200%;
+      font-family: 'acme', 'Potta One', cursive;
+      font-weight: lighter;
+  }
+  #hotdog {
+      position: absolute;
+      width: 27%;
+      display: inline-block;
+      left: -2%;
+      top: 1%;
+  }
   #fire2 {
     position: absolute;
     top: 0%;
@@ -1333,6 +1379,327 @@ display: none;
 
 
  @media only screen and  (min-width:400px){
+   #span3 {
+    color: white;
+    font-size: 12.6px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 179%;
+    left: 104%;
+    position: absolute;
+    top: 9.8%;
+    font-family: 'acme', 'Potta One', cursive;
+}
+   h6 {
+    display: inline-block;
+    position: absolute;
+    font-size: 12.6px;
+    color: gold;
+    left: 7%;
+    top: 6.5%;
+    z-index: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 179%;
+    font-family: 'acme', 'Potta One', cursive;
+    font-weight: lighter;
+}
+   #span4 {
+    color: white;
+    font-size: 13.6px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 234%;
+    left: 104%;
+    position: absolute;
+    top: 8%;
+    font-family: 'acme', 'Potta One', cursive;
+}
+   h5 {
+    display: inline-block;
+    position: absolute;
+    font-size: 13.6px;
+    color: gold;
+    left: 7%;
+    top: 8%;
+    z-index: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 234%;
+    font-family: 'acme', 'Potta One', cursive;
+    font-weight: lighter;
+}
+   #drinksfoto {
+    position: absolute;
+    width: 30%;
+    display: inline-block;
+    left: 66%;
+    top: 15%;
+}
+   #span7 {
+    color: white;
+    font-size: 15.5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 200%;
+    left: 93%;
+    position: absolute;
+    top: 8.7%;
+    font-family: 'acme', 'Potta One', cursive;
+}
+   .h7 {
+    display: inline-block;
+    position: absolute;
+    font-size: 15.5px;
+    color: gold;
+    left: 0%;
+    top: 8.7%;
+    z-index: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 200%;
+    font-family: 'acme', 'Potta One', cursive;
+    font-weight: lighter;
+}
+   #ensamenu {
+    display: none;
+    transition: 1s;
+    width: 75%;
+    height: 99%;
+    top: 23.6%;
+    left: 17%;
+    position: absolute;
+    z-index: 0;
+    opacity: 0%;
+    animation: menucon;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+}
+   #parillamenu {
+    display: none;
+    transition: 1s;
+    width: 75%;
+    height: 99%;
+    top: 17.6%;
+    left: 17%;
+    position: absolute;
+    z-index: 0;
+    opacity: 0%;
+    animation: menucon;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+}
+   #kebabmenu {
+    display: none;
+    transition: 1s;
+    width: 75%;
+    height: 99%;
+    top: 16%;
+    left: 10%;
+    left: 17%;
+    position: absolute;
+    z-index: 0;
+    opacity: 0%;
+    animation: menucon;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+}
+#span2 {
+ color: white;
+ font-size: 14.5px;
+ margin-top: 0px;
+ margin-bottom: 0px;
+ line-height: 227%;
+ left: 93%;
+ position: absolute;
+ top: 10.9%;
+ font-family: 'acme', 'Potta One', cursive;
+}
+h4 {
+  display: inline-block;
+  position: absolute;
+  font-size: 14.5px;
+  color: gold;
+  left: -3px;
+  top: 10.9%;
+  z-index: 0;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  line-height: 227%;
+  font-family: 'acme', 'Potta One', cursive;
+  font-weight: lighter;
+}
+   #burger {
+    position: absolute;
+    width: 70%;
+    display: inline-block;
+    left: 0%;
+    top: 34%;
+}
+   #burgtag {
+    display: inline-block;
+    position: absolute;
+    font-size: 15px;
+    color: gold;
+    left: 0px;
+    top: 10.9%;
+    z-index: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 227%;
+    font-family: 'acme', 'Potta One', cursive;
+    font-weight: lighter;
+}
+   #span8 {
+    color: white;
+    font-size: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 341%;
+    left: 94%;
+    position: absolute;
+    top: 13.9%;
+    font-family: 'acme', 'Potta One', cursive;
+}
+   #sultanfotos2 {
+    position: absolute;
+    width: 74%;
+    display: inline-block;
+    left: 33%;
+    top: 36%;
+    height: 32%;
+}
+
+   h4 {
+       display: inline-block;
+       position: absolute;
+       font-size: 14.5px;
+       color: gold;
+       left: -7px;
+       top: 10.9%;
+       z-index: 0;
+       margin-top: 0px;
+       margin-bottom: 0px;
+       line-height: 227%;
+       font-family: 'acme', 'Potta One', cursive;
+       font-weight: lighter;
+   }
+   @keyframes h2 {
+
+
+   0% {
+    opacity: 0;
+    letter-spacing: -5px;
+    font-size: 1px;
+}
+
+100% {
+    opacity: 1;
+    letter-spacing: 0px;
+    text-shadow: 0px 0px 10px gold;
+    font-size: 31px;
+}
+}
+
+   #fries {
+    position: absolute;
+    width: 33%;
+    display: inline-block;
+    left: 6%;
+    top: 0%;
+}
+   #pepsi {
+    position: absolute;
+    width: 19%;
+    display: inline-block;
+    left: 61%;
+    top: -3%;
+}
+   #kebabfoto {
+    position: absolute;
+    width: 40%;
+    display: inline-block;
+    left: 63.7%;
+    top: 1%;
+}
+   #back {
+    z-index: 4;
+    position: absolute;
+    width: 10%;
+    left: 64%;
+    top: 81%;
+    display: none;
+    animation: back;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+   @keyframes back {
+     0% {
+    opacity: 0.4;
+    width: 19%;
+}
+
+50% {
+    opacity: 1;
+    width: 16%;
+}
+100% {
+    opacity: 0.4;
+    width: 19%;
+}
+
+   }
+   #span1 {
+    position: absolute;
+    color: white;
+    font-size: 16.4px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 200%;
+    right: -3%;
+    top: 18.5%;
+    font-family: 'acme', 'Potta One', cursive;
+}
+   h3 {
+    display: inline-block;
+    position: absolute;
+    font-size: 16.4px;
+    color: gold;
+    left: -2%;
+    top: 18.5%;
+    z-index: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 200%;
+    font-family: 'acme', 'Potta One', cursive;
+    font-weight: lighter;
+}
+   #sec7 {
+    display: none;
+    position: relative;
+    border-style: solid;
+    border-color: white;
+    width: 100%;
+    height: 6%;
+    top: 12%;
+}
+   #sec6 {
+    display: none;
+    position: relative;
+    border-style: solid;
+    border-color: black;
+    width: 100%;
+    height: 44%;
+    top: 5%;
+}
    #container1 {
     background-color: #79d70f;
     height: 1800px;
@@ -1542,8 +1909,7 @@ display: none;
     border-color: white;
     width: 100%;
     height: 14%;
-    top: 32%;
-
+    top: 0%;
 }
 #sec5 {
     display: inline-block;
@@ -1552,12 +1918,100 @@ display: none;
     border-color: white;
     width: 100%;
     height: 6%;
-    top: 36%;
+    top: 5%;
 }
 
 
 }
  @media only screen and  (min-width:414px){
+   #span2 {
+    color: white;
+    font-size: 14.5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 227%;
+    left: 91%;
+    position: absolute;
+    top: 10.9%;
+    font-family: 'acme', 'Potta One', cursive;
+}
+   h4 {
+    display: inline-block;
+    position: absolute;
+    font-size: 14.5px;
+    color: gold;
+    left: -4px;
+    top: 10.9%;
+    z-index: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 227%;
+    font-family: 'acme', 'Potta One', cursive;
+    font-weight: lighter;
+}
+   #pizza3 {
+    transform: rotate(90deg);
+    position: absolute;
+    width: 26%;
+    display: inline-block;
+    left: 89%;
+    top: -5%;
+}
+   #span4 {
+    color: white;
+    font-size: 13.6px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 234%;
+    left: 103%;
+    position: absolute;
+    top: 8%;
+    font-family: 'acme', 'Potta One', cursive;
+}
+   #sultanfotos2 {
+    position: absolute;
+    width: 74%;
+    display: inline-block;
+    left: 31%;
+    top: 36%;
+    height: 32%;
+}
+   #sultanfotos {
+    position: absolute;
+    width: 66%;
+    display: inline-block;
+    left: -5%;
+    top: 42%;
+    height: 27%;
+}
+   #kebabmenu {
+    display: none;
+    transition: 1s;
+    width: 75%;
+    height: 99%;
+    top: 16%;
+    left: 10%;
+    left: 18%;
+    position: absolute;
+    z-index: 0;
+    opacity: 0%;
+    animation: menucon;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+}
+   #span1 {
+    position: absolute;
+    color: white;
+    font-size: 16.4px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 200%;
+    right: -1%;
+    top: 18.5%;
+    font-family: 'acme', 'Potta One', cursive;
+}
    #sec5 {
      display: inline-block;
      position: relative;
