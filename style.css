@@ -1279,7 +1279,7 @@ display: none;
 
 
 @media only screen and (min-width:375px){
-  #container1 {
+  #container1 { display: none;
     background-color: purple;
     height: 1500px;
     border-style: solid;
