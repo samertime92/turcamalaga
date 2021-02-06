@@ -1960,7 +1960,7 @@ h4 {
     animation-name: h2;
     display: inline-block;
     font-size: 55px;
-    line-height: 0%;
+    line-height: -10%;
     color: gold;
     border-radius: 50px;
     border-color: gold;
@@ -1976,22 +1976,22 @@ h4 {
     font-weight: bolder;
     border-color: black;
 }
-   #mainmenu {
-     animation-delay: 1.5s;
-     z-index: 1!important;
-     animation: mainmove;
-     animation-duration: 2s;
-     animation-iteration-count: 1;
-     animation-timing-function: ease-out;
-     height: 80%;
-     width: 80%;
-     position: absolute;
-     transition: 0,5s;
-     left: 15%;
-     top: 13%;
-     display: none;
-     text-align: center;
- }
+#mainmenu {
+ animation-delay: 1.5s;
+ z-index: 1!important;
+ animation: mainmove;
+ animation-duration: 2s;
+ animation-iteration-count: 1;
+ animation-timing-function: ease-out;
+ height: 80%;
+ width: 80%;
+ position: absolute;
+ transition: 0,5s;
+ left: 15%;
+ top: 11%;
+ display: none;
+ text-align: center;
+}
    #pizza3 {
     transform: rotate(90deg);
     position: absolute;
