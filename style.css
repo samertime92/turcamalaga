@@ -1,6 +1,30 @@
 body{margin:0px;padding:0px;background-color:white}
 @media only screen and (min-width:320px){
-
+  #span8 {
+      color: white;
+      font-size: 12px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      line-height: 341%;
+      left: 97%;
+      position: absolute;
+      top: 13.9%;
+      font-family: 'acme', 'Potta One', cursive;
+  }
+  #burgtag {
+      display: inline-block;
+      position: absolute;
+      font-size: 12px;
+      color: gold;
+      left: 0px;
+      top: 10.9%;
+      z-index: 0;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      line-height: 227%;
+      font-family: 'acme', 'Potta One', cursive;
+      font-weight: lighter;
+  }
   .sec0{width:100%;height:10%;position: relative;border-style:hidden;;border-color: white;margin-bottom: 5%;left:0%;top:0%;display:inline-block;}
 
 .sec1{width:100%;height:15%;position: relative;border-style:hidden;border-color: white;margin-bottom: 5%;display: inline-block;}
@@ -50,7 +74,7 @@ body{margin:0px;padding:0px;background-color:white}
     top: 7%;
 }
 #sec6 {
-
+display: none;
     position: relative;
     border-style: solid;
     border-color: black;
@@ -109,7 +133,7 @@ body{margin:0px;padding:0px;background-color:white}
     position: absolute;
     width: 18%;
     left: 64%;
-    top: 86%;
+    top: 83%;
     display: none;
     animation: back;
     animation-duration: 2s;
@@ -137,11 +161,10 @@ body{margin:0px;padding:0px;background-color:white}
     transform: rotate(180deg);
     z-index: 4;
     position: absolute;
-    left: 64%;
     left: 66%;
     top: 83.3%;
     display: none;
-    opacity: 0.4;
+    opacity: 0;
     animation: back;
     animation-duration: 2s;
     animation-fill-mode: forwards;
@@ -154,7 +177,7 @@ body{margin:0px;padding:0px;background-color:white}
     position: absolute;
     width: 16%;
     left: 71%;
-    top: 86%;
+    top: 83%;
     display: none;
     animation: back;
     animation-duration: 2s;
@@ -181,7 +204,7 @@ body{margin:0px;padding:0px;background-color:white}
     position: absolute;
     width: 66%;
     display: inline-block;
-    left: 0%;
+    left: -4%;
     top: 42%;
     height: 27%;
 }
@@ -189,16 +212,16 @@ body{margin:0px;padding:0px;background-color:white}
     position: absolute;
     width: 74%;
     display: inline-block;
-    left: 36%;
+    left: 33%;
     top: 40%;
     height: 29%;
 }
 #burger {
     position: absolute;
-    width: 57%;
+    width: 73%;
     display: inline-block;
     left: 0%;
-    top: 53%;
+    top: 37%;
 }
 #gondo {
     height: 19%;
@@ -373,21 +396,21 @@ body{margin:0px;padding:0px;background-color:white}
 
   }
   #ensamenu {
-    display: none;
-    transition: 1s;
-    width: 75%;
-    height: 99%;
-    top: 23.6%;
-    left: 17%;
-    position: absolute;
-    z-index: 0;
-    opacity: 0%;
-    animation: menucon;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: 1;
-}
+      display: none;
+      transition: 1s;
+      width: 75%;
+      height: 99%;
+      top: 23.6%;
+      left: 18%;
+      position: absolute;
+      z-index: 0;
+      opacity: 0%;
+      animation: menucon;
+      animation-duration: 1s;
+      animation-fill-mode: forwards;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: 1;
+  }
   @keyframes menucon {0%{opacity: 0;}
   100%{opacity: 1;}
 
@@ -398,7 +421,7 @@ body{margin:0px;padding:0px;background-color:white}
       width: 75%;
       height: 99%;
       top: 27.6%;
-      left: 17%;
+      left: 18%;
       position: absolute;
       z-index: 0;
       opacity: 0%;
@@ -445,7 +468,7 @@ body{margin:0px;padding:0px;background-color:white}
     position: absolute;
     transition: 0,5s;
     left: 15%;
-    top: 16%;
+    top: 11%;
     display: none;
     text-align: center;
 }
@@ -564,7 +587,7 @@ body{margin:0px;padding:0px;background-color:white}
     width: 100px;
     height: 200px;
     left: 30%;
-    top: 73%;
+    top: 2%;
     opacity: 0;
 }
 /* #fotoframe{position: absolute;width:740px;height:700px;left:-22%;top:11%;z-index: 1} */
@@ -613,114 +636,112 @@ animation-fill-mode: forwards;animation-duration: 2s;animation-iteration-count: 
 
   #kebab2{font-size: 55px}
   h3 {
-    display: inline-block;
-    position: absolute;
-    font-size: 13.4px;
-    color: gold;
-    left: -2%;
-    top: 18.5%;
-    z-index: 0;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    line-height: 200%;
-    font-family: 'acme', 'Potta One', cursive;
-    font-weight: lighter;
-}
+      display: inline-block;
+      position: absolute;
+      font-size: 13px;
+      color: gold;
+      left: -2%;
+      top: 18.5%;
+      z-index: 0;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      line-height: 200%;
+      font-family: 'acme', 'Potta One', cursive;
+      font-weight: lighter;
+  }
   h5 {
       display: inline-block;
       position: absolute;
-      font-size: 12.2px;
+      font-size: 11.2px;
       color: gold;
       left: 7%;
       top: 8%;
       z-index: 0;
       margin-top: 0px;
       margin-bottom: 0px;
-      line-height: 234%;
+      line-height: 235%;
       font-family: 'acme', 'Potta One', cursive;
       font-weight: lighter;
   }
   h6 {
       display: inline-block;
       position: absolute;
-      font-size: 9.8px;
+      font-size: 9.6px;
       color: gold;
       left: 7%;
       top: 5.5%;
       z-index: 0;
       margin-top: 0px;
       margin-bottom: 0px;
-      line-height: 0%;
+      line-height: 197%;
       font-family: 'acme', 'Potta One', cursive;
       font-weight: lighter;
   }
   .h7 {
-      display: inline-block;
-      position: absolute;
-      font-size: 14px;
-      color: gold;
-      left: -1%;
-      top: 8.7%;
-      z-index: 0;
-      margin-top: 0px;
-      margin-bottom: 0px;
-      line-height: 0%;
-      font-family: 'acme', 'Potta One', cursive;
-      font-weight: lighter;
-  }
-  #span1 {
-      color: white;
-      font-size: 13px;
-      margin-top: 0px;
-      margin-bottom: 0px;
-      line-height: 0%;
-      left: 5%;
-      text-align: right;
-      position: relative;
-      top: 5.6%;
-      font-family: 'acme', 'Potta One', cursive;
-  }
-#span7 {
-    color: white;
-    font-size: 14px;
+    display: inline-block;
+    position: absolute;
+    font-size: 13px;
+    color: gold;
+    left: -1%;
+    top: 8.7%;
+    z-index: 0;
     margin-top: 0px;
     margin-bottom: 0px;
-    line-height: 0%;
-    left: 9%;
-    text-align: right;
-    position: relative;
-    top: 6.5%;
+    line-height: 194%;
+    font-family: 'acme', 'Potta One', cursive;
+    font-weight: lighter;
+}
+  #span1 {
+    color: white;
+    font-size: 13px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 202%;
+    left: 90%;
+    position: absolute;
+    top: 19%;
+    font-family: 'acme', 'Potta One', cursive;
+}
+#span7 {
+    color: white;
+    font-size: 13px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 194%;
+    left: 94%;
+    position: absolute;
+    top: 8.6%;
     font-family: 'acme', 'Potta One', cursive;
 }
 #span3 {
     color: white;
-    font-size: 10.5px;
+    font-size: 9.6px;
     margin-top: 0px;
     margin-bottom: 0px;
-    line-height: 0%;
-    left: 17%;
+    line-height: 197%;
+    left: 100%;
     position: absolute;
-    top: 3.8%;
+    top: 8.4%;
     font-family: 'acme', 'Potta One', cursive;
 }
 #span4 {
     color: white;
-    font-size: 12.2px;
+    font-size: 11.2px;
     margin-top: 0px;
     margin-bottom: 0px;
-    line-height: 234%;
-    left: 16%;
+    line-height: 235%;
+    left: 101%;
     position: absolute;
-    top: 17.5%;
+    top: 8%;
     font-family: 'acme', 'Potta One', cursive;
 }
 h4 {
     display: inline-block;
     position: relative;
-    font-size: 13.5px;
+    font-size: 11px;
     color: gold;
-    left: 2px;
-    top: 17.5%;
+    left: -4px;
+    top: 11.5%;
     z-index: 0;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -730,14 +751,13 @@ h4 {
 }
 #span2 {
     color: white;
-    font-size: 15px;
+    font-size: 11px;
     margin-top: 0px;
     margin-bottom: 0px;
-    line-height: 0%;
-    left: 7%;
-    text-align: right;
-    position: relative;
-    top: 15%;
+    line-height: 234%;
+    left: 94%;
+    position: absolute;
+    top: 11.3%;
     font-family: 'acme', 'Potta One', cursive;
 }
 #container1{background-color: #79d70f;height:1500px; border-style: solid;z-index: 1;
@@ -917,11 +937,10 @@ animation-play-state: running;
     transform: rotate(180deg);
     z-index: 4;
     position: absolute;
-    left: 64%;
     left: 66%;
     top: 81.3%;
     display: none;
-    opacity: 0.4;
+    opacity: 0;
     animation: back;
     animation-duration: 2s;
     animation-fill-mode: forwards;
@@ -1461,54 +1480,54 @@ display: none;
     font-family: 'acme', 'Potta One', cursive;
     font-weight: lighter;
 }
-   #ensamenu {
-    display: none;
-    transition: 1s;
-    width: 75%;
-    height: 99%;
-    top: 23.6%;
-    left: 17%;
-    position: absolute;
-    z-index: 0;
-    opacity: 0%;
-    animation: menucon;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: 1;
+#ensamenu {
+  display: none;
+  transition: 1s;
+  width: 75%;
+  height: 99%;
+  top: 23.6%;
+  left: 18%;
+  position: absolute;
+  z-index: 0;
+  opacity: 0%;
+  animation: menucon;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
 }
-   #parillamenu {
-    display: none;
-    transition: 1s;
-    width: 75%;
-    height: 99%;
-    top: 17.6%;
-    left: 17%;
-    position: absolute;
-    z-index: 0;
-    opacity: 0%;
-    animation: menucon;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: 1;
+#parillamenu {
+  display: none;
+  transition: 1s;
+  width: 75%;
+  height: 99%;
+  top: 17.6%;
+  left: 18%;
+  position: absolute;
+  z-index: 0;
+  opacity: 0%;
+  animation: menucon;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
 }
-   #kebabmenu {
-    display: none;
-    transition: 1s;
-    width: 75%;
-    height: 99%;
-    top: 16%;
-    left: 10%;
-    left: 17%;
-    position: absolute;
-    z-index: 0;
-    opacity: 0%;
-    animation: menucon;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: 1;
+#kebabmenu {
+  display: none;
+  transition: 1s;
+  width: 75%;
+  height: 99%;
+  top: 16%;
+  left: 10%;
+  left: 18%;
+  position: absolute;
+  z-index: 0;
+  opacity: 0%;
+  animation: menucon;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
 }
 #span2 {
  color: white;
@@ -1924,17 +1943,25 @@ h4 {
 
 }
  @media only screen and  (min-width:414px){
-   #span2 {
-    color: white;
-    font-size: 14.5px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    line-height: 227%;
-    left: 91%;
+   #pizza3 {
+    transform: rotate(90deg);
     position: absolute;
-    top: 10.9%;
-    font-family: 'acme', 'Potta One', cursive;
+    width: 26%;
+    display: inline-block;
+    left: 90%;
+    top: -6%;
 }
+   #span2 {
+     color: white;
+     font-size: 14.5px;
+     margin-top: 0px;
+     margin-bottom: 0px;
+     line-height: 227%;
+     left: 93%;
+     position: absolute;
+     top: 10.7%;
+     font-family: 'acme', 'Potta One', cursive;
+ }
    h4 {
     display: inline-block;
     position: absolute;
@@ -2008,7 +2035,7 @@ h4 {
     margin-top: 0px;
     margin-bottom: 0px;
     line-height: 200%;
-    right: -1%;
+    left: 89%;
     top: 18.5%;
     font-family: 'acme', 'Potta One', cursive;
 }
