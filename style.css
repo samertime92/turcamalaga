@@ -866,9 +866,6 @@ animation-play-state: running;
 
 }
 
-
-
-}
 @media only screen and (min-width:360px){
 
   .h7 {
@@ -1277,7 +1274,7 @@ display: none;
 
 
 
-@media only screen and (min-device-width : 375px){
+@media only screen and (min-width : 375px){
   #span2 {
     color: white;
     font-size: 12px;
