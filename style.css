@@ -550,8 +550,6 @@ display: none;
     position: absolute;
     width: 138px;
     height: 200px;
-    left: 90%;
-    top: 140%;
     animation: menu;animation-duration: 3s;animation-fill-mode: forwards;animation-iteration-count: 1;animation-timing-function: ease-in-out;
     opacity: 0;animation-delay: 1s;
 }
