@@ -1,6 +1,6 @@
 body{margin:0px;padding:0px;background-color:white}
 
-
+@media only screen and (min-device-width : 375px){
   #span8 {
       color: white;
       font-size: 12px;
@@ -868,7 +868,7 @@ animation-play-state: running;
 
 
 
-
+}
 @media only screen and (min-width:360px){
 
   .h7 {
@@ -1277,10 +1277,7 @@ display: none;
 
 
 
-@media only screen
-    and (min-device-width : 375px)
-    and (max-device-width : 667px){
-
+@media only screen and (min-device-width : 375px){
   #span2 {
     color: white;
     font-size: 12px;
