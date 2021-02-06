@@ -1995,7 +1995,7 @@ h4 {
  animation-delay: 1.5s;
  z-index: 1!important;
  animation: mainmove;
- animation-duration: 2s;
+ animation-duration: 0.5s;
  animation-iteration-count: 1;
  animation-timing-function: ease-out;
  height: 80%;
