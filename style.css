@@ -1324,6 +1324,22 @@ display: none;
     font-weight: bolder;
     border-color: black;
 }
+@keyframes h2 {
+
+
+0% {
+    opacity: 0;
+    letter-spacing: -5px;
+    font-size: 1px;
+}
+
+100% {
+    opacity: 1;
+    letter-spacing: 0px;
+    text-shadow: 0px 0px 10px gold;
+    font-size: 21px;
+  }
+}
 
 #span3 {
     color: white;
