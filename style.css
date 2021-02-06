@@ -1277,7 +1277,9 @@ display: none;
 
 
 
-@media only screen and (min-width:365px){
+@media only screen
+    and (min-device-width : 375px)
+    and (max-device-width : 667px){
 
   #span2 {
     color: white;
