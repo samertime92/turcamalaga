@@ -1275,7 +1275,7 @@ display: none;
 
 
 
-@media all  and (min-width : 375px) {
+@media all  and (min-width : 361px)  and (orientation: portrait){
 
   #span2 {
     color: white;
