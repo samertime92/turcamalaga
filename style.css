@@ -1,6 +1,6 @@
 body{margin:0px;padding:0px;background-color:white}
 
-@media only screen and (min-width:1px){
+@media only screen and (min-width:320px){
   #span8 {
       color: white;
       font-size: 12px;
@@ -1277,7 +1277,7 @@ display: none;
 
 
 
-@media only screen and (max-width:667px) and (orientation: portrait) and (min-width:375px){
+@media only screen and (max-width:667px) and (orientation: portrait) {
 
 
 
@@ -1407,15 +1407,15 @@ h6 {
     top: -2%;
     left: 86px;
 }
-  .turcalogo {
-      z-index: 1;
-      position: relative;
-      width: 200px;
-      height: 342px;
-      top: 30px;
-      margin: 0px;
-      left: 42px;
-  }
+.turcalogo {
+  z-index: 1;
+  position: absolute;
+  width: 200px;
+  height: 342px;
+  top: 30px;
+  margin: 0px;
+  left: 39px;
+}
 
 
 
