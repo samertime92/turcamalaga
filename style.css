@@ -865,7 +865,7 @@ animation-play-state: running;
   from { background-position: 0px}
     to{background-position: 800px;}
 
-}
+                 }
 }
 
 @media only screen and (min-width: 360px) and (max-width: 375px){
@@ -2969,7 +2969,6 @@ opacity: 0;
     background: url(fire3.png);
     animation: animate3 0.9s steps(6) infinite;
     animation-delay: 1s;
-    /* animation-timing-function: linear; */
     animation-play-state: running;
     opacity: 0;
 }
@@ -2986,7 +2985,6 @@ width:calc(600px / 6);
 height: 131px;
 background: url(fire4.png);
 animation:animate4 0.9s steps(6) infinite ;animation-delay: 2.6s;
-/* animation-timing-function:linear; */
 animation-play-state: running;
 }
 @keyframes animate4 {
