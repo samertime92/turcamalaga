@@ -2117,10 +2117,10 @@ h4 {
     animation-timing-function: ease-in-out;
     animation-iteration-count: 1;
 }
-   #pizzasmenu2 {
+#pizzasmenu2 {
     display: none;
     transition: 1s;
-    width: 81%;
+    width: 78%;
     height: 99%;
     top: 11.6%;
     left: 11%;
@@ -2134,32 +2134,32 @@ h4 {
     animation-iteration-count: 1;
 }
 #span3 {
-  color: white;
-  font-size: 13.6px;
+    color: white;
+    font-size: 13px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 179%;
+    left: 99%;
+    position: absolute;
+    top: 7.7%;
+    font-family: 'acme', 'Potta One', cursive;
+}
+h6 {
+  text-align: left;
+  text-align-last: left;
+  display: inline-block;
+  position: absolute;
+  font-size: 13px;
+  color: gold;
+  left: 7%;
+  top: 4.5%;
+  z-index: 0;
   margin-top: 0px;
   margin-bottom: 0px;
   line-height: 179%;
-  left: 94%;
-  position: absolute;
-  top: 8%;
   font-family: 'acme', 'Potta One', cursive;
+  font-weight: lighter;
 }
-   h6 {
-      text-align: left;
-      text-align-last: left;
-      display: inline-block;
-      position: absolute;
-      font-size: 13.6px;
-      color: gold;
-      left: 6%;
-      top: 6.5%;
-      z-index: 0;
-      margin-top: 0px;
-      margin-bottom: 0px;
-      line-height: 179%;
-      font-family: 'acme', 'Potta One', cursive;
-      font-weight: lighter;
-  }
    h2 {
     z-index: 1!important;
     font-family: 'acme', 'Potta One', cursive;
@@ -2245,7 +2245,7 @@ h4 {
     position: absolute;
     width: 26%;
     display: inline-block;
-    left: 77%;
+    left: 83%;
     top: -7%;
 }
 #span4 {
