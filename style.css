@@ -3463,20 +3463,20 @@ display: none;
     animation-play-state: running;
 }
 #pizzasmenu2 {
-  display: none;
-  transition: 1s;
-  width: 87%;
-  height: 99%;
-  top: 11.6%;
-  left: 11%;
-  position: absolute;
-  z-index: 0;
-  opacity: 0%;
-  animation: menucon;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: 1;
+    display: none;
+    transition: 1s;
+    width: 74%;
+    height: 99%;
+    top: 11.6%;
+    left: 12%;
+    position: absolute;
+    z-index: 0;
+    opacity: 0%;
+    animation: menucon;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
 }
 h4 {
   display: inline-block;
@@ -3557,7 +3557,7 @@ h4 {
     margin-top: 0px;
     margin-bottom: 0px;
     line-height: 179%;
-    left: 89%;
+    left: 105%;
     position: absolute;
     top: 8.2%;
     font-family: 'acme', 'Potta One', cursive;
