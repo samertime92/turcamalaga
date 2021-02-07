@@ -2102,21 +2102,22 @@ h4 {
 }
  @media only screen and (min-width: 414px){
    #pizzasmenu {
-    display: none;
-    transition: 1s;
-    width: 83%;
-    height: 99%;
-    top: 11%;
-    left: 11%;
-    position: absolute;
-    z-index: 0;
-    opacity: 0%;
-    animation: menucon;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: 1;
-}
+     display: none;
+     transition: 1s;
+     width: 80%;
+     height: 99%;
+     top: 11%;
+     left: 11%;
+     position: absolute;
+     z-index: 0;
+     opacity: 0%;
+     animation: menucon;
+     animation-duration: 1s;
+     animation-fill-mode: forwards;
+     animation-timing-function: ease-in-out;
+     animation-iteration-count: 1;
+ }
+
 #pizzasmenu2 {
     display: none;
     transition: 1s;
@@ -2254,7 +2255,7 @@ h6 {
     margin-top: 0px;
     margin-bottom: 0px;
     line-height: 234%;
-    left: 92%;
+    left: 95%;
     position: absolute;
     top: 8%;
     font-family: 'acme', 'Potta One', cursive;
