@@ -1277,10 +1277,26 @@ display: none;
 
 
 @media only screen  and (max-width: 667px) {
+  #pizzasmenu2 {
+    display: none;
+    transition: 1s;
+    width: 78%;
+    height: 99%;
+    top: 11.6%;
+    left: 11%;
+    position: absolute;
+    z-index: 0;
+    opacity: 0%;
+    animation: menucon;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+}
   h4 {
       display: inline-block;
       position: absolute;
-      font-size: 12px;
+      font-size: 11.5px;
       color: gold;
       left: -5px;
       top: 10.9%;
@@ -1292,16 +1308,16 @@ display: none;
       font-weight: lighter;
   }
   #span2 {
-    color: white;
-    font-size: 12px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    line-height: 227%;
-    left: 94%;
-    position: absolute;
-    top: 10.9%;
-    font-family: 'acme', 'Potta One', cursive;
-}
+      color: white;
+      font-size: 11.5px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      line-height: 227%;
+      left: 94%;
+      position: absolute;
+      top: 10.5%;
+      font-family: 'acme', 'Potta One', cursive;
+  }
   h2 {
     z-index: 1!important;
     font-family: 'acme', 'Potta One', cursive;
