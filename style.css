@@ -1426,7 +1426,7 @@ h3 {
     animation-play-state: running;
     opacity: 0;
 }
-  #fire {display: none;
+  #fire {
     position: absolute;
     top: -40%;
     left: 41%;
@@ -1441,7 +1441,7 @@ h3 {
     animation-delay: 2s;
 }
   #kebab {
-    display: none;
+    display: inline-block;
     z-index: 1;
     position: absolute;
     width: 180px;
@@ -1449,7 +1449,7 @@ h3 {
     top: -2%;
     left: 86px;
 }
-.turcalogo { display: none;
+.turcalogo { display: inline-block;
     z-index: 1;
     position: absolute;
     width: 200px;
