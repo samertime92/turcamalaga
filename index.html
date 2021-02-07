@@ -449,6 +449,49 @@
 
 </div>
 <script type="text/javascript">
+function pageScroll() {
+   window.scrollTo({
+   top: 60,
+   left: 0,
+   behavior: 'smooth',
+   });
+   // window.scrollTo(0,500)({
+   // behavior: 'smooth',
+   // });
+}
+setTimeout(pageScroll,2500)
+function pageScroll0() {
+   window.scrollTo({
+   top: 0,
+   left: 0,
+   behavior: 'smooth',
+   });
+   // window.scrollTo(0,500)({
+   // behavior: 'smooth',
+   // });
+}
+setTimeout(pageScroll0,00000000)
+
+function pageScroll1() {
+   window.scrollTo({
+   top: 448,
+   left: 0,
+   behavior: 'smooth',
+   });
+   // window.scrollTo(0,500)({
+   // behavior: 'smooth',
+   // });
+}
+function pageScroll2() {
+   window.scrollTo({
+   top: 444,
+   left: 0,
+   behavior: 'smooth',
+   });
+   // window.scrollTo(0,500)({
+   // behavior: 'smooth',
+   // });
+}
 document.getElementById('call1').onclick = function functionName() {
   window.open("tel:951-103-900");
 }
@@ -504,6 +547,8 @@ function closemenu(){
 
 }
 document.getElementById('back').onclick = function functionName() {
+  setTimeout(pageScroll2,0.1)
+
   if (mx.matches) {
     document.getElementById('backnext').style.display="none";
 
@@ -824,6 +869,8 @@ else{
 }
 
 document.getElementById('menus').onclick = function functionName() {
+  setTimeout(pageScroll1,200)
+
   if (mx.matches) {
 
 
@@ -878,6 +925,8 @@ document.getElementById('gondolas').style.display="none";
 }
 }
 document.getElementById('kebab2').onclick = function functionName() {
+  setTimeout(pageScroll1,200)
+
   document.getElementById('back').style.display="inline-block";
 
   document.getElementById('kebab2').style.paddingLeft="50%";
@@ -900,6 +949,8 @@ document.getElementById('kebab2').onclick = function functionName() {
   document.getElementById('gondolas').style.display="none";
 }
 document.getElementById('hamburguesas').onclick = function functionName() {
+  setTimeout(pageScroll1,200)
+
   document.getElementById('back').style.display="inline-block";
 
   document.getElementById('hamburguesas').style.paddingLeft="25%";
@@ -922,6 +973,8 @@ document.getElementById('hamburguesas').onclick = function functionName() {
   document.getElementById('gondolas').style.display="none";
 }
 document.getElementById('pizzas').onclick = function functionName() {
+  setTimeout(pageScroll1,200)
+
   if (mx.matches) {
 
 
@@ -1074,6 +1127,8 @@ document.getElementById('pizzas').onclick = function functionName() {
 
 }
 document.getElementById('backnext2').onclick = function functionName() {
+  setTimeout(pageScroll2,0.2)
+
   if (mx.matches) {
 
     document.getElementById('back').style.display="inline-block";
@@ -1239,6 +1294,8 @@ else {
 
 
 document.getElementById('gondolas').onclick = function functionName() {
+  setTimeout(pageScroll1,200)
+
   document.getElementById('back').style.display="inline-block";
 
   document.getElementById('gondolas').style.paddingLeft="40%";
@@ -1261,6 +1318,8 @@ document.getElementById('gondolas').onclick = function functionName() {
   document.getElementById('pizzas').style.display="none";
 }
 document.getElementById('parilla').onclick = function functionName() {
+  setTimeout(pageScroll1,200)
+
   document.getElementById('back').style.display="inline-block";
 
   document.getElementById('parilla').style.paddingLeft="50%";
@@ -1283,6 +1342,8 @@ document.getElementById('parilla').onclick = function functionName() {
   document.getElementById('pizzas').style.display="none";
 }
 document.getElementById('ensaladas').onclick = function functionName() {
+  setTimeout(pageScroll1,200)
+
   document.getElementById('back').style.display="inline-block";
 
   document.getElementById('ensaladas').style.paddingLeft="50%";
@@ -1305,6 +1366,8 @@ document.getElementById('ensaladas').onclick = function functionName() {
   document.getElementById('pizzas').style.display="none";
 }
 document.getElementById('camperos').onclick = function functionName() {
+  setTimeout(pageScroll1,200)
+
   if(mx.matches){
 
 
@@ -1407,6 +1470,8 @@ else {
 }
 }
 document.getElementById('bebidas').onclick = function functionName() {
+  setTimeout(pageScroll1,200)
+
   if (mx.matches) {
 
 
@@ -1889,6 +1954,8 @@ function menutray(){
 
 }
 document.getElementById('menu').onclick = function functionName() {
+  setTimeout(pageScroll1,0.1)
+
 document.getElementById('sec3').style.display="none";
 document.getElementById('sec4').style.display="none";
 document.getElementById('sec6').style.display="inline-block";
