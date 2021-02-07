@@ -1282,16 +1282,16 @@ display: none;
       position: absolute;
       width: 26%;
       display: inline-block;
-      left: 77%;
-      top: -5%;
+      left: 76%;
+      top: -7%;
   }
-#pizza2 {
-    position: absolute;
-    width: 21%;
-    display: inline-block;
-    left: 6%;
-    top: -6%;
-}
+  #pizza2 {
+      position: absolute;
+      width: 21%;
+      display: inline-block;
+      left: 6%;
+      top: -7%;
+  }
   #fire3 {
     position: absolute;
     top: 2%;
@@ -1428,7 +1428,7 @@ h6 {
     font-size: 11.2px;
     color: gold;
     left: 6%;
-    top: 8.5%;
+    top: 5%;
     z-index: 0;
     margin-top: 0px;
     margin-bottom: 0px;
