@@ -1,6 +1,6 @@
 body{margin:0px;padding:0px;background-color:white}
 
-@media only screen and (min-width: 320px) and (max-width:359px){
+@media only screen and (min-width: 320px) and (max-width:358px){
 
   #span8 {
       color: white;
@@ -868,7 +868,7 @@ animation-play-state: running;
                  }
 }
 
-@media only screen and (min-width: 360px) and (max-width: 374px){
+@media only screen and (min-width: 359px) and (max-width: 373px){
   #span8 {
       color: white;
       font-size: 12px;
@@ -1627,7 +1627,7 @@ h4 {
     top: 11.3%;
     font-family: 'acme', 'Potta One', cursive;
 }
-#container1{background-color: #79d70f;height:1500px; border-style: solid;z-index: 1;
+#container1{background-color: purple;height:1500px; border-style: solid;z-index: 1;
     border-radius: 2%;
     border-color: red;
     border-left-style: solid;
@@ -2139,7 +2139,7 @@ display: none;
 
 
 
- @media only screen and  (min-width: 375px) {
+ @media only screen and  (min-width: 374px) {
   #span8 {
       color: white;
       font-size: 12px;
