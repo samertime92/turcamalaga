@@ -1277,6 +1277,36 @@ display: none;
 
 
 @media only screen  and (max-width: 667px) {
+  #fire3 {
+    position: absolute;
+    top: 2%;
+    left: 24%;
+    z-index: 0;
+    transform: translate(50%,50%);
+    width: calc(600px / 6);
+    height: 131px;
+    background: url(fire3.png);
+    animation: animate3 0.9s steps(6) infinite;
+    animation-delay: 1s;
+    /* animation-timing-function: linear; */
+    animation-play-state: running;
+    opacity: 0;
+}
+  #fire4 {
+    position: absolute;
+    top: -34%;
+    left: 3%;
+    z-index: 0;
+    opacity: 0;
+    transform: translate(50%,50%);
+    width: calc(600px / 6);
+    height: 131px;
+    background: url(fire4.png);
+    animation: animate4 0.9s steps(6) infinite;
+    animation-delay: 2.6s;
+    /* animation-timing-function: linear; */
+    animation-play-state: running;
+}
   #pizzasmenu2 {
     display: none;
     transition: 1s;
@@ -1380,9 +1410,9 @@ display: none;
 h6 {
     text-align-last: left;
     padding-right: 10%;
-    display: inline-block;
+    display: block;
     position: absolute;
-    font-size: 11.2px;
+    font-size: 10px;
     color: gold;
     left: 7%;
     top: 5.5%;
@@ -1415,41 +1445,41 @@ h3 {
       top: 1%;
   }
   #fire2 {
-    position: absolute;
-    top: 0%;
-    left: 16%;
-    z-index: 0;
-    transform: translate(50%,50%);
-    width: calc(600px / 6);
-    height: 141px;
-    background: url(fire.png);
-    animation: animate2 0.9s steps(6) infinite;
-    animation-delay: 1.7s;
-    animation-play-state: running;
-    opacity: 0;
-}
+      position: absolute;
+      top: 0%;
+      left: 8%;
+      z-index: 0;
+      transform: translate(50%,50%);
+      width: calc(600px / 6);
+      height: 141px;
+      background: url(fire.png);
+      animation: animate2 0.9s steps(6) infinite;
+      animation-delay: 1.7s;
+      animation-play-state: running;
+      opacity: 0;
+  }
   #fire {
-    position: absolute;
-    top: -40%;
-    left: 41%;
-    z-index: 0;
-    opacity: 0;
-    transform: translate(50%,50%);
-    width: calc(600px / 6);
-    height: 141px;
-    background: url(fire.png);
-    animation: animate 0.8s steps(6) infinite;
-    animation-play-state: running;
-    animation-delay: 2s;
-}
-  #kebab {
+      position: absolute;
+      top: -40%;
+      left: 30%;
+      z-index: 0;
+      opacity: 0;
+      transform: translate(50%,50%);
+      width: calc(600px / 6);
+      height: 141px;
+      background: url(fire.png);
+      animation: animate 0.8s steps(6) infinite;
+      animation-play-state: running;
+      animation-delay: 2s;
+  }
+#kebab {
     display: inline-block;
     z-index: 1;
     position: absolute;
     width: 180px;
     height: 225px;
     top: -2%;
-    left: 86px;
+    left: 52px;
 }
 .turcalogo { display: inline-block;
     z-index: 1;
