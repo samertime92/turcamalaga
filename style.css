@@ -1,6 +1,6 @@
 body{margin:0px;padding:0px;background-color:white}
 
-@media only screen and (min-width: 320px) {
+@media only screen and (min-width: 320px)  {
 
   #span8 {
       color: white;
@@ -11,8 +11,8 @@ body{margin:0px;padding:0px;background-color:white}
       left: 97%;
       position: absolute;
       top: 13.9%;
-      font-family: 'acme', 'Potta One', cursive;
-  }
+      font-family: 'acme', 'Potta One', cursive;}
+
   #burgtag {
       display: inline-block;
       position: absolute;
@@ -27,7 +27,7 @@ body{margin:0px;padding:0px;background-color:white}
       font-family: 'acme', 'Potta One', cursive;
       font-weight: lighter;
   }
-  .sec0{width:100%;height:10%;position: relative;border-style:hidden;;border-color: white;margin-bottom: 5%;left:0%;top:0%;display:inline-block;}
+  .sec0{width:100%;height:10%;position: relative;border-style:hidden;border-color: white;margin-bottom: 5%;left:0%;top:0%;display:inline-block;}
 
 .sec1{width:100%;height:15%;position: relative;border-style:hidden;border-color: white;margin-bottom: 5%;display: inline-block;}
   #shop1 {border-radius: 100%;
@@ -143,7 +143,7 @@ display: none;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
 }
-}@keyframes back {
+@keyframes back {
   0% {
       opacity: 0.4;
       width: 14%;
@@ -867,9 +867,9 @@ animation-play-state: running;
 
                  }
 
+       }
 
-
-@media only screen and (min-width: 360px) {
+@media only screen and (min-width: 360px) and (max-width: 375px){
   #span8 {
       color: white;
       font-size: 12px;
@@ -1011,7 +1011,7 @@ display: none;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
 }
-}@keyframes back {
+@keyframes back {
   0% {
       opacity: 0.4;
       width: 14%;
@@ -2131,7 +2131,7 @@ display: none;
 
 
 
-
+}
 
 
 
@@ -3652,6 +3652,7 @@ h3 {
 
 
 }
+
 
 
 
