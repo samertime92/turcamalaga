@@ -2102,31 +2102,32 @@ h4 {
 }
  @media only screen and (min-width: 414px){
    #span3 {
-       color: white;
-       font-size: 12.6px;
-       margin-top: 0px;
-       margin-bottom: 0px;
-       line-height: 179%;
-       left: 104%;
-       position: absolute;
-       top: 9.8%;
-       font-family: 'acme', 'Potta One', cursive;
-   }
- h6 { text-align: left;
-    text-align-last: left;
-    display: inline-block;
-    position: absolute;
-    font-size: 12.6px;
-    color: gold;
-    left: 7%;
-    top: 6.5%;
-    z-index: 0;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    line-height: 179%;
-    font-family: 'acme', 'Potta One', cursive;
-    font-weight: lighter;
-}
+     color: white;
+     font-size: 12.6px;
+     margin-top: 0px;
+     margin-bottom: 0px;
+     line-height: 179%;
+     left: 88%;
+     position: absolute;
+     top: 9.8%;
+     font-family: 'acme', 'Potta One', cursive;
+ }
+   h6 {
+      text-align: left;
+      text-align-last: left;
+      display: inline-block;
+      position: absolute;
+      font-size: 13.6px;
+      color: gold;
+      left: 6%;
+      top: 6.5%;
+      z-index: 0;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      line-height: 179%;
+      font-family: 'acme', 'Potta One', cursive;
+      font-weight: lighter;
+  }
    h2 {
     z-index: 1!important;
     font-family: 'acme', 'Potta One', cursive;
@@ -2207,24 +2208,24 @@ h4 {
   font-family: 'acme', 'Potta One', cursive;
   font-weight: lighter;
 }
-   #pizza3 {
-    transform: rotate(90deg);
-    position: absolute;
-    width: 26%;
-    display: inline-block;
-    left: 89%;
-    top: -5%;
+#pizza3 {
+ transform: rotate(90deg);
+ position: absolute;
+ width: 26%;
+ display: inline-block;
+ left: 75%;
+ top: -7%;
 }
-   #span4 {
-    color: white;
-    font-size: 13.6px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    line-height: 234%;
-    left: 103%;
-    position: absolute;
-    top: 8%;
-    font-family: 'acme', 'Potta One', cursive;
+#span4 {
+  color: white;
+  font-size: 13.6px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  line-height: 234%;
+  left: 86%;
+  position: absolute;
+  top: 8%;
+  font-family: 'acme', 'Potta One', cursive;
 }
    #sultanfotos2 {
     position: absolute;
