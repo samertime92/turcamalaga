@@ -3513,7 +3513,7 @@ h4 {
     animation-name: h2;
     display: inline-block;
     font-size: 39px;
-    line-height: -10%;
+    line-height: 0%;
     color: gold;
     border-radius: 50px;
     border-color: gold;
