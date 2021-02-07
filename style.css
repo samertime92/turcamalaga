@@ -1277,6 +1277,21 @@ display: none;
 
 
 @media only screen  and (max-width: 667px) {
+  #pizza3 {
+    transform: rotate(90deg);
+    position: absolute;
+    width: 26%;
+    display: inline-block;
+    left: 82%;
+    top: -5%;
+}
+  #pizza2 {
+    position: absolute;
+    width: 21%;
+    display: inline-block;
+    left: 0%;
+    top: -6%;
+}
   #fire3 {
     position: absolute;
     top: 2%;
@@ -1402,13 +1417,13 @@ display: none;
     margin-top: 0px;
     margin-bottom: 0px;
     line-height: 179%;
-    left: 104%;
+    left: 93%;
     position: absolute;
-    top: 12.8%;
+    top: 8.8%;
     font-family: 'acme', 'Potta One', cursive;
 }
 h6 {
-    display:inline-flex;
+    display: inline-flex;
     position: absolute;
     font-size: 11.2px;
     color: gold;
