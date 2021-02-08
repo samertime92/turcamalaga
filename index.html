@@ -450,15 +450,58 @@
 </div>
 <script type="text/javascript">
 function pageScroll() {
+  if (mx4.matches) {
+
+
    window.scrollTo({
-   top: 60,
+   top: 245,
    left: 0,
    behavior: 'smooth',
    });
-   // window.scrollTo(0,500)({
-   // behavior: 'smooth',
-   // });
+
+ }
+  else if (mx3.matches) {
+
+
+
+  window.scrollTo({
+  top: 180,
+  left: 0,
+  behavior: 'smooth',
+  });
+
 }
+ else if (mx1.matches) {
+
+
+
+ window.scrollTo({
+ top: 217,
+ left: 0,
+ behavior: 'smooth',
+ });
+
+}
+ else if (mx2.matches) {
+
+ window.scrollTo({
+ top: 302,
+ left: 0,
+ behavior: 'smooth',
+ });
+
+}
+else {
+
+   window.scrollTo({
+   top: 122,
+   left: 0,
+   behavior: 'smooth',
+   });
+
+  }
+}
+
 setTimeout(pageScroll,2500)
 function pageScroll0() {
    window.scrollTo({
@@ -473,14 +516,51 @@ function pageScroll0() {
 setTimeout(pageScroll0,00000000)
 
 function pageScroll1() {
+  if (mx4.matches) {
+
+
    window.scrollTo({
-   top: 448,
+   top: 650,
    left: 0,
    behavior: 'smooth',
    });
-   // window.scrollTo(0,500)({
-   // behavior: 'smooth',
-   // });
+ }
+ else if (mx2.matches) {
+
+
+  window.scrollTo({
+  top: 680,
+  left: 0,
+  behavior: 'smooth',
+  });
+}
+else if (mx3.matches) {
+
+
+ window.scrollTo({
+ top: 448,
+ left: 0,
+ behavior: 'smooth',
+ });
+}
+else if (mx1.matches) {
+
+
+ window.scrollTo({
+ top: 448,
+ left: 0,
+ behavior: 'smooth',
+ });
+}
+else  {
+
+
+ window.scrollTo({
+ top: 400,
+ left: 0,
+ behavior: 'smooth',
+ });
+}
 }
 function pageScroll2() {
    window.scrollTo({
@@ -1128,6 +1208,8 @@ document.getElementById('pizzas').onclick = function functionName() {
 }
 document.getElementById('backnext2').onclick = function functionName() {
   setTimeout(pageScroll2,0.2)
+  document.getElementById('pizza3').style.display="inline-block";
+
 
   if (mx.matches) {
 
@@ -1623,6 +1705,7 @@ else {
 }
 }
 document.getElementById('backnext').onclick = function functionName() {
+
   if (mx.matches) {
 
 
