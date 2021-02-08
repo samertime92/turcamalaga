@@ -3465,7 +3465,7 @@ display: none;
 #pizzasmenu2 {
     display: none;
     transition: 1s;
-    width: 74%;
+    width: 70%;
     height: 99%;
     top: 11.6%;
     left: 12%;
@@ -3557,7 +3557,7 @@ h4 {
     margin-top: 0px;
     margin-bottom: 0px;
     line-height: 179%;
-    left: 105%;
+    left: 110%;
     position: absolute;
     top: 8.2%;
     font-family: 'acme', 'Potta One', cursive;
